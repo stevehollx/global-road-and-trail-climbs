@@ -38,14 +38,18 @@ This would go much faster with some help, or if someone wants to donate some clo
 
 Help contribute to the hive if you have a linux server and some basic IT chops. The app has a setup wizard and is pretty easy to run, but does require some linux and docker knowledge.
 
-Want to help? Message me, or mark your name down in the `./registry.csv` to sign up for processing a country/state, and then post it back up here. Required criteria to post back is with these Climb Analyzer settings:
+Want to help? Message me, or mark your name down in the `./registry.csv` to sign up for processing a country/state, and then post it back up here.
+
+I haven't added ASTER and ARCTIC support to climb_analyzer yet, but plan to get that done in the next few weeks. Let's focus on finishing US climbs first, since I'd like non-US / non-arctic run with SRTM + ASTER fallback data.
+
+Required criteria to post back is with these Climb Analyzer settings:
 * Complete US state or country analysis
 * Filtered got basic climb score of > 6000
 * Do not filter out 'cycling only' climbs
 * Include reverse geocoding so we get the nearest city/state for the climb
-* Use both SRTM + NED data in the US. For other countries, SRTM is fine as long as it isn't for Russia, Canada, Greenland, Sweden, Norway, Finland, Iceland, Antarctica, or Alaska. Those areas will need ASTER or ARCTIC30m data. It would be ideal to have ASTER30m loaded as a fallback for SRTM data if analyzing outside of the US for beter accuracy.
-* Please name the file with the elevation data used, e.g. france-srtm30m.xlsx
-* Post to both the XLSX and CSV folders. If the climb count is above 1,048,575 rows, XLSX won't work so just save the CSV. Not sure if we will hit this limit in a country yet.
+* Use both SRTM + NED data in the US. For other countries (outside of Russia, Canada, Greenland, Sweden, Norway, Finland, Iceland, Antarctica, or US state Alaska) should be covered with sole SRTM, but I prefer countries are run with both SRTM + ASTER fallback for better coverage. The named countries above will potentially also need ARCTIC30m data, so those are lowest priority right now and pending further research.
+* Please name the file with the elevation data used, e.g. france-srtm30m_aster30m.xlsx
+* Choosing to keep XLSX as the desired format for now. If we get results over the 65,535 Excel row limit, I may choose to switch everything to CSV, but I like the native filtering open.
 
 # Future plans
 I may build a webapp to interface with this data in a nicer UI, once we get enough data.
