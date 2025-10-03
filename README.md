@@ -4,6 +4,10 @@ This is a working project to calculate and document all significant hill/mountai
 ## About
 If you are unfamiliar with an area, and are an endurance athlete, you may seek out where the best climbs are for an area. This repository is a living database to calculate and attribute all significant hill/mountain climbs in the world, based on currently available OpenStreet Map data and opensource elevation data.
 
+It gets both roads, greenways/paths, and any trails that are on openstreetmaps (OSM has a lot of public trails in it now).
+
+If the street name changes or the surface type changes, it is considered a new climb. This is an architectural decision to not have sprawling confusing climbs. There is a connected_climbs attribute to find and link up adjacent street climbs for a continued experience.
+
 ## Criteria
 To prevent this from containing all flat roads across the world, the list is filtered to a climb score of > 6000, as derived by Distance (meters) × Average Grade (%).
 
@@ -45,6 +49,8 @@ Want to help? Message me, or mark your name down in the `./registry.csv` to sign
 
 # Future plans
 I may build a webapp to interface with this data in a nicer UI, once we get enough data.
+
+It may be cool to run a delta of what trails are missing from OSM against what is in mtbproject / trailforks at some point in the future, and anlyze gpx from those trails to complete the trail climb data set. I do have a stash from about 2018 of all US gpx from those sites sitting on a drive somewhere.
 
 # Additional info
 ## Data in files
