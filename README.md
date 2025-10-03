@@ -2,7 +2,7 @@
 This is a working project to calculate and document all significant hill/mountain climbs in the world. Main us is for cyclists or runners seeking out elevation gains.
 
 ## About
-If you are unfamiliar with an area, and are an endurance athlete, you may seek out where the best climbs are for an area. This repository is a living database to calculate and attribute all significant hill/mountain climbs in the world.
+If you are unfamiliar with an area, and are an endurance athlete, you may seek out where the best climbs are for an area. This repository is a living database to calculate and attribute all significant hill/mountain climbs in the world, based on currently available OpenStreet Map data and opensource elevation data.
 
 ## Criteria
 To prevent this from containing all flat roads across the world, the list is filtered to a climb score of > 6000, as derived by Distance (meters) × Average Grade (%).
