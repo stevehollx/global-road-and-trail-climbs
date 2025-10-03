@@ -34,7 +34,7 @@ This would go much faster with some help, or if someone wants to donate some clo
 
 Help contribute to the hive if you have a linux server and some basic IT chops. The app has a setup wizard and is pretty easy to run, but does require some linux and docker knowledge.
 
-Want to help? Message me, or mark your name down in the registry.csv to sign up for processing a country/state, and then post it back up here. Required criteria to post back is with these Climb Analyzer settings:
+Want to help? Message me, or mark your name down in the `./registry.csv` to sign up for processing a country/state, and then post it back up here. Required criteria to post back is with these Climb Analyzer settings:
 * Complete US state or country analysis
 * Filtered got basic climb score of > 6000
 * Do not filter out 'cycling only' climbs
