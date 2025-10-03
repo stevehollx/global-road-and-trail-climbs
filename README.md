@@ -45,7 +45,7 @@ Want to help? Message me, or mark your name down in the `./registry.csv` to sign
 * Include reverse geocoding so we get the nearest city/state for the climb
 * Use both SRTM + NED data in the US. For other countries, SRTM is fine as long as it isn't for Russia, Canada, Greenland, Sweden, Norway, Finland, Iceland, Antarctica, or Alaska. Those areas will need ASTER or ARCTIC30m data. It would be ideal to have ASTER30m loaded as a fallback for SRTM data if analyzing outside of the US for beter accuracy.
 * Please name the file with the elevation data used, e.g. france-srtm30m.xlsx
-* Choosing to keep XLSX as the desired format for now. If we get results over the 65,535 Excel row limit, I may choose to switch everything to CSV, but I like the native filtering open.
+* Choosing to keep XLSX as the desired format for now. If we get results over the 1,048,575 Excel row limit, I may choose to switch everything to CSV, but I like the native filtering open.
 
 # Future plans
 I may build a webapp to interface with this data in a nicer UI, once we get enough data.
