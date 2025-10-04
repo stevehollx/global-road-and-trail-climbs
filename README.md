@@ -80,6 +80,9 @@ It may be cool to run a delta of what trails are missing from OSM against what i
 * OSM Link - Hyperlink to that segments Open Street map page
 * Connected Climbs - Any additional climbs that connect to this one, such as if the street name changes at an intersection of a continued uphill.
 
+## Caveats
+Climbs that traverse US state or country boundaries may be split and not the complete climb. Once all the US states are calculated I will run a inter-state merge and update those climbs. For international climbs that cross country boundaries, I think it is best to keep those split where possible, so you know that you may be crossing a customs boundary.
+
 # License
 ## 📝 License & Attribution
 
