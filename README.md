@@ -19,9 +19,9 @@ Average grade (%) = how steep it is on average.
 A higher score means the climb is either very long, very steep, or both.
 
 For example:
-A 5 km climb at 5% → 5,000 × 5 = 25,000
-A 10 km climb at 3% → 10,000 × 3 = 30,000
-A 2 km climb at 10% → 2,000 × 10 = 20,000
+* A 5 km climb at 5% → 5,000 × 5 = 25,000
+* A 10 km climb at 3% → 10,000 × 3 = 30,000
+* A 2 km climb at 10% → 2,000 × 10 = 20,000
 
 Even though the last one is steep, it’s short — so the total challenge is smaller.
 👉 This makes it easy to compare different climbs, no matter where they are.
