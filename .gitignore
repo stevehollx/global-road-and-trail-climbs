@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+._*
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Temporary
+*.tmp
+*.bak
+
+# Credentials
+.credentials/
+
+# Internal 
+docs_int/
+old/
+test_rm/
+backup_script.sh
+
+# Built at Runtime
+output/
+checkpoints/
+__pycache__
+elevation_data/
+opentopodata/
+osm_indexes/
+planet_osm
+
+# Next.js GUI - node_modules and build artifacts are ignored in gui/.gitignore
