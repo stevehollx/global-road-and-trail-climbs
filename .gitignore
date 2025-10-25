@@ -44,5 +44,6 @@ elevation_data/
 opentopodata/
 osm_indexes/
 planet_osm
+cloud_cache/
 
 # Next.js GUI - node_modules and build artifacts are ignored in gui/.gitignore
