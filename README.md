@@ -1,5 +1,5 @@
 # Global Road and Trail Climb Database
-This is a working project to calculate and document all significant hill/mountain climbs in the world. Main us is for cyclists or runners seeking out elevation gains.
+This is a working project to calculate and document all significant hill/mountain climbs in the world. Main use is for cyclists or runners seeking out elevation gains.
 
 ## About
 If you are unfamiliar with an area, and are an endurance athlete, you may seek out where the best climbs are for an area. This repository is a living database to calculate and attribute all significant hill/mountain climbs in the world, based on currently available OpenStreet Map data and opensource elevation data.
@@ -29,32 +29,23 @@ Even though the last one is steep, it’s short — so the total challenge is sm
 So short, gentle hills don’t make the list — only climbs that are significant enough to be interesting for cyclists runners, etc. Roughly a ~3+ minute long climb on a bike should make the list.
 
 ## How is the data calculated?
-Data is calculated from my open source application [Climb Analyzer](https://github.com/stevehollx/climb-analyzer/tree/main).
+Data is calculated from my open source application [Climb Analyzer](https://github.com/stevehollx/climb-analyzer/tree/main). It crowd-sources analysis, so as others analyze areas that haven't been analyzed before, it optionally posts the analysis to this repo for others to use without the storage/cpu/time requirements to calculate the analysis.
 
 ## How to contribute?
-Analysis takes time. I am just starting to run through the United States a day at a time. I estimate this will complete around December 2025.
+Analysis takes time. I am just starting to run through processing what I can individually. As others use my app, it should hopefully accelerate completion of this database.
 
-This would go much faster with some help, or if someone wants to donate some cloud computing.
-
-Help contribute to the hive if you have a linux server and some basic IT chops. The app has a setup wizard and is pretty easy to run, but does require some linux and docker knowledge.
-
-Want to help? Message me, or mark your name down in the `./registry.csv` to sign up for processing a country/state, and then post it back up here.
-
-I haven't added ASTER and ARCTIC support to climb_analyzer yet, but plan to get that done in the next few weeks. Let's focus on finishing US climbs first, since I'd like non-US / non-arctic run with SRTM + ASTER fallback data.
+This goes much faster with some help, or if someone wants to donate some cloud computing. You can help by installing my climb analyzer app and running some analysis and posting them back here. Mark your name down in the `./registry.csv` to sign up for processing a country/state, and then post it back up here.
 
 Required criteria to post back is with these Climb Analyzer settings:
-* Complete US state or country analysis
-* Filtered got basic climb score of > 6000
+* Complete US state or country analysis. I'll accept subregions for large countries like russia and china, as I have a utility to merge roads that cross regions within a country.
+* Filtered got basic climb score of 0.
 * Do not filter out 'cycling only' climbs
-* Include reverse geocoding so we get the nearest city/state for the climb
-* Use both SRTM + NED data in the US. For other countries (outside of Russia, Canada, Greenland, Sweden, Norway, Finland, Iceland, Antarctica, or US state Alaska) should be covered with sole SRTM, but I prefer countries are run with both SRTM + ASTER fallback for better coverage. The named countries above will potentially also need ARCTIC30m data, so those are lowest priority right now and pending further research.
-* Please name the file with the elevation data used, e.g. france-srtm30m_aster30m.xlsx
-* Choosing to keep XLSX as the desired format for now. If we get results over the 65,535 Excel row limit, I may choose to switch everything to CSV, but I like the native filtering open.
+* Use all 3 datasets for elevation perscribed by climb-analyzer's setup (dataset varies on region)
 
 # Future plans
-I may build a webapp to interface with this data in a nicer UI, once we get enough data.
+I may build a cloud webapp to interface with this data in a nicer UI, once we get enough processed data. Looking for cloud compute donations for that, as it will cost some money to host and serve.
 
-It may be cool to run a delta of what trails are missing from OSM against what is in mtbproject / trailforks at some point in the future, and anlyze gpx from those trails to complete the trail climb data set. I do have a stash from about 2018 of all US gpx from those sites sitting on a drive somewhere.
+It may be cool to run a delta of what trails are missing from OSM against what is in mtbproject / trailforks at some point in the future, and anlyze gpx from those trails to complete the trail climb data set. I do have a stash from about 2018 of all US gpx from those sites sitting on a drive somewhere. So that is my next goal with this project.
 
 # Additional info
 ## Data in files
@@ -81,7 +72,7 @@ It may be cool to run a delta of what trails are missing from OSM against what i
 * Connected Climbs - Any additional climbs that connect to this one, such as if the street name changes at an intersection of a continued uphill.
 
 ## Caveats
-Climbs that traverse US state or country boundaries may be split and not the complete climb. Once all the US states are calculated I will run a inter-state merge and update those climbs. For international climbs that cross country boundaries, I think it is best to keep those split where possible, so you know that you may be crossing a customs boundary.
+I merge climbs that traverse regions within a country (US is the best example; e.g. climbs that go from Oregeon into Idaho). For international climbs that cross country boundaries, I think it is best to keep those split, so you know that you may be crossing a customs boundary.
 
 # License
 ## 📝 License & Attribution
