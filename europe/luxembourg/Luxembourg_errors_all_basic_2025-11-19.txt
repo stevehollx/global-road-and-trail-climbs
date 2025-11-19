@@ -1,0 +1,25 @@
+# Elevation Fetch Error Log
+# Climb Analyzer Version: 2.1.0
+# Region: Luxembourg
+# Analysis Started: 2025-11-19 19:23:04
+# Surface Filter: all
+# Minimum Score: 0
+# Score Type: basic
+# Cycling Filter: disabled
+# Elevation Data Sources: Unknown
+# Format: CSV with pipe-separated (|) datasets in datasets_tried column
+#
+#
+# ==================== ANALYSIS SUMMARY ====================
+# Analysis Completed: 2025-11-19 19:27:00
+# Duration: 236.1 seconds
+#
+# Output Files Created: 1
+# Total Climbs Found: 61,434
+# Total Error Entries (Coordinates): 0
+# Total Coordinates Analyzed: 728,287
+# Failed Elevation Fetches: 0
+# Elevation Error Percentage: 0.00%
+# ==========================================================
+#
+level,timestamp,latitude,longitude,street_name,osm_way_id,datasets_tried,primary_dataset,successful_dataset,message
