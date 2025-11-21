@@ -3,13 +3,17 @@ name: Index XLSX Files on PR Approval
 on:
   pull_request_review:
     types: [submitted]
+  push:
+    branches:
+      - main
   workflow_dispatch:  # Allow manual triggering for testing
 
 jobs:
   index-files:
-      # Run when PR is approved, or when manually triggered
+      # Run when PR is approved, pushed to main, or manually triggered
       if: |
         (github.event_name == 'pull_request_review' && github.event.review.state == 'approved') ||
+        (github.event_name == 'push') ||
         (github.event_name == 'workflow_dispatch')
 
       runs-on: ubuntu-latest
