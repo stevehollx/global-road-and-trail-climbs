@@ -1,14 +1,13 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-11-21T17:14:19.165783Z",
+  "generated_at": "2025-11-21T21:05:35.334805Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 2,
-    "total_files": 2,
+    "total_regions": 1,
+    "total_files": 1,
     "regions_with_split_files": 0,
     "by_continent": {
-      "europe": 1,
-      "north-america": 1
+      "europe": 1
     }
   },
   "regions": {
@@ -19,17 +18,6 @@
       ],
       "download_urls": [
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/europe/luxembourg/Luxembourg_climbs_all_basic_2025-11-19_v2.1.0_e0000.xlsx"
-      ],
-      "file_count": 1,
-      "has_split_files": false
-    },
-    "north-america/united-states-of-america/hawaii": {
-      "region_name": "Hawaii",
-      "files": [
-        "Hawaii_climbs_all_basic_2025-11-21_v2.1.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/hawaii/Hawaii_climbs_all_basic_2025-11-21_v2.1.0_e0000.xlsx"
       ],
       "file_count": 1,
       "has_split_files": false
