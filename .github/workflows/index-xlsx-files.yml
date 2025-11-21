@@ -47,8 +47,7 @@ jobs:
         - name: Check if index.json was modified
           id: check_changes
           run: |
-            git diff --name-only | grep -q "index.json" && echo "changed=true" >> $GITHUB_OUTPUT ||
-  echo "changed=false" >> $GITHUB_OUTPUT
+            git diff --name-only | grep -q "index.json" && echo "changed=true" >> $GITHUB_OUTPUT || echo "changed=false" >> $GITHUB_OUTPUT
 
         - name: Commit and push index.json
           if: steps.check_changes.outputs.changed == 'true'
