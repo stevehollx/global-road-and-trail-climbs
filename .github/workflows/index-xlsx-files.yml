@@ -1,14 +1,14 @@
 name: Index XLSX Files on PR Approval
 
-  on:
-    pull_request_review:
-      types: [submitted]
-    pull_request:
-      types: [closed]
-    workflow_dispatch:  # Allow manual triggering for testing
+on:
+  pull_request_review:
+    types: [submitted]
+  pull_request:
+    types: [closed]
+  workflow_dispatch:  # Allow manual triggering for testing
 
-  jobs:
-    index-files:
+jobs:
+  index-files:
       # Run when PR is approved and merged, or when manually triggered
       if: |
         (github.event_name == 'pull_request_review' && github.event.review.state == 'approved') ||
