@@ -30,7 +30,8 @@ def extract_region_name(filename: str) -> str:
     filename_cleaned = re.sub(r'-\d+\.xlsx$', '.xlsx', filename)
 
     # Extract the region name (everything before _climbs)
-    match = re.match(r'^([^_]+)_climbs', filename)
+    # Use non-greedy match to handle region names with underscores (e.g., New_York)
+    match = re.match(r'^(.+?)_climbs', filename)
     if match:
         return match.group(1)
     return None
