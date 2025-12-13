@@ -6,13 +6,12 @@ If you are unfamiliar with an area, and are an endurance athlete, you may seek o
 
 It gets both roads, greenways/paths, and any trails that are on openstreetmaps (OSM has a lot of public trails in it now).
 
-If the street name changes or the surface type changes, it is considered a new climb. This is an architectural decision to not have sprawling confusing climbs. There is a connected_climbs attribute to find and link up adjacent street climbs for a continued experience.
+If the street name changes or the surface type changes, it is considered a new climb. This is an architectural decision to not have sprawling confusing climbs. There is a connected_climbs attribute to find and link up adjacent street climbs for a continued experience. Anything that continues on average to ascend up with that same street/trail name will be shown as a climb, until it descends from it's highest peak.
 
-## Criteria
-To prevent this from containing all flat roads across the world, the list is filtered to a climb score of > 6000, as derived by Distance (meters) × Average Grade (%).
+## Scoring
+Climbs are scored in one of three ways, depending on your goals. Generally, PDI will probably be the best score type to use:
 
-This gives a single number that reflects how long and steep a climb is.
-
+### Basic Score
 Distance = how far the climb goes uphill.
 Average grade (%) = how steep it is on average.
 
@@ -24,28 +23,40 @@ For example:
 * A 2 km climb at 10% → 2,000 × 10 = 20,000
 
 Even though the last one is steep, it’s short — so the total challenge is smaller.
-👉 This makes it easy to compare different climbs, no matter where they are.
 
-So short, gentle hills don’t make the list — only climbs that are significant enough to be interesting for cyclists runners, etc. Roughly a ~3+ minute long climb on a bike should make the list.
+### FIETS Score
+The Fiets Index (developed by the Dutch cycling magazine Fiets). This weights the difficulty score based on the grade of the climb and the elevation of the climb, improving on the basic score.
+
+The actual formula is: [H^2/D*10] + (T-1000:1000; but only if greater than 0)
+
+H = ending elevation minus starting elevation in meters.
+D = total distance traveled in meters.
+T = Height in meters.
+Note: Only add T-1000 if that number is greater than zero.
+
+### PDI (PJAMM Difficulty Index)
+The [PJAMM difficulty index](https://pjammcycling.com/blog/50.pjamm-difficulty-index) improves on the FIETS score by replacing elevation gain with total work completed, accounting for flat terrain resistance (wind and friction) in addition to overcoming gravity on ascents, and implements a penalty for descents that offer recovery.
 
 ## How is the data calculated?
 Data is calculated from my open source application [Climb Analyzer](https://github.com/stevehollx/climb-analyzer/tree/main). It crowd-sources analysis, so as others analyze areas that haven't been analyzed before, it optionally posts the analysis to this repo for others to use without the storage/cpu/time requirements to calculate the analysis.
 
+## How can I visualize this data
+1. If you have an iPhone/iOS device, download the climb-analyzer companion iOS app. You can download and visualize climbs there on the go. You can't calculate new areas for climbs with this though.
+2. If you need to generate analyses or don't have an iOS device, [Climb Analyzer](https://github.com/stevehollx/climb-analyzer/tree/main) has a GUI to visualize the climbs. The app runs on a linux/macos computer, or should also run in Windows with WSL. 
+
 ## How to contribute?
 Analysis takes time. I am just starting to run through processing what I can individually. As others use my app, it should hopefully accelerate completion of this database.
 
-This goes much faster with some help, or if someone wants to donate some cloud computing. You can help by installing my climb analyzer app and running some analysis and posting them back here. Mark your name down in the `./registry.csv` to sign up for processing a country/state, and then post it back up here.
+This goes much faster with some help, or if someone wants to donate some cloud computing. You can help by installing my climb analyzer app and running some full analysis (`./climb-analyzer -f "region name 1, region name 2"`) to post them to this repo. I will approve the merge requests for the data to then show up for eveyone to see in their apps.
 
 Required criteria to post back is with these Climb Analyzer settings:
 * Complete US state or country analysis. I'll accept subregions for large countries like russia and china, as I have a utility to merge roads that cross regions within a country.
-* Filtered got basic climb score of 0.
+* Includes analysis of all roads and trails, unfiltered.
 * Do not filter out 'cycling only' climbs
-* Use all 3 datasets for elevation perscribed by climb-analyzer's setup (dataset varies on region)
+* Use all 3 elevation datasets for perscribed by climb-analyzer's setup (dataset varies on region), or at least a submission with 0 elevation lookup errors (where possible with the available datasets)
 
 # Future plans
-I may build a cloud webapp to interface with this data in a nicer UI, once we get enough processed data. Looking for cloud compute donations for that, as it will cost some money to host and serve.
-
-It may be cool to run a delta of what trails are missing from OSM against what is in mtbproject / trailforks at some point in the future, and anlyze gpx from those trails to complete the trail climb data set. I do have a stash from about 2018 of all US gpx from those sites sitting on a drive somewhere. So that is my next goal with this project.
+It may be cool to run a delta of what trails are missing from OSM against what is in mtbproject / trailforks at some point in the future, and anlyze gpx from those trails to complete the trail climb data set. I do have a stash from about 2018 of all US gpx from those sites sitting on a drive somewhere. Not sure the benefit of what is in there and not in OSM though, so not a current focus.
 
 # Additional info
 ## Data in files
@@ -68,11 +79,12 @@ It may be cool to run a delta of what trails are missing from OSM against what i
 * Surface - Paved, asphalt, gravel, dirt, etc.
 * Tracktype - Where available the type of trail is described (double track, single track, etc.)
 * Way ID - The OpenStreetMap unique Way identified.
-* OSM Link - Hyperlink to that segments Open Street map page
+* OSM Link - Hyperlink to that climb's first segment in Open Street Maps
 * Connected Climbs - Any additional climbs that connect to this one, such as if the street name changes at an intersection of a continued uphill.
-
+* All Way IDs - The OSM way ids that make up the climb.
+* 
 ## Caveats
-I merge climbs that traverse regions within a country (US is the best example; e.g. climbs that go from Oregeon into Idaho). For international climbs that cross country boundaries, I think it is best to keep those split, so you know that you may be crossing a customs boundary.
+I merge climbs that traverse regions within a country (US is the best example; e.g. climbs that go from Oregeon into Idaho). For international climbs that cross country boundaries, those do not merge and stop at the border, unless they are countries in the EU that allow for passing between borders without customs checks AND if the climb is still ascending (rare at borders).
 
 # License
 ## 📝 License & Attribution
@@ -90,4 +102,5 @@ You are free to share and adapt this data, as long as you:
 - Climb list © 2025 Steve Holl
 
 > ⚠️ While commercial use is permitted under ODbL, we kindly ask that commercial entities
-> contact us before redistributing this dataset as part of a paid product.
+> contact me before redistributing this dataset as part of a paid product, and acknlowedgement/credits
+> to me are required on any intergrations or implementations.
