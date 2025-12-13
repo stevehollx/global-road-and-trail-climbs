@@ -1,14 +1,14 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-13T13:31:48.248406Z",
+  "generated_at": "2025-12-13T19:07:25.310805Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 2,
-    "total_files": 3,
-    "regions_with_split_files": 1,
+    "total_regions": 3,
+    "total_files": 5,
+    "regions_with_split_files": 2,
     "by_continent": {
       "europe": 1,
-      "north-america": 1
+      "north-america": 2
     }
   },
   "regions": {
@@ -32,6 +32,19 @@
       "download_urls": [
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/new-york/New_York_climbs_all_basic_2025-12-11_v2.1.0_e0000-1.xlsx",
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/new-york/New_York_climbs_all_basic_2025-12-11_v2.1.0_e0000-2.xlsx"
+      ],
+      "file_count": 2,
+      "has_split_files": true
+    },
+    "north-america/us/new-york": {
+      "region_name": "new_york",
+      "files": [
+        "new_york_climbs_all_basic_2025-12-13_v2.2.0_e0000-1.xlsx",
+        "new_york_climbs_all_basic_2025-12-13_v2.2.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/us/new-york/new_york_climbs_all_basic_2025-12-13_v2.2.0_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/us/new-york/new_york_climbs_all_basic_2025-12-13_v2.2.0_e0000-2.xlsx"
       ],
       "file_count": 2,
       "has_split_files": true
