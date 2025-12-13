@@ -84,7 +84,7 @@ It may be cool to run a delta of what trails are missing from OSM against what i
 * OSM Link - Hyperlink to that climb's first segment in Open Street Maps
 * Connected Climbs - Any additional climbs that connect to this one, such as if the street name changes at an intersection of a continued uphill.
 * All Way IDs - The OSM way ids that make up the climb.
-* 
+
 ## Caveats
 I merge climbs that traverse regions within a country (US is the best example; e.g. climbs that go from Oregeon into Idaho). For international climbs that cross country boundaries, those do not merge and stop at the border, unless they are countries in the EU that allow for passing between borders without customs checks AND if the climb is still ascending (rare at borders).
 
