@@ -44,7 +44,8 @@ Data is calculated from my open source application [Climb Analyzer](https://gith
 1. If you have an iPhone/iOS device, download the climb-analyzer companion iOS app. You can download and visualize climbs there on the go. You can't calculate new areas for climbs with this though.
 2. If you need to generate analyses or don't have an iOS device, [Climb Analyzer](https://github.com/stevehollx/climb-analyzer/tree/main) has a GUI to visualize the climbs. The app runs on a linux/macos computer, or should also run in Windows with WSL. 
 
-![ios map screenshot](https://github.com/stevehollx/global-road-and-trail-climbs/blob/main/images/ios_map.PNG) ![ios climb_info screenshot](https://github.com/stevehollx/global-road-and-trail-climbs/blob/main/images/ios_climb_info.png) 
+<img src="https://github.com/stevehollx/global-road-and-trail-climbs/blob/main/images/ios_map.PNG" alt="ios app map screenshot" width="30%"/> 
+![ios climb_info screenshot](https://github.com/stevehollx/global-road-and-trail-climbs/blob/main/images/ios_climb_info.png) 
 
 ## How to contribute?
 Analysis takes time. I am just starting to run through processing what I can individually. As others use my app, it should hopefully accelerate completion of this database.
