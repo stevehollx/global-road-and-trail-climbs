@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-15T18:08:34.628257Z",
+  "generated_at": "2025-12-15T18:10:40.958506Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 3,
@@ -8,8 +8,7 @@
     "regions_with_split_files": 2,
     "by_continent": {
       "europe": 1,
-      "output": 1,
-      "north-america": 1
+      "north-america": 2
     }
   },
   "regions": {
@@ -24,13 +23,13 @@
       "file_count": 1,
       "has_split_files": false
     },
-    "output": {
+    "north-america/united-states-of-america/north-carolina": {
       "region_name": "north_carolina",
       "files": [
         "north_carolina_climbs_all_basic_2025-12-13_v2.2.0_e0000-1.xlsx"
       ],
       "download_urls": [
-        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/output/north_carolina_climbs_all_basic_2025-12-13_v2.2.0_e0000-1.xlsx"
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/north-carolina/north_carolina_climbs_all_basic_2025-12-13_v2.2.0_e0000-1.xlsx"
       ],
       "file_count": 1,
       "has_split_files": true
