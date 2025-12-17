@@ -1,14 +1,14 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-17T17:56:07.257662Z",
+  "generated_at": "2025-12-17T18:37:55.882216Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 4,
-    "total_files": 5,
-    "regions_with_split_files": 2,
+    "total_regions": 5,
+    "total_files": 8,
+    "regions_with_split_files": 3,
     "by_continent": {
       "europe": 1,
-      "north-america": 3
+      "north-america": 4
     }
   },
   "regions": {
@@ -45,6 +45,21 @@
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/new-york/New_York_climbs_all_basic_2025-12-11_v2.1.0_e0000-2.xlsx"
       ],
       "file_count": 2,
+      "has_split_files": true
+    },
+    "north-america/us/north-carolina": {
+      "region_name": "us__north-carolina",
+      "files": [
+        "us__north-carolina_climbs_all-surfaces_all-access_imperial_2025-12-17_v2.2.1_e0000-1.xlsx",
+        "us__north-carolina_climbs_all-surfaces_all-access_imperial_2025-12-17_v2.2.1_e0000-2.xlsx",
+        "us__north-carolina_climbs_all-surfaces_all-access_imperial_2025-12-17_v2.2.1_e0000-3.xlsx"
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/us/north-carolina/us__north-carolina_climbs_all-surfaces_all-access_imperial_2025-12-17_v2.2.1_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/us/north-carolina/us__north-carolina_climbs_all-surfaces_all-access_imperial_2025-12-17_v2.2.1_e0000-2.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/us/north-carolina/us__north-carolina_climbs_all-surfaces_all-access_imperial_2025-12-17_v2.2.1_e0000-3.xlsx"
+      ],
+      "file_count": 3,
       "has_split_files": true
     },
     "north-america/us/hawaii": {
