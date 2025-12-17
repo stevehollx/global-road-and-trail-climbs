@@ -1,14 +1,14 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-15T18:10:40.958506Z",
+  "generated_at": "2025-12-17T17:56:07.257662Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 3,
-    "total_files": 4,
+    "total_regions": 4,
+    "total_files": 5,
     "regions_with_split_files": 2,
     "by_continent": {
       "europe": 1,
-      "north-america": 2
+      "north-america": 3
     }
   },
   "regions": {
@@ -46,6 +46,17 @@
       ],
       "file_count": 2,
       "has_split_files": true
+    },
+    "north-america/us/hawaii": {
+      "region_name": "climbs",
+      "files": [
+        "climbs_climbs_all-surfaces_all-access_imperial_2025-12-17_v2.2.1_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/us/hawaii/climbs_climbs_all-surfaces_all-access_imperial_2025-12-17_v2.2.1_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "has_split_files": false
     }
   }
 }
