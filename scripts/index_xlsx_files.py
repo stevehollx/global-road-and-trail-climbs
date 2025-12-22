@@ -63,6 +63,37 @@ def generate_download_url(repo_name: str, file_path: str) -> str:
     return f"https://raw.githubusercontent.com/{repo_name}/main/{encoded_path}"
 
 
+def get_file_size(file_path: str) -> int:
+    """
+    Get actual file size, handling Git LFS pointer files.
+
+    LFS pointer files are small (~130 bytes) and contain:
+        version https://git-lfs.github.com/spec/v1
+        oid sha256:...
+        size <actual_size>
+
+    Returns the actual size from LFS pointer, or os.path.getsize() for regular files.
+    """
+    file_size = os.path.getsize(file_path)
+
+    # LFS pointer files are small (typically < 200 bytes)
+    # and actual XLSX files are at least several KB
+    if file_size < 500:
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read(500)
+
+            # Check if it's an LFS pointer file
+            if content.startswith('version https://git-lfs.github.com/spec/'):
+                for line in content.split('\n'):
+                    if line.startswith('size '):
+                        return int(line.split(' ')[1])
+        except (UnicodeDecodeError, ValueError, IndexError):
+            pass  # Not an LFS pointer file or parsing failed
+
+    return file_size
+
+
 def scan_repository(repo_path: str = ".") -> Dict[str, Dict[str, List[str]]]:
     """
     Scan the repository for XLSX files and organize them by region.
@@ -120,9 +151,9 @@ def scan_repository(repo_path: str = ".") -> Dict[str, Dict[str, List[str]]]:
                     for f in sorted_files
                 ]
 
-                # Get file sizes in bytes
+                # Get file sizes in bytes (handles Git LFS pointer files)
                 file_sizes = [
-                    os.path.getsize(os.path.join(root, f))
+                    get_file_size(os.path.join(root, f))
                     for f in sorted_files
                 ]
 
