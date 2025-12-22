@@ -1,10 +1,12 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-19T21:22:38.835870Z",
+  "generated_at": "2025-12-22T17:22:28.847114Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 8,
     "total_files": 12,
+    "total_size_bytes": 1600,
+    "total_size_mb": 0.0,
     "regions_with_split_files": 4,
     "by_continent": {
       "europe": 3,
@@ -17,10 +19,14 @@
       "files": [
         "Georgia_climbs_all-surfaces_all-access_metric_2025-12-19_v2.2.2_e0000.xlsx"
       ],
+      "file_sizes": [
+        133
+      ],
       "download_urls": [
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/europe/georgia/Georgia_climbs_all-surfaces_all-access_metric_2025-12-19_v2.2.2_e0000.xlsx"
       ],
       "file_count": 1,
+      "total_size": 133,
       "has_split_files": false
     },
     "europe/belgium": {
@@ -29,11 +35,16 @@
         "Belgium_climbs_all-surfaces_all-access_metric_2025-12-19_v2.2.2_e0000-1.xlsx",
         "Belgium_climbs_all-surfaces_all-access_metric_2025-12-19_v2.2.2_e0000-2.xlsx"
       ],
+      "file_sizes": [
+        134,
+        133
+      ],
       "download_urls": [
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/europe/belgium/Belgium_climbs_all-surfaces_all-access_metric_2025-12-19_v2.2.2_e0000-1.xlsx",
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/europe/belgium/Belgium_climbs_all-surfaces_all-access_metric_2025-12-19_v2.2.2_e0000-2.xlsx"
       ],
       "file_count": 2,
+      "total_size": 267,
       "has_split_files": true
     },
     "europe/luxembourg": {
@@ -41,10 +52,14 @@
       "files": [
         "Luxembourg_climbs_all-surfaces_all-access_metric_2025-12-18_v2.2.2_e0000.xlsx"
       ],
+      "file_sizes": [
+        133
+      ],
       "download_urls": [
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/europe/luxembourg/Luxembourg_climbs_all-surfaces_all-access_metric_2025-12-18_v2.2.2_e0000.xlsx"
       ],
       "file_count": 1,
+      "total_size": 133,
       "has_split_files": false
     },
     "north-america/united-states-of-america/north-carolina": {
@@ -53,11 +68,16 @@
         "North_Carolina_climbs_all-surfaces_all-access_imperial_2025-12-18_v2.2.1_e0000-1.xlsx",
         "North_Carolina_climbs_all-surfaces_all-access_imperial_2025-12-18_v2.2.1_e0000-2.xlsx"
       ],
+      "file_sizes": [
+        134,
+        134
+      ],
       "download_urls": [
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/north-carolina/North_Carolina_climbs_all-surfaces_all-access_imperial_2025-12-18_v2.2.1_e0000-1.xlsx",
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/north-carolina/North_Carolina_climbs_all-surfaces_all-access_imperial_2025-12-18_v2.2.1_e0000-2.xlsx"
       ],
       "file_count": 2,
+      "total_size": 268,
       "has_split_files": true
     },
     "north-america/united-states-of-america/south-carolina": {
@@ -65,10 +85,14 @@
       "files": [
         "South_Carolina_climbs_all-surfaces_all-access_imperial_2025-12-19_v2.2.2_e0000.xlsx"
       ],
+      "file_sizes": [
+        134
+      ],
       "download_urls": [
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/south-carolina/South_Carolina_climbs_all-surfaces_all-access_imperial_2025-12-19_v2.2.2_e0000.xlsx"
       ],
       "file_count": 1,
+      "total_size": 134,
       "has_split_files": false
     },
     "north-america/united-states-of-america/tennessee": {
@@ -77,11 +101,16 @@
         "Tennessee_climbs_all-surfaces_all-access_imperial_2025-12-19_v2.2.2_e0000-1.xlsx",
         "Tennessee_climbs_all-surfaces_all-access_imperial_2025-12-19_v2.2.2_e0000-2.xlsx"
       ],
+      "file_sizes": [
+        134,
+        132
+      ],
       "download_urls": [
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/tennessee/Tennessee_climbs_all-surfaces_all-access_imperial_2025-12-19_v2.2.2_e0000-1.xlsx",
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/tennessee/Tennessee_climbs_all-surfaces_all-access_imperial_2025-12-19_v2.2.2_e0000-2.xlsx"
       ],
       "file_count": 2,
+      "total_size": 266,
       "has_split_files": true
     },
     "north-america/united-states-of-america/colorado": {
@@ -90,11 +119,16 @@
         "Colorado_climbs_all-surfaces_all-access_imperial_2025-12-19_v2.2.2_e0000-1.xlsx",
         "Colorado_climbs_all-surfaces_all-access_imperial_2025-12-19_v2.2.2_e0000-2.xlsx"
       ],
+      "file_sizes": [
+        134,
+        132
+      ],
       "download_urls": [
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/colorado/Colorado_climbs_all-surfaces_all-access_imperial_2025-12-19_v2.2.2_e0000-1.xlsx",
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/colorado/Colorado_climbs_all-surfaces_all-access_imperial_2025-12-19_v2.2.2_e0000-2.xlsx"
       ],
       "file_count": 2,
+      "total_size": 266,
       "has_split_files": true
     },
     "north-america/united-states-of-america/hawaii": {
@@ -102,10 +136,14 @@
       "files": [
         "Hawaii_climbs_all-surfaces_all-access_imperial_2025-12-18_v2.2.2_e0000.xlsx"
       ],
+      "file_sizes": [
+        133
+      ],
       "download_urls": [
         "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/hawaii/Hawaii_climbs_all-surfaces_all-access_imperial_2025-12-18_v2.2.2_e0000.xlsx"
       ],
       "file_count": 1,
+      "total_size": 133,
       "has_split_files": false
     }
   }
