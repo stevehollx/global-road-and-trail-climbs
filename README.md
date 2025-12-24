@@ -54,7 +54,7 @@ Current version is v2.2.2. Versions will update if i find defects in the data an
 ## How to contribute?
 Analysis takes time. I am just starting to run through processing what I can individually. As others use my app, it should hopefully accelerate completion of this database.
 
-This goes much faster with some help, or if someone wants to donate some cloud computing. You can help by installing my climb analyzer app and running some full analysis (`./climb-analyzer -f "region name 1, region name 2"`) to post them to this repo. I will approve the merge requests for the data to then show up for eveyone to see in their apps.
+This goes much faster with some help, or if someone wants to donate some cloud computing. You can help by installing my climb analyzer app and running some full analysis (`./climb-analyzer -r "region name 1, region name 2"`) to post them to this repo. I will approve the merge requests for the data to then show up for eveyone to see in their apps.
 
 Required criteria to post back is with these Climb Analyzer settings:
 * Complete US state or country analysis. I'll accept subregions for large countries like russia and china, as I have a utility to merge roads that cross regions within a country.
