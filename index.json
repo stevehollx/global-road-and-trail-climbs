@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-25T12:59:17.578587Z",
+  "generated_at": "2025-12-25T12:59:36.534368Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 16,
-    "total_files": 25,
-    "total_size_bytes": 3108582049,
-    "total_size_mb": 2964.6,
-    "regions_with_split_files": 7,
+    "total_regions": 17,
+    "total_files": 27,
+    "total_size_bytes": 3412209177,
+    "total_size_mb": 3254.1,
+    "regions_with_split_files": 8,
     "by_continent": {
       "europe": 3,
-      "north-america": 13
+      "north-america": 14
     }
   },
   "regions": {
@@ -174,6 +174,24 @@
       ],
       "file_count": 2,
       "total_size": 267472119,
+      "has_split_files": true
+    },
+    "north-america/united-states-of-america/new-york": {
+      "region_name": "New_York",
+      "files": [
+        "New_York_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000-1.xlsx",
+        "New_York_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        220566385,
+        83060743
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/new-york/New_York_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/new-york/New_York_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_count": 2,
+      "total_size": 303627128,
       "has_split_files": true
     },
     "north-america/united-states-of-america/colorado": {
