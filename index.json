@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-25T12:57:59.171172Z",
+  "generated_at": "2025-12-25T12:58:55.342598Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 14,
-    "total_files": 23,
-    "total_size_bytes": 2867765457,
-    "total_size_mb": 2734.9,
+    "total_regions": 15,
+    "total_files": 24,
+    "total_size_bytes": 2937579638,
+    "total_size_mb": 2801.5,
     "regions_with_split_files": 7,
     "by_continent": {
       "europe": 3,
-      "north-america": 11
+      "north-america": 12
     }
   },
   "regions": {
@@ -142,6 +142,21 @@
       "file_count": 2,
       "total_size": 211079321,
       "has_split_files": true
+    },
+    "north-america/united-states-of-america/new-hampshire": {
+      "region_name": "New_Hampshire",
+      "files": [
+        "New_Hampshire_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        69814181
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/new-hampshire/New_Hampshire_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 69814181,
+      "has_split_files": false
     },
     "north-america/united-states-of-america/washington": {
       "region_name": "Washington",
