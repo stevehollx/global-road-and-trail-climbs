@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-25T02:08:29.276298Z",
+  "generated_at": "2025-12-25T02:08:47.152917Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 11,
-    "total_files": 19,
-    "total_size_bytes": 2478682049,
-    "total_size_mb": 2363.9,
+    "total_regions": 12,
+    "total_files": 20,
+    "total_size_bytes": 2612891404,
+    "total_size_mb": 2491.8,
     "regions_with_split_files": 6,
     "by_continent": {
       "europe": 3,
-      "north-america": 8
+      "north-america": 9
     }
   },
   "regions": {
@@ -202,6 +202,21 @@
       "file_count": 4,
       "total_size": 734865456,
       "has_split_files": true
+    },
+    "north-america/united-states-of-america/utah": {
+      "region_name": "Utah",
+      "files": [
+        "Utah_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        134209355
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/utah/Utah_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 134209355,
+      "has_split_files": false
     }
   }
 }
