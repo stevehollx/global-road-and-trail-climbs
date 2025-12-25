@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-25T02:08:47.152917Z",
+  "generated_at": "2025-12-25T02:09:14.633010Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 12,
-    "total_files": 20,
-    "total_size_bytes": 2612891404,
-    "total_size_mb": 2491.8,
+    "total_regions": 13,
+    "total_files": 21,
+    "total_size_bytes": 2648490099,
+    "total_size_mb": 2525.8,
     "regions_with_split_files": 6,
     "by_continent": {
       "europe": 3,
-      "north-america": 9
+      "north-america": 10
     }
   },
   "regions": {
@@ -108,6 +108,21 @@
       ],
       "file_count": 1,
       "total_size": 159756575,
+      "has_split_files": false
+    },
+    "north-america/united-states-of-america/vermont": {
+      "region_name": "Vermont",
+      "files": [
+        "Vermont_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        35598695
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/vermont/Vermont_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 35598695,
       "has_split_files": false
     },
     "north-america/united-states-of-america/tennessee": {
