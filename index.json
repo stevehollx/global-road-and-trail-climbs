@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-26T00:59:09.831881Z",
+  "generated_at": "2025-12-26T13:34:32.464993Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 20,
-    "total_files": 31,
-    "total_size_bytes": 3967952719,
-    "total_size_mb": 3784.1,
-    "regions_with_split_files": 9,
+    "total_regions": 24,
+    "total_files": 37,
+    "total_size_bytes": 4681868835,
+    "total_size_mb": 4465.0,
+    "regions_with_split_files": 11,
     "by_continent": {
       "europe": 3,
-      "north-america": 17
+      "north-america": 21
     }
   },
   "regions": {
@@ -79,6 +79,21 @@
       "file_count": 2,
       "total_size": 385400686,
       "has_split_files": true
+    },
+    "north-america/united-states-of-america/wyoming": {
+      "region_name": "Wyoming",
+      "files": [
+        "Wyoming_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        72421324
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/wyoming/Wyoming_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 72421324,
+      "has_split_files": false
     },
     "north-america/united-states-of-america/oregon": {
       "region_name": "Oregon",
@@ -176,6 +191,21 @@
       "total_size": 69814181,
       "has_split_files": false
     },
+    "north-america/united-states-of-america/nevada": {
+      "region_name": "Nevada",
+      "files": [
+        "Nevada_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        106219205
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/nevada/Nevada_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 106219205,
+      "has_split_files": false
+    },
     "north-america/united-states-of-america/washington": {
       "region_name": "Washington",
       "files": [
@@ -208,6 +238,24 @@
       "file_count": 1,
       "total_size": 94377673,
       "has_split_files": false
+    },
+    "north-america/united-states-of-america/minnesota": {
+      "region_name": "Minnesota",
+      "files": [
+        "Minnesota_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000-1.xlsx",
+        "Minnesota_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        194074850,
+        1386414
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/minnesota/Minnesota_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/minnesota/Minnesota_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_count": 2,
+      "total_size": 195461264,
+      "has_split_files": true
     },
     "north-america/united-states-of-america/new-york": {
       "region_name": "New_York",
@@ -291,6 +339,24 @@
       ],
       "file_count": 2,
       "total_size": 219275358,
+      "has_split_files": true
+    },
+    "north-america/united-states-of-america/pennsylvania": {
+      "region_name": "Pennsylvania",
+      "files": [
+        "Pennsylvania_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000-1.xlsx",
+        "Pennsylvania_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        235774066,
+        104040257
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/pennsylvania/Pennsylvania_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/pennsylvania/Pennsylvania_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_count": 2,
+      "total_size": 339814323,
       "has_split_files": true
     },
     "north-america/united-states-of-america/idaho": {
