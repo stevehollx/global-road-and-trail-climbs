@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-26T14:15:55.644794Z",
+  "generated_at": "2025-12-26T23:22:11.353523Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 25,
-    "total_files": 38,
-    "total_size_bytes": 4834245709,
-    "total_size_mb": 4610.3,
-    "regions_with_split_files": 11,
+    "total_regions": 29,
+    "total_files": 43,
+    "total_size_bytes": 5543020747,
+    "total_size_mb": 5286.2,
+    "regions_with_split_files": 12,
     "by_continent": {
       "europe": 3,
-      "north-america": 22
+      "north-america": 26
     }
   },
   "regions": {
@@ -62,6 +62,21 @@
       "total_size": 20053452,
       "has_split_files": false
     },
+    "north-america/united-states-of-america/maine": {
+      "region_name": "Maine",
+      "files": [
+        "Maine_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        67937378
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/maine/Maine_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 67937378,
+      "has_split_files": false
+    },
     "north-america/united-states-of-america/north-carolina": {
       "region_name": "North_Carolina",
       "files": [
@@ -108,6 +123,21 @@
       ],
       "file_count": 1,
       "total_size": 193759804,
+      "has_split_files": false
+    },
+    "north-america/united-states-of-america/new-mexico": {
+      "region_name": "New_Mexico",
+      "files": [
+        "New_Mexico_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        127502423
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/new-mexico/New_Mexico_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 127502423,
       "has_split_files": false
     },
     "north-america/united-states-of-america/virginia": {
@@ -174,6 +204,24 @@
       ],
       "file_count": 2,
       "total_size": 211079321,
+      "has_split_files": true
+    },
+    "north-america/united-states-of-america/michigan": {
+      "region_name": "Michigan",
+      "files": [
+        "Michigan_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000-1.xlsx",
+        "Michigan_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        219029412,
+        135172191
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/michigan/Michigan_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/michigan/Michigan_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_count": 2,
+      "total_size": 354201603,
       "has_split_files": true
     },
     "north-america/united-states-of-america/new-jersey": {
@@ -271,6 +319,21 @@
       "file_count": 2,
       "total_size": 195461264,
       "has_split_files": true
+    },
+    "north-america/united-states-of-america/maryland": {
+      "region_name": "Maryland",
+      "files": [
+        "Maryland_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        159133634
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/maryland/Maryland_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 159133634,
+      "has_split_files": false
     },
     "north-america/united-states-of-america/new-york": {
       "region_name": "New_York",
