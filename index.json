@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-25T12:59:36.534368Z",
+  "generated_at": "2025-12-26T00:59:09.831881Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 17,
-    "total_files": 27,
-    "total_size_bytes": 3412209177,
-    "total_size_mb": 3254.1,
-    "regions_with_split_files": 8,
+    "total_regions": 20,
+    "total_files": 31,
+    "total_size_bytes": 3967952719,
+    "total_size_mb": 3784.1,
+    "regions_with_split_files": 9,
     "by_continent": {
       "europe": 3,
-      "north-america": 14
+      "north-america": 17
     }
   },
   "regions": {
@@ -95,6 +95,24 @@
       "total_size": 193759804,
       "has_split_files": false
     },
+    "north-america/united-states-of-america/virginia": {
+      "region_name": "Virginia",
+      "files": [
+        "Virginia_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000-1.xlsx",
+        "Virginia_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        245738906,
+        91682263
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/virginia/Virginia_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/virginia/Virginia_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_count": 2,
+      "total_size": 337421169,
+      "has_split_files": true
+    },
     "north-america/united-states-of-america/south-carolina": {
       "region_name": "South_Carolina",
       "files": [
@@ -175,6 +193,21 @@
       "file_count": 2,
       "total_size": 267472119,
       "has_split_files": true
+    },
+    "north-america/united-states-of-america/montana": {
+      "region_name": "Montana",
+      "files": [
+        "Montana_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        94377673
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/montana/Montana_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 94377673,
+      "has_split_files": false
     },
     "north-america/united-states-of-america/new-york": {
       "region_name": "New_York",
@@ -259,6 +292,21 @@
       "file_count": 2,
       "total_size": 219275358,
       "has_split_files": true
+    },
+    "north-america/united-states-of-america/idaho": {
+      "region_name": "Idaho",
+      "files": [
+        "Idaho_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        123944700
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/idaho/Idaho_climbs_all-surfaces_all-access_imperial_2025-12-25_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 123944700,
+      "has_split_files": false
     },
     "north-america/united-states-of-america/california": {
       "region_name": "California",
