@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-26T13:34:32.464993Z",
+  "generated_at": "2025-12-26T13:35:10.745551Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 24,
-    "total_files": 37,
-    "total_size_bytes": 4681868835,
-    "total_size_mb": 4465.0,
+    "total_regions": 25,
+    "total_files": 38,
+    "total_size_bytes": 4834245709,
+    "total_size_mb": 4610.3,
     "regions_with_split_files": 11,
     "by_continent": {
       "europe": 3,
-      "north-america": 21
+      "north-america": 22
     }
   },
   "regions": {
@@ -175,6 +175,21 @@
       "file_count": 2,
       "total_size": 211079321,
       "has_split_files": true
+    },
+    "north-america/united-states-of-america/new-jersey": {
+      "region_name": "New_Jersey",
+      "files": [
+        "New_Jersey_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        152376874
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/new-jersey/New_Jersey_climbs_all-surfaces_all-access_imperial_2025-12-26_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 152376874,
+      "has_split_files": false
     },
     "north-america/united-states-of-america/new-hampshire": {
       "region_name": "New_Hampshire",
