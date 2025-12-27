@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-27T05:13:21.978534Z",
+  "generated_at": "2025-12-27T05:13:37.483098Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 30,
-    "total_files": 45,
-    "total_size_bytes": 5767818921,
-    "total_size_mb": 5500.6,
+    "total_regions": 31,
+    "total_files": 46,
+    "total_size_bytes": 5870520272,
+    "total_size_mb": 5598.6,
     "regions_with_split_files": 13,
     "by_continent": {
       "europe": 3,
-      "north-america": 27
+      "north-america": 28
     }
   },
   "regions": {
@@ -402,6 +402,21 @@
       ],
       "file_count": 1,
       "total_size": 171002411,
+      "has_split_files": false
+    },
+    "north-america/united-states-of-america/connecticut": {
+      "region_name": "Connecticut",
+      "files": [
+        "Connecticut_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        102701351
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/connecticut/Connecticut_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 102701351,
       "has_split_files": false
     },
     "north-america/united-states-of-america/hawaii": {
