@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-27T13:40:08.453045Z",
+  "generated_at": "2025-12-27T13:40:44.429824Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 33,
-    "total_files": 49,
-    "total_size_bytes": 6240570597,
-    "total_size_mb": 5951.5,
+    "total_regions": 36,
+    "total_files": 52,
+    "total_size_bytes": 6588425184,
+    "total_size_mb": 6283.2,
     "regions_with_split_files": 14,
     "by_continent": {
       "europe": 3,
-      "north-america": 30
+      "north-america": 33
     }
   },
   "regions": {
@@ -157,6 +157,21 @@
       "file_count": 2,
       "total_size": 347648149,
       "has_split_files": true
+    },
+    "north-america/united-states-of-america/west-virginia": {
+      "region_name": "West_Virginia",
+      "files": [
+        "West_Virginia_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        71843674
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/west-virginia/West_Virginia_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 71843674,
+      "has_split_files": false
     },
     "north-america/united-states-of-america/virginia": {
       "region_name": "Virginia",
@@ -435,6 +450,36 @@
       ],
       "file_count": 1,
       "total_size": 171002411,
+      "has_split_files": false
+    },
+    "north-america/united-states-of-america/arkansas": {
+      "region_name": "Arkansas",
+      "files": [
+        "Arkansas_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        119725009
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/arkansas/Arkansas_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 119725009,
+      "has_split_files": false
+    },
+    "north-america/united-states-of-america/kentucky": {
+      "region_name": "Kentucky",
+      "files": [
+        "Kentucky_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        156285904
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/kentucky/Kentucky_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 156285904,
       "has_split_files": false
     },
     "north-america/united-states-of-america/connecticut": {
