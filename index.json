@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-26T23:23:05.312789Z",
+  "generated_at": "2025-12-27T05:13:21.978534Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 29,
-    "total_files": 43,
-    "total_size_bytes": 5543020747,
-    "total_size_mb": 5286.2,
-    "regions_with_split_files": 12,
+    "total_regions": 30,
+    "total_files": 45,
+    "total_size_bytes": 5767818921,
+    "total_size_mb": 5500.6,
+    "regions_with_split_files": 13,
     "by_continent": {
       "europe": 3,
-      "north-america": 26
+      "north-america": 27
     }
   },
   "regions": {
@@ -238,6 +238,24 @@
       "file_count": 1,
       "total_size": 152376874,
       "has_split_files": false
+    },
+    "north-america/united-states-of-america/wisconsin": {
+      "region_name": "Wisconsin",
+      "files": [
+        "Wisconsin_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000-1.xlsx",
+        "Wisconsin_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        201445667,
+        23352507
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/wisconsin/Wisconsin_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/wisconsin/Wisconsin_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_count": 2,
+      "total_size": 224798174,
+      "has_split_files": true
     },
     "north-america/united-states-of-america/new-hampshire": {
       "region_name": "New_Hampshire",
