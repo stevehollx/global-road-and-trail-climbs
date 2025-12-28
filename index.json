@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-28T08:32:35.724142Z",
+  "generated_at": "2025-12-28T12:45:35.473036Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 41,
-    "total_files": 62,
-    "total_size_bytes": 8106069518,
-    "total_size_mb": 7730.6,
-    "regions_with_split_files": 17,
+    "total_regions": 42,
+    "total_files": 64,
+    "total_size_bytes": 8357577861,
+    "total_size_mb": 7970.4,
+    "regions_with_split_files": 18,
     "by_continent": {
       "europe": 3,
-      "north-america": 38
+      "north-america": 39
     }
   },
   "regions": {
@@ -388,6 +388,24 @@
       "file_count": 1,
       "total_size": 106219205,
       "has_split_files": false
+    },
+    "north-america/united-states-of-america/missouri": {
+      "region_name": "Missouri",
+      "files": [
+        "Missouri_climbs_all-surfaces_all-access_imperial_2025-12-28_v2.2.2_e0000-1.xlsx",
+        "Missouri_climbs_all-surfaces_all-access_imperial_2025-12-28_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        215214432,
+        36293911
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/missouri/Missouri_climbs_all-surfaces_all-access_imperial_2025-12-28_v2.2.2_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/missouri/Missouri_climbs_all-surfaces_all-access_imperial_2025-12-28_v2.2.2_e0000-2.xlsx"
+      ],
+      "file_count": 2,
+      "total_size": 251508343,
+      "has_split_files": true
     },
     "north-america/united-states-of-america/washington": {
       "region_name": "Washington",
