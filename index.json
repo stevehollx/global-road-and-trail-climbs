@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-28T12:45:35.473036Z",
+  "generated_at": "2025-12-28T20:45:33.164937Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 42,
-    "total_files": 64,
-    "total_size_bytes": 8357577861,
-    "total_size_mb": 7970.4,
+    "total_regions": 44,
+    "total_files": 66,
+    "total_size_bytes": 8408157382,
+    "total_size_mb": 8018.6,
     "regions_with_split_files": 18,
     "by_continent": {
       "europe": 3,
-      "north-america": 39
+      "north-america": 41
     }
   },
   "regions": {
@@ -123,6 +123,21 @@
       ],
       "file_count": 1,
       "total_size": 193759804,
+      "has_split_files": false
+    },
+    "north-america/united-states-of-america/alaska": {
+      "region_name": "region",
+      "files": [
+        "region_climbs_all-surfaces_all-access_imperial_2025-12-28_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        28294014
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/alaska/region_climbs_all-surfaces_all-access_imperial_2025-12-28_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 28294014,
       "has_split_files": false
     },
     "north-america/united-states-of-america/new-mexico": {
@@ -508,6 +523,21 @@
       "file_count": 2,
       "total_size": 226774026,
       "has_split_files": true
+    },
+    "north-america/united-states-of-america/delaware": {
+      "region_name": "Delaware",
+      "files": [
+        "Delaware_climbs_all-surfaces_all-access_imperial_2025-12-28_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        22285507
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/delaware/Delaware_climbs_all-surfaces_all-access_imperial_2025-12-28_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 22285507,
+      "has_split_files": false
     },
     "north-america/united-states-of-america/colorado": {
       "region_name": "Colorado",
