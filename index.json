@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-27T13:41:14.951872Z",
+  "generated_at": "2025-12-28T02:56:14.360748Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 36,
-    "total_files": 52,
-    "total_size_bytes": 6588425184,
-    "total_size_mb": 6283.2,
-    "regions_with_split_files": 14,
+    "total_regions": 37,
+    "total_files": 56,
+    "total_size_bytes": 7324995119,
+    "total_size_mb": 6985.7,
+    "regions_with_split_files": 15,
     "by_continent": {
       "europe": 3,
-      "north-america": 33
+      "north-america": 34
     }
   },
   "regions": {
@@ -205,6 +205,30 @@
       "file_count": 1,
       "total_size": 159756575,
       "has_split_files": false
+    },
+    "north-america/united-states-of-america/texas": {
+      "region_name": "Texas",
+      "files": [
+        "Texas_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000-1.xlsx",
+        "Texas_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000-2.xlsx",
+        "Texas_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000-3.xlsx",
+        "Texas_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000-4.xlsx"
+      ],
+      "file_sizes": [
+        270327495,
+        185825035,
+        163253518,
+        117163887
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/texas/Texas_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/texas/Texas_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000-2.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/texas/Texas_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000-3.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/texas/Texas_climbs_all-surfaces_all-access_imperial_2025-12-27_v2.2.2_e0000-4.xlsx"
+      ],
+      "file_count": 4,
+      "total_size": 736569935,
+      "has_split_files": true
     },
     "north-america/united-states-of-america/vermont": {
       "region_name": "Vermont",
