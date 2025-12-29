@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-29T20:28:10.154160Z",
+  "generated_at": "2025-12-29T20:28:52.583104Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 50,
-    "total_files": 74,
-    "total_size_bytes": 9421102136,
-    "total_size_mb": 8984.7,
+    "total_regions": 51,
+    "total_files": 75,
+    "total_size_bytes": 9517825107,
+    "total_size_mb": 9076.9,
     "regions_with_split_files": 19,
     "by_continent": {
       "europe": 3,
-      "north-america": 47
+      "north-america": 48
     }
   },
   "regions": {
@@ -168,6 +168,21 @@
       ],
       "file_count": 1,
       "total_size": 127502423,
+      "has_split_files": false
+    },
+    "north-america/united-states-of-america/mississippi": {
+      "region_name": "Mississippi",
+      "files": [
+        "Mississippi_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.3_e0000.xlsx"
+      ],
+      "file_sizes": [
+        96722971
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/mississippi/Mississippi_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.3_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 96722971,
       "has_split_files": false
     },
     "north-america/united-states-of-america/florida": {
