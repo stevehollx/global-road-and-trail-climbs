@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-29T15:35:23.781529Z",
+  "generated_at": "2025-12-29T15:36:31.399994Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 46,
-    "total_files": 70,
-    "total_size_bytes": 9028938816,
-    "total_size_mb": 8610.7,
+    "total_regions": 49,
+    "total_files": 73,
+    "total_size_bytes": 9342374218,
+    "total_size_mb": 8909.6,
     "regions_with_split_files": 19,
     "by_continent": {
       "europe": 3,
-      "north-america": 43
+      "north-america": 46
     }
   },
   "regions": {
@@ -341,6 +341,21 @@
       "total_size": 22402176,
       "has_split_files": false
     },
+    "north-america/united-states-of-america/oklahoma": {
+      "region_name": "Oklahoma",
+      "files": [
+        "Oklahoma_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        174395151
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/oklahoma/Oklahoma_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 174395151,
+      "has_split_files": false
+    },
     "north-america/united-states-of-america/tennessee": {
       "region_name": "Tennessee",
       "files": [
@@ -489,6 +504,36 @@
       ],
       "file_count": 1,
       "total_size": 94377673,
+      "has_split_files": false
+    },
+    "north-america/united-states-of-america/nebraska": {
+      "region_name": "Nebraska",
+      "files": [
+        "Nebraska_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        91656527
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/nebraska/Nebraska_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 91656527,
+      "has_split_files": false
+    },
+    "north-america/united-states-of-america/south-dakota": {
+      "region_name": "South_Dakota",
+      "files": [
+        "South_Dakota_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.2_e0000.xlsx"
+      ],
+      "file_sizes": [
+        47383724
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/south-dakota/South_Dakota_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.2_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 47383724,
       "has_split_files": false
     },
     "north-america/united-states-of-america/minnesota": {
