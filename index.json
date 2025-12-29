@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-28T20:45:33.164937Z",
+  "generated_at": "2025-12-29T02:28:00.106222Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 44,
-    "total_files": 66,
-    "total_size_bytes": 8408157382,
-    "total_size_mb": 8018.6,
-    "regions_with_split_files": 18,
+    "total_regions": 45,
+    "total_files": 69,
+    "total_size_bytes": 8860942642,
+    "total_size_mb": 8450.5,
+    "regions_with_split_files": 19,
     "by_continent": {
       "europe": 3,
-      "north-america": 41
+      "north-america": 42
     }
   },
   "regions": {
@@ -154,6 +154,27 @@
       "file_count": 1,
       "total_size": 127502423,
       "has_split_files": false
+    },
+    "north-america/united-states-of-america/florida": {
+      "region_name": "Florida",
+      "files": [
+        "Florida_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.2_e0000-1.xlsx",
+        "Florida_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.2_e0000-2.xlsx",
+        "Florida_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.2_e0000-3.xlsx"
+      ],
+      "file_sizes": [
+        218763828,
+        161371687,
+        72649745
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/florida/Florida_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.2_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/florida/Florida_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.2_e0000-2.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/florida/Florida_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.2_e0000-3.xlsx"
+      ],
+      "file_count": 3,
+      "total_size": 452785260,
+      "has_split_files": true
     },
     "north-america/united-states-of-america/ohio": {
       "region_name": "region",
