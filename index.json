@@ -1,18 +1,36 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-31T14:08:57.693294Z",
+  "generated_at": "2025-12-31T18:07:30.559899Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 1,
-    "total_files": 4,
-    "total_size_bytes": 677286135,
-    "total_size_mb": 645.9,
-    "regions_with_split_files": 1,
+    "total_regions": 2,
+    "total_files": 6,
+    "total_size_bytes": 922353306,
+    "total_size_mb": 879.6,
+    "regions_with_split_files": 2,
     "by_continent": {
-      "north-america": 1
+      "north-america": 2
     }
   },
   "regions": {
+    "north-america/united-states-of-america/washington": {
+      "region_name": "Washington",
+      "files": [
+        "Washington_climbs_all-surfaces_all-access_imperial_2025-12-31_v2.2.3_e0000-1.xlsx",
+        "Washington_climbs_all-surfaces_all-access_imperial_2025-12-31_v2.2.3_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        205108637,
+        39958534
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/washington/Washington_climbs_all-surfaces_all-access_imperial_2025-12-31_v2.2.3_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/washington/Washington_climbs_all-surfaces_all-access_imperial_2025-12-31_v2.2.3_e0000-2.xlsx"
+      ],
+      "file_count": 2,
+      "total_size": 245067171,
+      "has_split_files": true
+    },
     "north-america/united-states-of-america/california": {
       "region_name": "California",
       "files": [
