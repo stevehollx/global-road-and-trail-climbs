@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-29T21:15:20.062450Z",
+  "generated_at": "2025-12-31T13:14:08.795798Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 53,
-    "total_files": 77,
-    "total_size_bytes": 9562405884,
-    "total_size_mb": 9119.4,
+    "total_regions": 55,
+    "total_files": 80,
+    "total_size_bytes": 9607927851,
+    "total_size_mb": 9162.8,
     "regions_with_split_files": 19,
     "by_continent": {
       "europe": 3,
-      "north-america": 50
+      "north-america": 52
     }
   },
   "regions": {
@@ -220,6 +220,21 @@
       "file_count": 3,
       "total_size": 452785260,
       "has_split_files": true
+    },
+    "north-america/united-states-of-america/us-pacific": {
+      "region_name": "region",
+      "files": [
+        "region_climbs_all-surfaces_all-access_imperial_2025-12-30_v2.2.3_e0000.xlsx"
+      ],
+      "file_sizes": [
+        40891826
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/us-pacific/region_climbs_all-surfaces_all-access_imperial_2025-12-30_v2.2.3_e0000.xlsx"
+      ],
+      "file_count": 1,
+      "total_size": 40891826,
+      "has_split_files": false
     },
     "north-america/united-states-of-america/ohio": {
       "region_name": "region",
@@ -840,6 +855,24 @@
       ],
       "file_count": 1,
       "total_size": 123944700,
+      "has_split_files": false
+    },
+    "north-america/united-states-of-america/us-virgin-islands": {
+      "region_name": "Us_Virgin_Islands",
+      "files": [
+        "Us_Virgin_Islands_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.3_e0000.xlsx",
+        "Us_Virgin_Islands_climbs_all-surfaces_all-access_imperial_2025-12-30_v2.2.3_e0000.xlsx"
+      ],
+      "file_sizes": [
+        2315072,
+        2315069
+      ],
+      "download_urls": [
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/us-virgin-islands/Us_Virgin_Islands_climbs_all-surfaces_all-access_imperial_2025-12-29_v2.2.3_e0000.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/us-virgin-islands/Us_Virgin_Islands_climbs_all-surfaces_all-access_imperial_2025-12-30_v2.2.3_e0000.xlsx"
+      ],
+      "file_count": 2,
+      "total_size": 4630141,
       "has_split_files": false
     },
     "north-america/united-states-of-america/california": {
