@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-31T13:14:30.796936Z",
+  "generated_at": "2025-12-31T13:14:55.245564Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 56,
     "total_files": 81,
-    "total_size_bytes": 9701749176,
-    "total_size_mb": 9252.3,
+    "total_size_bytes": 9641913398,
+    "total_size_mb": 9195.2,
     "regions_with_split_files": 19,
     "by_continent": {
       "europe": 3,
@@ -158,16 +158,16 @@
     "north-america/united-states-of-america/alaska": {
       "region_name": "region",
       "files": [
-        "region_climbs_all-surfaces_all-access_imperial_2025-12-28_v2.2.2_e0000.xlsx"
+        "region_climbs_all-surfaces_all-access_imperial_2025-12-30_v2.2.3_e0000.xlsx"
       ],
       "file_sizes": [
-        28294014
+        26037557
       ],
       "download_urls": [
-        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/alaska/region_climbs_all-surfaces_all-access_imperial_2025-12-28_v2.2.2_e0000.xlsx"
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/alaska/region_climbs_all-surfaces_all-access_imperial_2025-12-30_v2.2.3_e0000.xlsx"
       ],
       "file_count": 1,
-      "total_size": 28294014,
+      "total_size": 26037557,
       "has_split_files": false
     },
     "north-america/united-states-of-america/new-mexico": {
@@ -893,25 +893,25 @@
     "north-america/united-states-of-america/california": {
       "region_name": "California",
       "files": [
-        "California_climbs_all-surfaces_all-access_imperial_2025-12-24_v2.2.2_e0000-1.xlsx",
-        "California_climbs_all-surfaces_all-access_imperial_2025-12-24_v2.2.2_e0000-2.xlsx",
-        "California_climbs_all-surfaces_all-access_imperial_2025-12-24_v2.2.2_e0000-3.xlsx",
-        "California_climbs_all-surfaces_all-access_imperial_2025-12-24_v2.2.2_e0000-4.xlsx"
+        "California_climbs_all-surfaces_all-access_imperial_2025-12-31_v2.2.3_e0000-1.xlsx",
+        "California_climbs_all-surfaces_all-access_imperial_2025-12-31_v2.2.3_e0000-2.xlsx",
+        "California_climbs_all-surfaces_all-access_imperial_2025-12-31_v2.2.3_e0000-3.xlsx",
+        "California_climbs_all-surfaces_all-access_imperial_2025-12-31_v2.2.3_e0000-4.xlsx"
       ],
       "file_sizes": [
-        314409111,
-        184318125,
-        158179724,
-        77958496
+        274708828,
+        171449284,
+        151371784,
+        79756239
       ],
       "download_urls": [
-        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/california/California_climbs_all-surfaces_all-access_imperial_2025-12-24_v2.2.2_e0000-1.xlsx",
-        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/california/California_climbs_all-surfaces_all-access_imperial_2025-12-24_v2.2.2_e0000-2.xlsx",
-        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/california/California_climbs_all-surfaces_all-access_imperial_2025-12-24_v2.2.2_e0000-3.xlsx",
-        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/california/California_climbs_all-surfaces_all-access_imperial_2025-12-24_v2.2.2_e0000-4.xlsx"
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/california/California_climbs_all-surfaces_all-access_imperial_2025-12-31_v2.2.3_e0000-1.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/california/California_climbs_all-surfaces_all-access_imperial_2025-12-31_v2.2.3_e0000-2.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/california/California_climbs_all-surfaces_all-access_imperial_2025-12-31_v2.2.3_e0000-3.xlsx",
+        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/north-america/united-states-of-america/california/California_climbs_all-surfaces_all-access_imperial_2025-12-31_v2.2.3_e0000-4.xlsx"
       ],
       "file_count": 4,
-      "total_size": 734865456,
+      "total_size": 677286135,
       "has_split_files": true
     },
     "north-america/united-states-of-america/utah": {
