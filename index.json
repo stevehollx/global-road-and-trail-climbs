@@ -1,49 +1,18 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-12-31T13:51:56.207644Z",
+  "generated_at": "2025-12-31T13:52:23.529464Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 55,
-    "total_files": 79,
-    "total_size_bytes": 9441812780,
-    "total_size_mb": 9004.4,
+    "total_regions": 53,
+    "total_files": 77,
+    "total_size_bytes": 9355727308,
+    "total_size_mb": 8922.3,
     "regions_with_split_files": 18,
     "by_continent": {
-      "europe": 2,
       "north-america": 53
     }
   },
   "regions": {
-    "europe/georgia": {
-      "region_name": "Georgia",
-      "files": [
-        "Georgia_climbs_all-surfaces_all-access_metric_2025-12-19_v2.2.2_e0000.xlsx"
-      ],
-      "file_sizes": [
-        66032020
-      ],
-      "download_urls": [
-        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/europe/georgia/Georgia_climbs_all-surfaces_all-access_metric_2025-12-19_v2.2.2_e0000.xlsx"
-      ],
-      "file_count": 1,
-      "total_size": 66032020,
-      "has_split_files": false
-    },
-    "europe/luxembourg": {
-      "region_name": "Luxembourg",
-      "files": [
-        "Luxembourg_climbs_all-surfaces_all-access_metric_2025-12-18_v2.2.2_e0000.xlsx"
-      ],
-      "file_sizes": [
-        20053452
-      ],
-      "download_urls": [
-        "https://raw.githubusercontent.com/stevehollx/global-road-and-trail-climbs/main/europe/luxembourg/Luxembourg_climbs_all-surfaces_all-access_metric_2025-12-18_v2.2.2_e0000.xlsx"
-      ],
-      "file_count": 1,
-      "total_size": 20053452,
-      "has_split_files": false
-    },
     "north-america/united-states-of-america/alabama": {
       "region_name": "Alabama",
       "files": [
