@@ -7,6 +7,9 @@ containing region information, file metadata, and download URLs.
 
 The script handles per-region releases (e.g., "hawaii-v2.2.0", "california-v2.2.0")
 and extracts region name, version, and file information from release assets.
+
+Index format uses path-based region keys (e.g., "north-america/us/hawaii") for iOS
+compatibility with geographic hierarchy navigation.
 """
 
 import os
@@ -15,6 +18,168 @@ import re
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple
 import requests
+
+
+# Mapping from release tag region names to geographic paths
+# Used to create path-based keys in index.json
+# Format: "tag-name" -> "continent/country/region" or "continent/region"
+US_STATES_TO_PATH = {
+    "alabama": "north-america/united-states-of-america/alabama",
+    "alaska": "north-america/united-states-of-america/alaska",
+    "arizona": "north-america/united-states-of-america/arizona",
+    "arkansas": "north-america/united-states-of-america/arkansas",
+    "california": "north-america/united-states-of-america/california",
+    "colorado": "north-america/united-states-of-america/colorado",
+    "connecticut": "north-america/united-states-of-america/connecticut",
+    "delaware": "north-america/united-states-of-america/delaware",
+    "district-of-columbia": "north-america/united-states-of-america/district-of-columbia",
+    "florida": "north-america/united-states-of-america/florida",
+    "georgia": "north-america/united-states-of-america/georgia",
+    "hawaii": "north-america/united-states-of-america/hawaii",
+    "idaho": "north-america/united-states-of-america/idaho",
+    "illinois": "north-america/united-states-of-america/illinois",
+    "indiana": "north-america/united-states-of-america/indiana",
+    "iowa": "north-america/united-states-of-america/iowa",
+    "kansas": "north-america/united-states-of-america/kansas",
+    "kentucky": "north-america/united-states-of-america/kentucky",
+    "louisiana": "north-america/united-states-of-america/louisiana",
+    "maine": "north-america/united-states-of-america/maine",
+    "maryland": "north-america/united-states-of-america/maryland",
+    "massachusetts": "north-america/united-states-of-america/massachusetts",
+    "michigan": "north-america/united-states-of-america/michigan",
+    "minnesota": "north-america/united-states-of-america/minnesota",
+    "mississippi": "north-america/united-states-of-america/mississippi",
+    "missouri": "north-america/united-states-of-america/missouri",
+    "montana": "north-america/united-states-of-america/montana",
+    "nebraska": "north-america/united-states-of-america/nebraska",
+    "nevada": "north-america/united-states-of-america/nevada",
+    "new-hampshire": "north-america/united-states-of-america/new-hampshire",
+    "new-jersey": "north-america/united-states-of-america/new-jersey",
+    "new-mexico": "north-america/united-states-of-america/new-mexico",
+    "new-york": "north-america/united-states-of-america/new-york",
+    "north-carolina": "north-america/united-states-of-america/north-carolina",
+    "north-dakota": "north-america/united-states-of-america/north-dakota",
+    "ohio": "north-america/united-states-of-america/ohio",
+    "oklahoma": "north-america/united-states-of-america/oklahoma",
+    "oregon": "north-america/united-states-of-america/oregon",
+    "pennsylvania": "north-america/united-states-of-america/pennsylvania",
+    "rhode-island": "north-america/united-states-of-america/rhode-island",
+    "south-carolina": "north-america/united-states-of-america/south-carolina",
+    "south-dakota": "north-america/united-states-of-america/south-dakota",
+    "tennessee": "north-america/united-states-of-america/tennessee",
+    "texas": "north-america/united-states-of-america/texas",
+    "utah": "north-america/united-states-of-america/utah",
+    "vermont": "north-america/united-states-of-america/vermont",
+    "virginia": "north-america/united-states-of-america/virginia",
+    "washington": "north-america/united-states-of-america/washington",
+    "west-virginia": "north-america/united-states-of-america/west-virginia",
+    "wisconsin": "north-america/united-states-of-america/wisconsin",
+    "wyoming": "north-america/united-states-of-america/wyoming",
+    # US territories
+    "puerto-rico": "north-america/united-states-of-america/puerto-rico",
+    "us-virgin-islands": "north-america/united-states-of-america/us-virgin-islands",
+}
+
+# European countries
+EUROPE_COUNTRIES_TO_PATH = {
+    "albania": "europe/albania",
+    "andorra": "europe/andorra",
+    "austria": "europe/austria",
+    "azores": "europe/azores",
+    "belarus": "europe/belarus",
+    "belgium": "europe/belgium",
+    "bosnia-herzegovina": "europe/bosnia-herzegovina",
+    "bulgaria": "europe/bulgaria",
+    "croatia": "europe/croatia",
+    "cyprus": "europe/cyprus",
+    "czech-republic": "europe/czech-republic",
+    "denmark": "europe/denmark",
+    "estonia": "europe/estonia",
+    "faroe-islands": "europe/faroe-islands",
+    "finland": "europe/finland",
+    "france": "europe/france",
+    "georgia": "europe/georgia",
+    "germany": "europe/germany",
+    "great-britain": "europe/great-britain",
+    "greece": "europe/greece",
+    "hungary": "europe/hungary",
+    "iceland": "europe/iceland",
+    "ireland-and-northern-ireland": "europe/ireland-and-northern-ireland",
+    "isle-of-man": "europe/isle-of-man",
+    "italy": "europe/italy",
+    "kosovo": "europe/kosovo",
+    "latvia": "europe/latvia",
+    "liechtenstein": "europe/liechtenstein",
+    "lithuania": "europe/lithuania",
+    "luxembourg": "europe/luxembourg",
+    "macedonia": "europe/macedonia",
+    "malta": "europe/malta",
+    "moldova": "europe/moldova",
+    "monaco": "europe/monaco",
+    "montenegro": "europe/montenegro",
+    "netherlands": "europe/netherlands",
+    "norway": "europe/norway",
+    "poland": "europe/poland",
+    "portugal": "europe/portugal",
+    "romania": "europe/romania",
+    "russia": "europe/russia",
+    "serbia": "europe/serbia",
+    "slovakia": "europe/slovakia",
+    "slovenia": "europe/slovenia",
+    "spain": "europe/spain",
+    "sweden": "europe/sweden",
+    "switzerland": "europe/switzerland",
+    "turkey": "europe/turkey",
+    "ukraine": "europe/ukraine",
+}
+
+# Other regions
+OTHER_REGIONS_TO_PATH = {
+    # Canada
+    "canada": "north-america/canada",
+    "alberta": "north-america/canada/alberta",
+    "british-columbia": "north-america/canada/british-columbia",
+    "ontario": "north-america/canada/ontario",
+    "quebec": "north-america/canada/quebec",
+    # Oceania
+    "australia": "oceania/australia",
+    "new-zealand": "oceania/new-zealand",
+    # Asia
+    "japan": "asia/japan",
+    # South America
+    "brazil": "south-america/brazil",
+    "argentina": "south-america/argentina",
+    "chile": "south-america/chile",
+    "colombia": "south-america/colombia",
+}
+
+
+def get_region_path(tag_region: str) -> str:
+    """
+    Map a release tag region name to its full geographic path.
+
+    Args:
+        tag_region: Region name from release tag (e.g., "hawaii", "france")
+
+    Returns:
+        Full geographic path (e.g., "north-america/us/hawaii")
+    """
+    tag_lower = tag_region.lower()
+
+    # Check US states first (most common)
+    if tag_lower in US_STATES_TO_PATH:
+        return US_STATES_TO_PATH[tag_lower]
+
+    # Check European countries
+    if tag_lower in EUROPE_COUNTRIES_TO_PATH:
+        return EUROPE_COUNTRIES_TO_PATH[tag_lower]
+
+    # Check other regions
+    if tag_lower in OTHER_REGIONS_TO_PATH:
+        return OTHER_REGIONS_TO_PATH[tag_lower]
+
+    # Default: return as-is if not found (for custom/unknown regions)
+    return tag_lower
 
 
 def get_github_token() -> Optional[str]:
@@ -213,9 +378,16 @@ def scan_releases(owner: str, repo: str, token: Optional[str] = None) -> Dict[st
             xlsx_sizes = [xlsx_sizes[i] for i in sorted_indices]
             xlsx_urls = [xlsx_urls[i] for i in sorted_indices]
 
-        # Build region entry using the tag-based key (lowercase with hyphens)
-        region_key = region_from_tag
+        # Build region entry using path-based key (e.g., "north-america/us/hawaii")
+        region_key = get_region_path(region_from_tag)
 
+        # Determine if this is a split file set
+        has_split_files = len(xlsx_files) > 1
+
+        # Extract last_updated date from published_at
+        last_updated = published_at[:10] if published_at else None
+
+        # Use flattened structure for iOS compatibility
         index_data[region_key] = {
             "region_name": region_name.replace("_", " "),
             "version": version,
@@ -223,16 +395,20 @@ def scan_releases(owner: str, repo: str, token: Optional[str] = None) -> Dict[st
             "release_url": release_url,
             "climb_count": climb_count,
             "elevation_errors": elevation_errors,
-            "xlsx": {
-                "files": xlsx_files,
-                "download_urls": xlsx_urls,
-                "file_sizes": xlsx_sizes,
-                "total_size": sum(xlsx_sizes),
-            },
+            # Flattened xlsx fields (no nested object)
+            "files": xlsx_files,
+            "download_urls": xlsx_urls,
+            "file_sizes": xlsx_sizes,
+            "total_size": sum(xlsx_sizes),
+            "file_count": len(xlsx_files),
+            "has_split_files": has_split_files,
+            # Database fields
             "database_file": sqlite_file,
             "database_size": sqlite_size,
             "database_url": sqlite_url,
+            # Dates
             "published_at": published_at,
+            "last_updated": last_updated,
         }
 
     return index_data
@@ -241,10 +417,10 @@ def scan_releases(owner: str, repo: str, token: Optional[str] = None) -> Dict[st
 def create_summary_stats(index_data: Dict) -> Dict:
     """Create summary statistics for the index."""
     total_regions = len(index_data)
-    total_xlsx_files = sum(len(region["xlsx"]["files"]) for region in index_data.values())
-    total_sqlite_files = sum(1 for region in index_data.values() if region["database_file"])
-    total_xlsx_size = sum(region["xlsx"]["total_size"] for region in index_data.values())
-    total_sqlite_size = sum(region["database_size"] for region in index_data.values())
+    total_xlsx_files = sum(region.get("file_count", 0) for region in index_data.values())
+    total_sqlite_files = sum(1 for region in index_data.values() if region.get("database_file"))
+    total_xlsx_size = sum(region.get("total_size", 0) for region in index_data.values())
+    total_sqlite_size = sum(region.get("database_size", 0) for region in index_data.values())
     total_climbs = sum(region.get("climb_count") or 0 for region in index_data.values())
 
     return {
