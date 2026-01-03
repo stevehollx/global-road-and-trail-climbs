@@ -13,6 +13,17 @@ on:
       - 'asia/**/README.md'
       - 'africa/**/README.md'
       - 'oceania/**/README.md'
+  push:
+    branches:
+      - main
+    paths:
+      - 'releases/*.md'
+      - 'north-america/**/README.md'
+      - 'south-america/**/README.md'
+      - 'europe/**/README.md'
+      - 'asia/**/README.md'
+      - 'africa/**/README.md'
+      - 'oceania/**/README.md'
   workflow_dispatch:
 
 jobs:
@@ -81,10 +92,11 @@ jobs:
   index-releases:
     runs-on: ubuntu-latest
     needs: [publish-release]
-    # Run if: release event, OR PR merge succeeded, OR publish-release was skipped (direct release)
+    # Run if: release event, push event, workflow_dispatch, OR PR merge succeeded
     if: |
       always() && (
         github.event_name == 'release' ||
+        github.event_name == 'push' ||
         github.event_name == 'workflow_dispatch' ||
         (github.event_name == 'pull_request' && needs.publish-release.result == 'success')
       )
