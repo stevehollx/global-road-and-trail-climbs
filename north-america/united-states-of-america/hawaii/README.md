@@ -1,10 +1,10 @@
 ## Info
-Date: 2026-01-03
-Version: 2.3.0
-Climbs: 83,237
-Files: 1 Excel file(s) + 1 SQLite database(s) + error log
-Total Size: 46.0 MB
-Release Tag: `hawaii-v2.3.0`
+* Date: 2026-01-03
+* Version: 2.3.0
+* Climbs: 83,237
+* Files: 1 Excel file(s) + 1 SQLite database(s) + error log
+* Total Size: 46.0 MB
+* Release Tag: `hawaii-v2.3.0`
 
 ## Elevation datasets used:
 1. ned10m
