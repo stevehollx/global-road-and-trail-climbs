@@ -60,9 +60,14 @@ def extract_climb_count_from_release_body(body: str) -> Optional[int]:
     """
     Extract climb count from release body markdown.
 
-    Looks for pattern: **Climb Count:** 1,234
+    Handles both old format "**Climb Count:** 1,234" and new format "* Climbs: 1,234"
     """
+    # Try old format first: **Climb Count:** 1,234
     match = re.search(r'\*\*Climb Count:\*\*\s*([\d,]+)', body)
+    if match:
+        return int(match.group(1).replace(',', ''))
+    # Try new bulletized format: * Climbs: 1,234
+    match = re.search(r'\* Climbs:\s*([\d,]+)', body)
     if match:
         return int(match.group(1).replace(',', ''))
     return None
@@ -72,7 +77,7 @@ def extract_elevation_errors_from_release_body(body: str) -> Optional[int]:
     """
     Extract elevation errors from release body markdown.
 
-    Looks for pattern: **Elevation Errors:** 0
+    Handles both old format "**Elevation Errors:** 0" and new format (not yet defined)
     """
     match = re.search(r'\*\*Elevation Errors:\*\*\s*(\d+)', body)
     if match:
