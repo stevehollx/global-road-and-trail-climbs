@@ -1,17 +1,132 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-01-03T21:17:31.107510Z",
+  "generated_at": "2026-01-04T14:51:09.304001Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 1,
-    "total_xlsx_files": 1,
-    "total_sqlite_files": 1,
-    "total_xlsx_size_bytes": 15166016,
-    "total_sqlite_size_bytes": 124461056,
-    "total_size_mb": 133.2,
-    "total_climbs": 83237
+    "total_regions": 5,
+    "total_xlsx_files": 10,
+    "total_sqlite_files": 4,
+    "total_xlsx_size_bytes": 1314616582,
+    "total_sqlite_size_bytes": 4749221888,
+    "total_size_mb": 5782.9,
+    "total_climbs": 6449578
   },
   "regions": {
+    "north-america/united-states-of-america/washington": {
+      "region_name": "Washington",
+      "version": "2.3.0",
+      "release_tag": "washington-v2.3.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-b881fd24ef91be98a702",
+      "climb_count": 1220288,
+      "elevation_errors": 0,
+      "files": [
+        "Washington_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000-1.xlsx",
+        "Washington_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-b881fd24ef91be98a702/Washington_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-b881fd24ef91be98a702/Washington_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        205103227,
+        39958537
+      ],
+      "total_size": 245061764,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": "Washington_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.sqlite",
+      "database_size": 1887866880,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-b881fd24ef91be98a702/Washington_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.sqlite",
+      "published_at": null,
+      "last_updated": null
+    },
+    "north-america/united-states-of-america/oregon": {
+      "region_name": "Oregon",
+      "version": "2.3.0",
+      "release_tag": "oregon-v2.3.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/oregon-v2.3.0",
+      "climb_count": 782460,
+      "elevation_errors": 0,
+      "files": [
+        "Oregon_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oregon-v2.3.0/Oregon_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        174786420
+      ],
+      "total_size": 174786420,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Oregon_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.sqlite",
+      "database_size": 1230163968,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oregon-v2.3.0/Oregon_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.sqlite",
+      "published_at": "2026-01-04T14:51:08Z",
+      "last_updated": "2026-01-04"
+    },
+    "north-america/united-states-of-america/colorado": {
+      "region_name": "Colorado",
+      "version": "2.3.0",
+      "release_tag": "colorado-v2.3.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-ad4a45e91954ad5494e7",
+      "climb_count": 967550,
+      "elevation_errors": 0,
+      "files": [
+        "Colorado_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000-1.xlsx",
+        "Colorado_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-ad4a45e91954ad5494e7/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-ad4a45e91954ad5494e7/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        199977231,
+        2374876
+      ],
+      "total_size": 202352107,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": "Colorado_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.sqlite",
+      "database_size": 1506729984,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-ad4a45e91954ad5494e7/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.sqlite",
+      "published_at": null,
+      "last_updated": null
+    },
+    "north-america/united-states-of-america/california": {
+      "region_name": "California",
+      "version": "2.3.0",
+      "release_tag": "california-v2.3.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-d68786c53bb6f73dc1c6",
+      "climb_count": 3396043,
+      "elevation_errors": 0,
+      "files": [
+        "California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-3.xlsx",
+        "California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-4.xlsx",
+        "California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-1.xlsx",
+        "California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d68786c53bb6f73dc1c6/California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d68786c53bb6f73dc1c6/California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d68786c53bb6f73dc1c6/California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d68786c53bb6f73dc1c6/California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        151371774,
+        79756250,
+        274672984,
+        171449267
+      ],
+      "total_size": 677250275,
+      "file_count": 4,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": 0,
+      "database_url": null,
+      "published_at": null,
+      "last_updated": null
+    },
     "north-america/united-states-of-america/hawaii": {
       "region_name": "Hawaii",
       "version": "2.3.0",
