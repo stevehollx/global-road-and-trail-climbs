@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-01-04T14:51:09.304001Z",
+  "generated_at": "2026-01-04T14:51:17.870634Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 5,
@@ -39,31 +39,6 @@
       "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-b881fd24ef91be98a702/Washington_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.sqlite",
       "published_at": null,
       "last_updated": null
-    },
-    "north-america/united-states-of-america/oregon": {
-      "region_name": "Oregon",
-      "version": "2.3.0",
-      "release_tag": "oregon-v2.3.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/oregon-v2.3.0",
-      "climb_count": 782460,
-      "elevation_errors": 0,
-      "files": [
-        "Oregon_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oregon-v2.3.0/Oregon_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        174786420
-      ],
-      "total_size": 174786420,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": "Oregon_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.sqlite",
-      "database_size": 1230163968,
-      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oregon-v2.3.0/Oregon_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.sqlite",
-      "published_at": "2026-01-04T14:51:08Z",
-      "last_updated": "2026-01-04"
     },
     "north-america/united-states-of-america/colorado": {
       "region_name": "Colorado",
@@ -126,6 +101,31 @@
       "database_url": null,
       "published_at": null,
       "last_updated": null
+    },
+    "north-america/united-states-of-america/oregon": {
+      "region_name": "Oregon",
+      "version": "2.3.0",
+      "release_tag": "oregon-v2.3.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/oregon-v2.3.0",
+      "climb_count": 782460,
+      "elevation_errors": 0,
+      "files": [
+        "Oregon_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oregon-v2.3.0/Oregon_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        174786420
+      ],
+      "total_size": 174786420,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Oregon_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.sqlite",
+      "database_size": 1230163968,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oregon-v2.3.0/Oregon_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.3.0_e0000.sqlite",
+      "published_at": "2026-01-04T14:51:08Z",
+      "last_updated": "2026-01-04"
     },
     "north-america/united-states-of-america/hawaii": {
       "region_name": "Hawaii",
