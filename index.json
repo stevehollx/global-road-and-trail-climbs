@@ -1,50 +1,41 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-01-04T15:20:25.586419Z",
+  "generated_at": "2026-01-04T15:21:55.173162Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 1,
-    "total_xlsx_files": 4,
-    "total_sqlite_files": 0,
-    "total_xlsx_size_bytes": 677250275,
-    "total_sqlite_size_bytes": 0,
-    "total_size_mb": 645.9,
-    "total_climbs": 3396043
+    "total_xlsx_files": 1,
+    "total_sqlite_files": 1,
+    "total_xlsx_size_bytes": 15227418,
+    "total_sqlite_size_bytes": 124608512,
+    "total_size_mb": 133.4,
+    "total_climbs": 83237
   },
   "regions": {
-    "north-america/united-states-of-america/california": {
-      "region_name": "California",
-      "version": "2.3.0",
-      "release_tag": "california-v2.3.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-d68786c53bb6f73dc1c6",
-      "climb_count": 3396043,
+    "north-america/united-states-of-america/hawaii": {
+      "region_name": "Hawaii",
+      "version": "2.4.0",
+      "release_tag": "hawaii-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/hawaii-v2.4.0",
+      "climb_count": 83237,
       "elevation_errors": 0,
       "files": [
-        "California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-3.xlsx",
-        "California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-4.xlsx",
-        "California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-1.xlsx",
-        "California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-2.xlsx"
+        "Hawaii_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.4.0_e0000.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d68786c53bb6f73dc1c6/California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d68786c53bb6f73dc1c6/California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-4.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d68786c53bb6f73dc1c6/California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d68786c53bb6f73dc1c6/California_climbs_all-surfaces_all-access_imperial_2026-01-03_v2.3.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/hawaii-v2.4.0/Hawaii_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.4.0_e0000.xlsx"
       ],
       "file_sizes": [
-        151371774,
-        79756250,
-        274672984,
-        171449267
+        15227418
       ],
-      "total_size": 677250275,
-      "file_count": 4,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": 0,
-      "database_url": null,
-      "published_at": null,
-      "last_updated": null
+      "total_size": 15227418,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Hawaii_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.4.0_e0000.sqlite",
+      "database_size": 124608512,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/hawaii-v2.4.0/Hawaii_climbs_all-surfaces_all-access_imperial_2026-01-04_v2.4.0_e0000.sqlite",
+      "published_at": "2026-01-04T15:21:54Z",
+      "last_updated": "2026-01-04"
     }
   }
 }
