@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-01-24T21:33:31.601249Z",
+  "generated_at": "2026-01-24T21:33:47.095207Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 12,
@@ -44,14 +44,14 @@
       "region_name": "Massachusetts",
       "version": "2.4.0",
       "release_tag": "massachusetts-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-de6a3d396960c0c6876e",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/massachusetts-v2.4.0",
       "climb_count": 851761,
       "elevation_errors": 0,
       "files": [
         "Massachusetts_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-de6a3d396960c0c6876e/Massachusetts_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/massachusetts-v2.4.0/Massachusetts_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
       ],
       "file_sizes": [
         158864304
@@ -61,9 +61,9 @@
       "has_split_files": false,
       "database_file": "Massachusetts_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
       "database_size": 1308246016,
-      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-de6a3d396960c0c6876e/Massachusetts_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
-      "published_at": null,
-      "last_updated": null
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/massachusetts-v2.4.0/Massachusetts_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "published_at": "2026-01-24T21:33:45Z",
+      "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/washington": {
       "region_name": "Washington",
