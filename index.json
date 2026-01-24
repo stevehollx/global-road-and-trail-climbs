@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-01-24T03:17:14.356413Z",
+  "generated_at": "2026-01-24T03:17:26.602959Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 6,
@@ -41,14 +41,14 @@
       "region_name": "Oregon",
       "version": "2.4.0",
       "release_tag": "oregon-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-0e99e8fbc6aa0eb1737f",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/oregon-v2.4.0",
       "climb_count": 782460,
       "elevation_errors": 0,
       "files": [
         "Oregon_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-0e99e8fbc6aa0eb1737f/Oregon_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oregon-v2.4.0/Oregon_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
       ],
       "file_sizes": [
         175517812
@@ -58,9 +58,9 @@
       "has_split_files": false,
       "database_file": "Oregon_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
       "database_size": 1231826944,
-      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-0e99e8fbc6aa0eb1737f/Oregon_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
-      "published_at": null,
-      "last_updated": null
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oregon-v2.4.0/Oregon_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "published_at": "2026-01-24T03:17:25Z",
+      "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/washington": {
       "region_name": "Washington",
