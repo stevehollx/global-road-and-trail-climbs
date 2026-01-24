@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-01-24T03:17:45.428695Z",
+  "generated_at": "2026-01-24T03:17:55.832141Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 6,
@@ -12,31 +12,6 @@
     "total_climbs": 7018920
   },
   "regions": {
-    "north-america/united-states-of-america/utah": {
-      "region_name": "Utah",
-      "version": "2.4.0",
-      "release_tag": "utah-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-f8f7ca0ca8ef2c4590a9",
-      "climb_count": 569342,
-      "elevation_errors": 0,
-      "files": [
-        "Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-f8f7ca0ca8ef2c4590a9/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        122332333
-      ],
-      "total_size": 122332333,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": "Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
-      "database_size": 877809664,
-      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-f8f7ca0ca8ef2c4590a9/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
-      "published_at": null,
-      "last_updated": null
-    },
     "north-america/united-states-of-america/washington": {
       "region_name": "Washington",
       "version": "2.4.0",
@@ -63,6 +38,31 @@
       "database_size": 1890951168,
       "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
       "published_at": "2026-01-24T03:17:10Z",
+      "last_updated": "2026-01-24"
+    },
+    "north-america/united-states-of-america/utah": {
+      "region_name": "Utah",
+      "version": "2.4.0",
+      "release_tag": "utah-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/utah-v2.4.0",
+      "climb_count": 569342,
+      "elevation_errors": 0,
+      "files": [
+        "Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.0/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        122332333
+      ],
+      "total_size": 122332333,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "database_size": 877809664,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.0/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "published_at": "2026-01-24T03:17:45Z",
       "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/oregon": {
