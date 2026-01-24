@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-01-24T21:34:00.841226Z",
+  "generated_at": "2026-01-24T21:34:11.713120Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 12,
@@ -12,34 +12,6 @@
     "total_climbs": 12699297
   },
   "regions": {
-    "north-america/united-states-of-america/new-york": {
-      "region_name": "New York",
-      "version": "2.4.0",
-      "release_tag": "new-york-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-60766f078f8c45771e44",
-      "climb_count": 1492400,
-      "elevation_errors": 0,
-      "files": [
-        "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
-        "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-60766f078f8c45771e44/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-60766f078f8c45771e44/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        201288204,
-        83186754
-      ],
-      "total_size": 284474958,
-      "file_count": 2,
-      "has_split_files": true,
-      "database_file": "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_southwest.sqlite",
-      "database_size": 253906944,
-      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-60766f078f8c45771e44/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_southwest.sqlite",
-      "published_at": null,
-      "last_updated": null
-    },
     "north-america/united-states-of-america/washington": {
       "region_name": "Washington",
       "version": "2.4.0",
@@ -169,6 +141,34 @@
       "database_size": 0,
       "database_url": null,
       "published_at": "2026-01-24T13:00:39Z",
+      "last_updated": "2026-01-24"
+    },
+    "north-america/united-states-of-america/new-york": {
+      "region_name": "New York",
+      "version": "2.4.0",
+      "release_tag": "new-york-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-york-v2.4.0",
+      "climb_count": 1492400,
+      "elevation_errors": 0,
+      "files": [
+        "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
+        "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        201288204,
+        83186754
+      ],
+      "total_size": 284474958,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_southwest.sqlite",
+      "database_size": 253906944,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_southwest.sqlite",
+      "published_at": "2026-01-24T21:34:01Z",
       "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/new-hampshire": {
