@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-01-24T03:16:56.113110Z",
+  "generated_at": "2026-01-24T03:17:14.356413Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 6,
@@ -12,34 +12,6 @@
     "total_climbs": 7018920
   },
   "regions": {
-    "north-america/united-states-of-america/washington": {
-      "region_name": "Washington",
-      "version": "2.4.0",
-      "release_tag": "washington-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-d6f613433414a6996228",
-      "climb_count": 1220288,
-      "elevation_errors": 0,
-      "files": [
-        "Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
-        "Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d6f613433414a6996228/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d6f613433414a6996228/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        206124786,
-        40166219
-      ],
-      "total_size": 246291005,
-      "file_count": 2,
-      "has_split_files": true,
-      "database_file": "Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
-      "database_size": 1890951168,
-      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d6f613433414a6996228/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
-      "published_at": null,
-      "last_updated": null
-    },
     "north-america/united-states-of-america/utah": {
       "region_name": "Utah",
       "version": "2.4.0",
@@ -89,6 +61,34 @@
       "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-0e99e8fbc6aa0eb1737f/Oregon_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
       "published_at": null,
       "last_updated": null
+    },
+    "north-america/united-states-of-america/washington": {
+      "region_name": "Washington",
+      "version": "2.4.0",
+      "release_tag": "washington-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/washington-v2.4.0",
+      "climb_count": 1220288,
+      "elevation_errors": 0,
+      "files": [
+        "Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
+        "Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        206124786,
+        40166219
+      ],
+      "total_size": 246291005,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": "Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "database_size": 1890951168,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "published_at": "2026-01-24T03:17:10Z",
+      "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/colorado": {
       "region_name": "Colorado",
