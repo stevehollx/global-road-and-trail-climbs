@@ -1,17 +1,42 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-01-24T03:17:55.832141Z",
+  "generated_at": "2026-01-24T06:23:45.376722Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 6,
-    "total_xlsx_files": 11,
-    "total_sqlite_files": 5,
-    "total_xlsx_size_bytes": 1443162701,
-    "total_sqlite_size_bytes": 5634134016,
-    "total_size_mb": 6749.4,
-    "total_climbs": 7018920
+    "total_regions": 7,
+    "total_xlsx_files": 12,
+    "total_sqlite_files": 6,
+    "total_xlsx_size_bytes": 1475506811,
+    "total_sqlite_size_bytes": 5864267776,
+    "total_size_mb": 6999.8,
+    "total_climbs": 7165338
   },
   "regions": {
+    "north-america/united-states-of-america/vermont": {
+      "region_name": "Vermont",
+      "version": "2.4.0",
+      "release_tag": "vermont-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-7fad658473ebe59416f6",
+      "climb_count": 146418,
+      "elevation_errors": 0,
+      "files": [
+        "Vermont_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-7fad658473ebe59416f6/Vermont_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        32344110
+      ],
+      "total_size": 32344110,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Vermont_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "database_size": 230133760,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-7fad658473ebe59416f6/Vermont_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "published_at": null,
+      "last_updated": null
+    },
     "north-america/united-states-of-america/washington": {
       "region_name": "Washington",
       "version": "2.4.0",
