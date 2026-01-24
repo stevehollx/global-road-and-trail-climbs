@@ -1,17 +1,70 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-01-24T13:00:48.863917Z",
+  "generated_at": "2026-01-24T21:33:31.601249Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 9,
-    "total_xlsx_files": 16,
-    "total_sqlite_files": 7,
-    "total_xlsx_size_bytes": 2033874661,
-    "total_sqlite_size_bytes": 7406161920,
-    "total_size_mb": 9002.7,
-    "total_climbs": 10030574
+    "total_regions": 12,
+    "total_xlsx_files": 20,
+    "total_sqlite_files": 10,
+    "total_xlsx_size_bytes": 2541620468,
+    "total_sqlite_size_bytes": 9476423680,
+    "total_size_mb": 11461.3,
+    "total_climbs": 12699297
   },
   "regions": {
+    "north-america/united-states-of-america/new-york": {
+      "region_name": "New York",
+      "version": "2.4.0",
+      "release_tag": "new-york-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-60766f078f8c45771e44",
+      "climb_count": 1492400,
+      "elevation_errors": 0,
+      "files": [
+        "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
+        "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-60766f078f8c45771e44/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-60766f078f8c45771e44/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        201288204,
+        83186754
+      ],
+      "total_size": 284474958,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_southwest.sqlite",
+      "database_size": 253906944,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-60766f078f8c45771e44/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_southwest.sqlite",
+      "published_at": null,
+      "last_updated": null
+    },
+    "north-america/united-states-of-america/massachusetts": {
+      "region_name": "Massachusetts",
+      "version": "2.4.0",
+      "release_tag": "massachusetts-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-de6a3d396960c0c6876e",
+      "climb_count": 851761,
+      "elevation_errors": 0,
+      "files": [
+        "Massachusetts_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-de6a3d396960c0c6876e/Massachusetts_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        158864304
+      ],
+      "total_size": 158864304,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Massachusetts_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "database_size": 1308246016,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-de6a3d396960c0c6876e/Massachusetts_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "published_at": null,
+      "last_updated": null
+    },
     "north-america/united-states-of-america/washington": {
       "region_name": "Washington",
       "version": "2.4.0",
@@ -141,6 +194,31 @@
       "database_size": 0,
       "database_url": null,
       "published_at": "2026-01-24T13:00:39Z",
+      "last_updated": "2026-01-24"
+    },
+    "north-america/united-states-of-america/new-hampshire": {
+      "region_name": "New Hampshire",
+      "version": "2.4.0",
+      "release_tag": "new-hampshire-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-hampshire-v2.4.0",
+      "climb_count": 324562,
+      "elevation_errors": 0,
+      "files": [
+        "New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-hampshire-v2.4.0/New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        64406545
+      ],
+      "total_size": 64406545,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "database_size": 508108800,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-hampshire-v2.4.0/New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "published_at": "2026-01-24T21:33:28Z",
       "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/colorado": {
