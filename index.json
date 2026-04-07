@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-07T22:23:11.058742Z",
+  "generated_at": "2026-04-07T22:26:21.402533Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 13,
@@ -43,7 +43,7 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": null,
+      "total_database_size": 476667904,
       "published_at": "2026-04-07T21:00:00Z",
       "last_updated": "2026-04-07"
     },
@@ -80,7 +80,7 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": null,
+      "total_database_size": 1890951168,
       "published_at": "2026-01-24T03:17:10Z",
       "last_updated": "2026-01-24"
     },
@@ -114,7 +114,7 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": null,
+      "total_database_size": 230133760,
       "published_at": "2026-01-24T06:23:45Z",
       "last_updated": "2026-01-24"
     },
@@ -148,7 +148,7 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": null,
+      "total_database_size": 877809664,
       "published_at": "2026-01-24T03:17:45Z",
       "last_updated": "2026-01-24"
     },
@@ -182,7 +182,7 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": null,
+      "total_database_size": 1231826944,
       "published_at": "2026-01-24T03:17:25Z",
       "last_updated": "2026-01-24"
     },
@@ -208,9 +208,9 @@
       "total_size": 355937010,
       "file_count": 2,
       "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
+      "database_file": "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite",
+      "database_size": 2890084352,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-carolina-v2.4.0/North_Carolina_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.001",
       "is_split": true,
       "split_files": [
         "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.001",
@@ -231,7 +231,7 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": null,
+      "total_database_size": 2890084352,
       "published_at": "2026-01-24T13:00:39Z",
       "last_updated": "2026-01-24"
     },
@@ -363,7 +363,7 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": null,
+      "total_database_size": 508108800,
       "published_at": "2026-01-24T21:33:28Z",
       "last_updated": "2026-01-24"
     },
@@ -397,7 +397,7 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": null,
+      "total_database_size": 1308246016,
       "published_at": "2026-01-24T21:33:45Z",
       "last_updated": "2026-01-24"
     },
@@ -434,7 +434,7 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": null,
+      "total_database_size": 1508937728,
       "published_at": "2026-01-24T03:16:54Z",
       "last_updated": "2026-01-24"
     },
@@ -466,9 +466,9 @@
       "total_size": 680486589,
       "file_count": 4,
       "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
+      "database_file": "California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000.sqlite",
+      "database_size": 5255921664,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/california-v2.4.0/California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000.sqlite.001",
       "is_split": true,
       "split_files": [
         "California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000.sqlite.001",
@@ -493,7 +493,7 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": null,
+      "total_database_size": 5255921664,
       "published_at": "2026-01-24T03:16:37Z",
       "last_updated": "2026-01-24"
     },
@@ -530,7 +530,7 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": null,
+      "total_database_size": 1541894144,
       "published_at": "2026-01-24T13:00:30Z",
       "last_updated": "2026-01-24"
     },
@@ -564,7 +564,7 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": null,
+      "total_database_size": 124608512,
       "published_at": "2026-01-04T15:21:54Z",
       "last_updated": "2026-01-04"
     }
