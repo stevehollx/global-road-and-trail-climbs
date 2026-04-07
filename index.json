@@ -1,14 +1,14 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-07T22:10:10.663336Z",
+  "generated_at": "2026-04-07T22:10:16.574419Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 13,
-    "total_xlsx_files": 19,
+    "total_xlsx_files": 20,
     "total_sqlite_files": 11,
-    "total_xlsx_size_bytes": 2371916057,
+    "total_xlsx_size_bytes": 2523997328,
     "total_sqlite_size_bytes": 9699299328,
-    "total_size_mb": 11512.0,
+    "total_size_mb": 11657.0,
     "total_climbs": 13003699
   },
   "regions": {
@@ -282,19 +282,22 @@
       "climb_count": 3396043,
       "elevation_errors": 0,
       "files": [
+        "California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000-3.xlsx",
         "California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000-1.xlsx",
         "California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000-2.xlsx"
       ],
       "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/california-v2.4.0/California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000-3.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/california-v2.4.0/California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000-1.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/california-v2.4.0/California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000-2.xlsx"
       ],
       "file_sizes": [
+        152081271,
         275929218,
         172315070
       ],
-      "total_size": 448244288,
-      "file_count": 2,
+      "total_size": 600325559,
+      "file_count": 3,
       "has_split_files": true,
       "database_file": null,
       "database_size": 0,
