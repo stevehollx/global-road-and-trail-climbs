@@ -1,15 +1,15 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-07T21:51:02.180037Z",
+  "generated_at": "2026-04-07T21:51:28.325911Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 12,
-    "total_xlsx_files": 17,
+    "total_regions": 13,
+    "total_xlsx_files": 19,
     "total_sqlite_files": 11,
-    "total_xlsx_size_bytes": 1923671769,
-    "total_sqlite_size_bytes": 9953091584,
-    "total_size_mb": 11326.6,
-    "total_climbs": 9607656
+    "total_xlsx_size_bytes": 2371916057,
+    "total_sqlite_size_bytes": 9699299328,
+    "total_size_mb": 11512.0,
+    "total_climbs": 13003699
   },
   "regions": {
     "north-america/united-states-of-america/georgia": {
@@ -190,9 +190,9 @@
       "total_size": 284474958,
       "file_count": 2,
       "has_split_files": true,
-      "database_file": "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_southwest.sqlite",
-      "database_size": 253906944,
-      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_southwest.sqlite",
+      "database_file": "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_other.sqlite",
+      "database_size": 114688,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_other.sqlite",
       "published_at": "2026-01-24T21:34:01Z",
       "last_updated": "2026-01-24"
     },
@@ -272,6 +272,34 @@
       "database_size": 1508937728,
       "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.0/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000.sqlite",
       "published_at": "2026-01-24T03:16:54Z",
+      "last_updated": "2026-01-24"
+    },
+    "north-america/united-states-of-america/california": {
+      "region_name": "California",
+      "version": "2.4.0",
+      "release_tag": "california-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/california-v2.4.0",
+      "climb_count": 3396043,
+      "elevation_errors": 0,
+      "files": [
+        "California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000-1.xlsx",
+        "California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/california-v2.4.0/California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/california-v2.4.0/California_climbs_all-surfaces_all-access_imperial_2026-04-07_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        275929218,
+        172315070
+      ],
+      "total_size": 448244288,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": 0,
+      "database_url": null,
+      "published_at": "2026-01-24T03:16:37Z",
       "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/arizona": {
