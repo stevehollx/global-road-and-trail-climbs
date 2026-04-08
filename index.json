@@ -1,14 +1,14 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-08T23:20:56.429530Z",
+  "generated_at": "2026-04-08T23:21:12.710596Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 12,
-    "total_xlsx_files": 16,
+    "total_xlsx_files": 18,
     "total_sqlite_files": 11,
-    "total_xlsx_size_bytes": 1748771460,
+    "total_xlsx_size_bytes": 1946924841,
     "total_sqlite_size_bytes": 9699319808,
-    "total_size_mb": 10917.8,
+    "total_size_mb": 11106.7,
     "total_climbs": 11143617
   },
   "regions": {
@@ -254,17 +254,23 @@
       "climb_count": 3396043,
       "elevation_errors": 0,
       "files": [
-        "California_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-1.xlsx"
+        "California_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-3.xlsx",
+        "California_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-1.xlsx",
+        "California_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/california-v2.4.0/California_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-1.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/california-v2.4.0/California_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/california-v2.4.0/California_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/california-v2.4.0/California_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-2.xlsx"
       ],
       "file_sizes": [
-        180964661
+        93342174,
+        180964661,
+        104811207
       ],
-      "total_size": 180964661,
-      "file_count": 1,
-      "has_split_files": false,
+      "total_size": 379118042,
+      "file_count": 3,
+      "has_split_files": true,
       "database_file": null,
       "database_size": 0,
       "database_url": null,
