@@ -1,17 +1,42 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-08T12:31:07.800932Z",
+  "generated_at": "2026-04-08T16:45:33.035702Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 12,
-    "total_xlsx_files": 20,
-    "total_sqlite_files": 10,
-    "total_xlsx_size_bytes": 2541619896,
-    "total_sqlite_size_bytes": 9476423680,
-    "total_size_mb": 11461.3,
-    "total_climbs": 12699297
+    "total_regions": 13,
+    "total_xlsx_files": 21,
+    "total_sqlite_files": 11,
+    "total_xlsx_size_bytes": 2604230398,
+    "total_sqlite_size_bytes": 9953112064,
+    "total_size_mb": 11975.6,
+    "total_climbs": 13003699
   },
   "regions": {
+    "north-america/united-states-of-america/georgia": {
+      "region_name": "Georgia",
+      "version": "2.4.0",
+      "release_tag": "georgia-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-56d47ec819696ba26d39",
+      "climb_count": 304402,
+      "elevation_errors": 0,
+      "files": [
+        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-56d47ec819696ba26d39/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        62610502
+      ],
+      "total_size": 62610502,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite",
+      "database_size": 476688384,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-56d47ec819696ba26d39/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite",
+      "published_at": null,
+      "last_updated": null
+    },
     "north-america/united-states-of-america/washington": {
       "region_name": "Washington",
       "version": "2.4.0",
