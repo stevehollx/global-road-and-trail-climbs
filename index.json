@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-09T01:04:16.288811Z",
+  "generated_at": "2026-04-09T20:27:04.475986Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 12,
+    "total_regions": 11,
     "total_xlsx_files": 22,
-    "total_sqlite_files": 16,
-    "total_partitioned_regions": 1,
-    "total_xlsx_size_bytes": 2248252989,
-    "total_sqlite_size_bytes": 17318739968,
-    "total_size_mb": 18660.5,
-    "total_climbs": 11143617
+    "total_sqlite_files": 11,
+    "total_partitioned_regions": 0,
+    "total_xlsx_size_bytes": 2181564409,
+    "total_sqlite_size_bytes": 16668680192,
+    "total_size_mb": 17977.0,
+    "total_climbs": 10808156
   },
   "regions": {
     "north-america/united-states-of-america/georgia": {
@@ -18,34 +18,52 @@
       "version": "2.4.0",
       "release_tag": "georgia-v2.4.0",
       "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/georgia-v2.4.0",
-      "climb_count": 304402,
+      "climb_count": 1461341,
       "elevation_errors": 0,
       "files": [
-        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.xlsx"
+        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-3.xlsx",
+        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-1.xlsx",
+        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-2.xlsx"
       ],
       "file_sizes": [
-        62610502
+        70184924,
+        122727943,
+        87484013
       ],
-      "total_size": 62610502,
-      "file_count": 1,
-      "has_split_files": false,
+      "total_size": 280396880,
+      "file_count": 3,
+      "has_split_files": true,
       "database_file": "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite",
-      "database_size": 476688384,
-      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite",
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
+      "database_size": 2190241792,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite.001",
+      "is_split": true,
+      "split_files": [
+        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite.001",
+        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite.002"
+      ],
+      "split_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite.001",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite.002"
+      ],
+      "split_sizes": [
+        1900000000,
+        290241792
+      ],
+      "split_checksums": [
+        "e8025bc388213e2b7a653b42c8c9d131e074e8329716440d27090359558bb122",
+        "affcaa7a36f576bb16bc5ae58964ab67767075ef4da2e5252517d9469e9b5a91"
+      ],
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": 476688384,
-      "published_at": "2026-04-08T22:41:56Z",
-      "last_updated": "2026-04-08"
+      "total_database_size": 2190241792,
+      "published_at": "2026-04-09T20:26:49Z",
+      "last_updated": "2026-04-09"
     },
     "north-america/united-states-of-america/washington": {
       "region_name": "Washington",
@@ -184,104 +202,6 @@
       "partitions": null,
       "total_database_size": 1231826944,
       "published_at": "2026-01-24T03:17:25Z",
-      "last_updated": "2026-01-24"
-    },
-    "north-america/united-states-of-america/new-york": {
-      "region_name": "New York",
-      "version": "2.4.0",
-      "release_tag": "new-york-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-york-v2.4.0",
-      "climb_count": 1492400,
-      "elevation_errors": 0,
-      "files": [
-        "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
-        "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        201288204,
-        83186754
-      ],
-      "total_size": 284474958,
-      "file_count": 2,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": true,
-      "partition_type": "quadtree",
-      "partitions": [
-        {
-          "partition_id": "northeast",
-          "display_name": "Northeast",
-          "database_file": "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_northeast.sqlite",
-          "database_size": 295890944,
-          "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_northeast.sqlite",
-          "database_sha256": null,
-          "bounds": null,
-          "climb_count": null,
-          "size_mb": 282.2,
-          "metadata_available": false
-        },
-        {
-          "partition_id": "northwest",
-          "display_name": "Northwest",
-          "database_file": "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_northwest.sqlite",
-          "database_size": 469671936,
-          "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_northwest.sqlite",
-          "database_sha256": null,
-          "bounds": null,
-          "climb_count": null,
-          "size_mb": 447.9,
-          "metadata_available": false
-        },
-        {
-          "partition_id": "other",
-          "display_name": "Other Regions",
-          "database_file": "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_other.sqlite",
-          "database_size": 114688,
-          "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_other.sqlite",
-          "database_sha256": null,
-          "bounds": null,
-          "climb_count": null,
-          "size_mb": 0.1,
-          "metadata_available": false
-        },
-        {
-          "partition_id": "southeast",
-          "display_name": "Southeast",
-          "database_file": "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_southeast.sqlite",
-          "database_size": 1344028672,
-          "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_southeast.sqlite",
-          "database_sha256": null,
-          "bounds": null,
-          "climb_count": null,
-          "size_mb": 1281.8,
-          "metadata_available": false
-        },
-        {
-          "partition_id": "southwest",
-          "display_name": "Southwest",
-          "database_file": "New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_southwest.sqlite",
-          "database_size": 253906944,
-          "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000_southwest.sqlite",
-          "database_sha256": null,
-          "bounds": null,
-          "climb_count": null,
-          "size_mb": 242.1,
-          "metadata_available": false
-        }
-      ],
-      "total_database_size": 2363613184,
-      "published_at": "2026-01-24T21:34:01Z",
       "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/new-hampshire": {
