@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-10T10:51:11.415013Z",
+  "generated_at": "2026-04-10T10:51:21.918008Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 16,
@@ -69,7 +69,7 @@
       "region_name": "Tennessee",
       "version": "2.4.0",
       "release_tag": "tennessee-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-94f02877f00137edf97b",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/tennessee-v2.4.0",
       "climb_count": 1015601,
       "elevation_errors": 0,
       "files": [
@@ -78,9 +78,9 @@
         "Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-94f02877f00137edf97b/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-94f02877f00137edf97b/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-94f02877f00137edf97b/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.0/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.0/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.0/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx"
       ],
       "file_sizes": [
         2120752,
@@ -111,8 +111,8 @@
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
+      "published_at": "2026-04-10T10:51:10Z",
+      "last_updated": "2026-04-10"
     },
     "north-america/united-states-of-america/new-york": {
       "region_name": "New York",
