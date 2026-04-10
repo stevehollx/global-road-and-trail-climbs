@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-10T00:48:02.208888Z",
+  "generated_at": "2026-04-10T00:48:32.133435Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 12,
-    "total_xlsx_files": 23,
-    "total_sqlite_files": 12,
+    "total_regions": 13,
+    "total_xlsx_files": 27,
+    "total_sqlite_files": 13,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 2266541630,
-    "total_sqlite_size_bytes": 17236480000,
-    "total_size_mb": 18599.5,
-    "total_climbs": 11156722
+    "total_xlsx_size_bytes": 2622463113,
+    "total_sqlite_size_bytes": 20126564352,
+    "total_size_mb": 21695.2,
+    "total_climbs": 13016804
   },
   "regions": {
     "north-america/united-states-of-america/montana": {
@@ -237,6 +237,61 @@
       "total_database_size": 1231826944,
       "published_at": "2026-01-24T03:17:25Z",
       "last_updated": "2026-01-24"
+    },
+    "north-america/united-states-of-america/north-carolina": {
+      "region_name": "North Carolina",
+      "version": "2.4.0",
+      "release_tag": "north-carolina-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/north-carolina-v2.4.0",
+      "climb_count": 1860082,
+      "elevation_errors": 0,
+      "files": [
+        "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000-3.xlsx",
+        "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000-4.xlsx",
+        "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000-1.xlsx",
+        "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-carolina-v2.4.0/North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-carolina-v2.4.0/North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-carolina-v2.4.0/North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-carolina-v2.4.0/North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        81526202,
+        53054986,
+        130753078,
+        90587217
+      ],
+      "total_size": 355921483,
+      "file_count": 4,
+      "has_split_files": true,
+      "database_file": "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite",
+      "database_size": 2890084352,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-carolina-v2.4.0/North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite.001",
+      "is_split": true,
+      "split_files": [
+        "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite.001",
+        "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite.002"
+      ],
+      "split_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-carolina-v2.4.0/North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite.001",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-carolina-v2.4.0/North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite.002"
+      ],
+      "split_sizes": [
+        1900000000,
+        990084352
+      ],
+      "split_checksums": [
+        "3611d0eacc6e24011488b9871005ae82836e05ec68e0991b85fb7977eec6e951",
+        "0436d57348342740b44f800621fa38cfda53ccf9deff5cddd9ffb03a1d91f32c"
+      ],
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": 2890084352,
+      "published_at": "2026-04-10T00:48:26Z",
+      "last_updated": "2026-04-10"
     },
     "north-america/united-states-of-america/new-hampshire": {
       "region_name": "New Hampshire",
