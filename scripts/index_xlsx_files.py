@@ -466,10 +466,18 @@ def scan_releases(
         sqlite_size = 0
         sqlite_url = None
 
-        # Split SQLite detection (binary chunks: .001, .002, etc.)
+        # Gzip-compressed single SQLite (.sqlite.gz) — preferred over raw when present
+        sqlite_gz_file = None
+        sqlite_gz_size = 0
+        sqlite_gz_url = None
+
+        # Split SQLite detection
+        # Raw chunks: .sqlite.001/.002/...
+        # Gzip chunks: .sqlite.gz.001/.002/... (assembled then decompressed on device)
         sqlite_split_files = []
         sqlite_split_sizes = []
         sqlite_split_urls = []
+        sqlite_gz_split = False  # True when split parts are gz chunks
         sha256_url = None
 
         # Partitioned SQLite detection (geographic partitions: _norcal, _socal, _northeast, etc.)
@@ -523,8 +531,24 @@ def scan_releases(
                 if not region_name:
                     region_name = extract_region_from_filename(name)
 
+            elif re.match(r".*\.sqlite\.gz\.\d{3}$", name):
+                # Split gzip chunk (.sqlite.gz.001, .sqlite.gz.002, ...)
+                # The parts are raw byte-chunks of a single gzip stream.
+                # On device: concatenate all parts → decompress → import.
+                sqlite_split_files.append(name)
+                sqlite_split_sizes.append(size)
+                sqlite_split_urls.append(download_url)
+                sqlite_gz_split = True
+
+                if not region_name:
+                    # e.g. France_....sqlite.gz.001 → strip .001 → .gz → extract
+                    base_name = name.rsplit(".", 1)[0]  # drop .001
+                    if base_name.endswith(".gz"):
+                        base_name = base_name[:-3]  # drop .gz
+                    region_name = extract_region_from_filename(base_name)
+
             elif re.match(r".*\.sqlite\.\d{3}$", name):
-                # Split SQLite chunk (.sqlite.001, .sqlite.002, etc.)
+                # Split SQLite chunk (.sqlite.001, .sqlite.002, etc.) — raw (uncompressed)
                 sqlite_split_files.append(name)
                 sqlite_split_sizes.append(size)
                 sqlite_split_urls.append(download_url)
@@ -535,6 +559,17 @@ def scan_releases(
                     base_name = name.rsplit(".", 1)[
                         0
                     ]  # e.g., California_climbs_....sqlite
+                    region_name = extract_region_from_filename(base_name)
+
+            elif name.endswith(".sqlite.gz"):
+                # Single gzip-compressed SQLite file (preferred over raw .sqlite)
+                sqlite_gz_file = name
+                sqlite_gz_size = size
+                sqlite_gz_url = download_url
+
+                if not region_name:
+                    # Strip .gz to get the logical sqlite name, then extract region
+                    base_name = name[:-3]  # e.g. Georgia_....sqlite
                     region_name = extract_region_from_filename(base_name)
 
             elif name.endswith(".sqlite.sha256"):
@@ -583,6 +618,7 @@ def scan_releases(
         if (
             not xlsx_files
             and not sqlite_file
+            and not sqlite_gz_file
             and not sqlite_split_files
             and not sqlite_partition_files
         ):
@@ -725,13 +761,39 @@ def scan_releases(
             "total_size": sum(xlsx_sizes),
             "file_count": len(xlsx_files),
             "has_split_files": has_split_files,
-            # Database fields - always populated when SQLite exists
-            # For split databases: logical name/total size, download via split_urls
+            # Gzip-compressed database (v2.5+).
+            # When database_format == "gzip" the iOS app downloads the .gz asset,
+            # decompresses it on-device, and imports the resulting .sqlite.
+            # For split gz regions (> ~2 GB even after compression) the split_files
+            # are raw byte-chunks of the gz stream; the app concatenates them first,
+            # then decompresses.
+            "database_format": "gzip" if (sqlite_gz_file or sqlite_gz_split) else None,
+            "database_gz_url": sqlite_gz_url if sqlite_gz_file else None,
+            "database_gz_size": sqlite_gz_size if sqlite_gz_file else None,
+            # Decompressed (on-device) size: use the raw sqlite size when available,
+            # or fall back to the split sizes sum.  If only a .gz is present without
+            # a companion raw .sqlite, the pipeline should populate this field
+            # separately; for now we leave it None and let the iOS app use it for
+            # informational display only.
+            "database_decompressed_size": (
+                sqlite_size
+                if sqlite_size
+                else sum(sqlite_split_sizes)
+                if sqlite_split_files and not sqlite_gz_split
+                else None
+            ),
+            # Database fields — always the logical (uncompressed) sqlite name/size.
+            # For gz single-file: strip the .gz suffix.
+            # For split (raw or gz): derive from first part.
             "database_file": (
                 sqlite_file
                 if sqlite_file
+                else sqlite_gz_file[:-3]
+                if sqlite_gz_file  # strip .gz
                 else sqlite_split_files[0].rsplit(".", 1)[0]
-                if sqlite_split_files  # e.g., .sqlite.001 -> .sqlite
+                if sqlite_split_files and not sqlite_gz_split
+                else sqlite_split_files[0].rsplit(".", 1)[0][:-3]
+                if sqlite_split_files and sqlite_gz_split  # strip .gz from .sqlite.gz
                 else None
             ),
             "database_size": (
@@ -748,7 +810,7 @@ def scan_releases(
                 if sqlite_split_urls  # First chunk URL as reference
                 else None
             ),
-            # Split database fields (binary chunks - iOS-expected schema)
+            # Split database fields (binary chunks — raw or gz)
             "is_split": is_split_db,
             "split_files": sqlite_split_files if is_split_db else None,
             "split_urls": sqlite_split_urls if is_split_db else None,
