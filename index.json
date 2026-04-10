@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-10T10:36:15.551125Z",
+  "generated_at": "2026-04-10T10:50:55.974319Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 16,
@@ -118,7 +118,7 @@
       "region_name": "New York",
       "version": "2.4.0",
       "release_tag": "new-york-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-50044d906fecf2c84415",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-york-v2.4.0",
       "climb_count": 1492400,
       "elevation_errors": 0,
       "files": [
@@ -127,9 +127,9 @@
         "New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-50044d906fecf2c84415/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-50044d906fecf2c84415/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-50044d906fecf2c84415/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx"
       ],
       "file_sizes": [
         74971532,
@@ -160,8 +160,8 @@
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
+      "published_at": "2026-04-10T10:50:50Z",
+      "last_updated": "2026-04-10"
     },
     "north-america/united-states-of-america/montana": {
       "region_name": "Montana",
