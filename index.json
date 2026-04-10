@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-10T10:57:03.452750Z",
+  "generated_at": "2026-04-10T10:59:14.453889Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 16,
@@ -8,8 +8,8 @@
     "total_sqlite_files": 13,
     "total_partitioned_regions": 0,
     "total_xlsx_size_bytes": 3411864534,
-    "total_sqlite_size_bytes": 13013192704,
-    "total_size_mb": 15664.2,
+    "total_sqlite_size_bytes": 10123108352,
+    "total_size_mb": 12908.0,
     "total_climbs": 17057679
   },
   "regions": {
@@ -459,34 +459,22 @@
       "file_count": 4,
       "has_split_files": true,
       "database_file": "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite",
-      "database_size": 2890084352,
-      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-carolina-v2.4.0/North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite.001",
-      "is_split": true,
-      "split_files": [
-        "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite.001",
-        "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite.002"
-      ],
-      "split_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-carolina-v2.4.0/North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite.001",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-carolina-v2.4.0/North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite.002"
-      ],
-      "split_sizes": [
-        1900000000,
-        990084352
-      ],
-      "split_checksums": [
-        "3611d0eacc6e24011488b9871005ae82836e05ec68e0991b85fb7977eec6e951",
-        "0436d57348342740b44f800621fa38cfda53ccf9deff5cddd9ffb03a1d91f32c"
-      ],
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": 2890084352,
-      "database_format": "sqlite",
-      "database_gz_file": null,
-      "database_gz_size": null,
-      "database_gz_url": null,
-      "database_decompressed_size": 2890084352,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 588409415,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-carolina-v2.4.0/North_Carolina_climbs_all-surfaces_all-access_imperial_2026-04-09_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
