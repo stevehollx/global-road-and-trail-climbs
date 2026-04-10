@@ -200,7 +200,7 @@ def extract_region_from_tag(tag_name: str) -> Tuple[Optional[str], Optional[str]
         Tuple of (region_name, version) or (None, None) if not a valid tag
     """
     # Pattern: region-name-vX.Y.Z
-    match = re.match(r"^(.+?)-v(\d+\.\d+\.\d+)$", tag_name)
+    match = re.match(r'^(.+?)-v(\d+\.\d+\.\d+)$', tag_name)
     if match:
         return match.group(1), match.group(2)
     return None, None
@@ -215,7 +215,7 @@ def extract_region_from_filename(filename: str) -> Optional[str]:
         Hawaii_climbs_all-surfaces_all-access_imperial_2025-01-03_v2.2.0_e0000.xlsx -> Hawaii
         New_York_climbs_all_basic_2025-11-01_v2.1.0_e0000-1.xlsx -> New_York
     """
-    match = re.match(r"^(.+?)_climbs", filename)
+    match = re.match(r'^(.+?)_climbs', filename)
     if match:
         return match.group(1)
     return None
@@ -228,13 +228,13 @@ def extract_climb_count_from_release_body(body: str) -> Optional[int]:
     Handles both old format "**Climb Count:** 1,234" and new format "* Climbs: 1,234"
     """
     # Try old format first: **Climb Count:** 1,234
-    match = re.search(r"\*\*Climb Count:\*\*\s*([\d,]+)", body)
+    match = re.search(r'\*\*Climb Count:\*\*\s*([\d,]+)', body)
     if match:
-        return int(match.group(1).replace(",", ""))
+        return int(match.group(1).replace(',', ''))
     # Try new bulletized format: * Climbs: 1,234
-    match = re.search(r"\* Climbs:\s*([\d,]+)", body)
+    match = re.search(r'\* Climbs:\s*([\d,]+)', body)
     if match:
-        return int(match.group(1).replace(",", ""))
+        return int(match.group(1).replace(',', ''))
     return None
 
 
@@ -244,7 +244,7 @@ def extract_elevation_errors_from_release_body(body: str) -> Optional[int]:
 
     Handles both old format "**Elevation Errors:** 0" and new format (not yet defined)
     """
-    match = re.search(r"\*\*Elevation Errors:\*\*\s*(\d+)", body)
+    match = re.search(r'\*\*Elevation Errors:\*\*\s*(\d+)', body)
     if match:
         return int(match.group(1))
     return None
@@ -295,16 +295,9 @@ def _partition_id_to_display_name(partition_id: str) -> str:
             inner = parts[1].upper() if len(parts[1]) <= 2 else parts[1].title()
 
             # Generate directional prefix
-            inner_map = {
-                "ne": "Eastern",
-                "nw": "Western",
-                "se": "Eastern",
-                "sw": "Western",
-                "northeast": "Eastern",
-                "northwest": "Western",
-                "southeast": "Eastern",
-                "southwest": "Western",
-            }
+            inner_map = {"ne": "Eastern", "nw": "Western", "se": "Eastern", "sw": "Western",
+                        "northeast": "Eastern", "northwest": "Western",
+                        "southeast": "Eastern", "southwest": "Western"}
             prefix = inner_map.get(parts[1], "")
             if not prefix:
                 if "north" in parts[1]:
@@ -338,9 +331,9 @@ def fetch_checksums(sha256_url: str, token: Optional[str] = None) -> Dict[str, s
         response = requests.get(sha256_url, headers=headers, timeout=30)
         if response.status_code == 200:
             checksums = {}
-            for line in response.text.strip().split("\n"):
+            for line in response.text.strip().split('\n'):
                 # Standard format: "sha256hash  filename" (two spaces)
-                parts = line.split("  ")
+                parts = line.split('  ')
                 if len(parts) == 2:
                     checksums[parts[1].strip()] = parts[0].strip()
             return checksums
@@ -421,9 +414,7 @@ def fetch_releases(owner: str, repo: str, token: Optional[str] = None) -> List[D
     return releases
 
 
-def scan_releases(
-    owner: str, repo: str, token: Optional[str] = None
-) -> Dict[str, Dict]:
+def scan_releases(owner: str, repo: str, token: Optional[str] = None) -> Dict[str, Dict]:
     """
     Scan GitHub Releases for climb data files.
 
@@ -435,13 +426,6 @@ def scan_releases(
 
     for release in releases:
         tag_name = release.get("tag_name", "")
-
-        # Skip draft releases — they are not ready to be indexed.
-        # When a draft is published the workflow re-runs and picks it up then.
-        if release.get("draft", False):
-            print(f"  Skipping draft release: {tag_name}")
-            continue
-
         region_from_tag, version = extract_region_from_tag(tag_name)
 
         if not region_from_tag:
@@ -466,19 +450,20 @@ def scan_releases(
         sqlite_size = 0
         sqlite_url = None
 
-        # Gzip-compressed single SQLite (.sqlite.gz) — preferred over raw when present
-        sqlite_gz_file = None
-        sqlite_gz_size = 0
-        sqlite_gz_url = None
-
-        # Split SQLite detection
-        # Raw chunks: .sqlite.001/.002/...
-        # Gzip chunks: .sqlite.gz.001/.002/... (assembled then decompressed on device)
+        # Split SQLite detection (binary chunks: .001, .002, etc.)
         sqlite_split_files = []
         sqlite_split_sizes = []
         sqlite_split_urls = []
-        sqlite_gz_split = False  # True when split parts are gz chunks
         sha256_url = None
+
+        # Gzipped SQLite detection (.sqlite.gz single-file or .sqlite.gz.001/.002 split)
+        sqlite_gz_file = None
+        sqlite_gz_size = 0
+        sqlite_gz_url = None
+        sqlite_gz_split_files = []
+        sqlite_gz_split_sizes = []
+        sqlite_gz_split_urls = []
+        sqlite_gz_sha256_url = None
 
         # Partitioned SQLite detection (geographic partitions: _norcal, _socal, _northeast, etc.)
         sqlite_partition_files = []
@@ -492,21 +477,10 @@ def scan_releases(
         # Known partition ID patterns (from Geofabrik and Quadtree)
         partition_patterns = [
             # Geofabrik-based
-            "norcal",
-            "socal",
-            "north",
-            "south",
-            "east",
-            "west",
+            "norcal", "socal", "north", "south", "east", "west",
             # Quadtree-based
-            "northeast",
-            "northwest",
-            "southeast",
-            "southwest",
-            "ne",
-            "nw",
-            "se",
-            "sw",
+            "northeast", "northwest", "southeast", "southwest",
+            "ne", "nw", "se", "sw",
             # Nested quadtree (e.g., ne_sw, southwest_ne)
             r"[ns][ew]_[ns][ew]",
             r"(northeast|northwest|southeast|southwest)_[ns][ew]",
@@ -514,7 +488,7 @@ def scan_releases(
             "other",
         ]
         partition_regex = re.compile(
-            r"_(" + "|".join(partition_patterns) + r")\.sqlite$", re.IGNORECASE
+            r'_(' + '|'.join(partition_patterns) + r')\.sqlite$', re.IGNORECASE
         )
 
         for asset in assets:
@@ -531,24 +505,31 @@ def scan_releases(
                 if not region_name:
                     region_name = extract_region_from_filename(name)
 
-            elif re.match(r".*\.sqlite\.gz\.\d{3}$", name):
-                # Split gzip chunk (.sqlite.gz.001, .sqlite.gz.002, ...)
-                # The parts are raw byte-chunks of a single gzip stream.
-                # On device: concatenate all parts → decompress → import.
-                sqlite_split_files.append(name)
-                sqlite_split_sizes.append(size)
-                sqlite_split_urls.append(download_url)
-                sqlite_gz_split = True
-
+            elif re.match(r'.*\.sqlite\.gz\.\d{3}$', name):
+                # Split gzipped SQLite chunk (.sqlite.gz.001, .sqlite.gz.002, ...)
+                sqlite_gz_split_files.append(name)
+                sqlite_gz_split_sizes.append(size)
+                sqlite_gz_split_urls.append(download_url)
                 if not region_name:
-                    # e.g. France_....sqlite.gz.001 → strip .001 → .gz → extract
-                    base_name = name.rsplit(".", 1)[0]  # drop .001
-                    if base_name.endswith(".gz"):
-                        base_name = base_name[:-3]  # drop .gz
+                    # Remove ".001" to get ".sqlite.gz", then back to base name
+                    base_name = name.rsplit('.', 1)[0].replace('.gz', '')
                     region_name = extract_region_from_filename(base_name)
 
-            elif re.match(r".*\.sqlite\.\d{3}$", name):
-                # Split SQLite chunk (.sqlite.001, .sqlite.002, etc.) — raw (uncompressed)
+            elif name.endswith(".sqlite.gz"):
+                # Single-file gzipped SQLite (not split)
+                sqlite_gz_file = name
+                sqlite_gz_size = size
+                sqlite_gz_url = download_url
+                if not region_name:
+                    base_name = name[:-len('.gz')]  # strip ".gz" -> ".sqlite"
+                    region_name = extract_region_from_filename(base_name)
+
+            elif name.endswith(".sqlite.gz.sha256"):
+                # Checksum file for split gzipped SQLite
+                sqlite_gz_sha256_url = download_url
+
+            elif re.match(r'.*\.sqlite\.\d{3}$', name):
+                # Split SQLite chunk (.sqlite.001, .sqlite.002, etc.)
                 sqlite_split_files.append(name)
                 sqlite_split_sizes.append(size)
                 sqlite_split_urls.append(download_url)
@@ -556,20 +537,7 @@ def scan_releases(
                 # Extract region name from sqlite filename if not yet found
                 if not region_name:
                     # Remove the .001 suffix to get the base name
-                    base_name = name.rsplit(".", 1)[
-                        0
-                    ]  # e.g., California_climbs_....sqlite
-                    region_name = extract_region_from_filename(base_name)
-
-            elif name.endswith(".sqlite.gz"):
-                # Single gzip-compressed SQLite file (preferred over raw .sqlite)
-                sqlite_gz_file = name
-                sqlite_gz_size = size
-                sqlite_gz_url = download_url
-
-                if not region_name:
-                    # Strip .gz to get the logical sqlite name, then extract region
-                    base_name = name[:-3]  # e.g. Georgia_....sqlite
+                    base_name = name.rsplit('.', 1)[0]  # e.g., California_climbs_....sqlite
                     region_name = extract_region_from_filename(base_name)
 
             elif name.endswith(".sqlite.sha256"):
@@ -598,7 +566,7 @@ def scan_releases(
                     # Extract region name from partition filename if not yet found
                     if not region_name:
                         # Remove the partition suffix to get base region name
-                        base_name = partition_regex.sub(".sqlite", name)
+                        base_name = partition_regex.sub('.sqlite', name)
                         region_name = extract_region_from_filename(base_name)
                 else:
                     # Regular single SQLite file
@@ -615,13 +583,7 @@ def scan_releases(
         is_partitioned_db = len(sqlite_partition_files) > 0
 
         # Skip if no files found
-        if (
-            not xlsx_files
-            and not sqlite_file
-            and not sqlite_gz_file
-            and not sqlite_split_files
-            and not sqlite_partition_files
-        ):
+        if not xlsx_files and not sqlite_file and not sqlite_split_files and not sqlite_partition_files:
             continue
 
         # Use tag-based region name if filename extraction failed
@@ -633,13 +595,9 @@ def scan_releases(
             sorted_indices = sorted(
                 range(len(xlsx_files)),
                 key=lambda i: (
-                    xlsx_files[i]
-                    .replace("-1.xlsx", ".xlsx")
-                    .replace("-2.xlsx", ".xlsx"),
-                    0
-                    if not re.search(r"-(\d+)\.xlsx$", xlsx_files[i])
-                    else int(re.search(r"-(\d+)\.xlsx$", xlsx_files[i]).group(1)),
-                ),
+                    xlsx_files[i].replace("-1.xlsx", ".xlsx").replace("-2.xlsx", ".xlsx"),
+                    0 if not re.search(r'-(\d+)\.xlsx$', xlsx_files[i]) else int(re.search(r'-(\d+)\.xlsx$', xlsx_files[i]).group(1))
+                )
             )
             xlsx_files = [xlsx_files[i] for i in sorted_indices]
             xlsx_sizes = [xlsx_sizes[i] for i in sorted_indices]
@@ -648,18 +606,32 @@ def scan_releases(
         # Sort split SQLite files for consistent ordering (.001, .002, .003, etc.)
         if sqlite_split_files:
             sorted_indices = sorted(
-                range(len(sqlite_split_files)), key=lambda i: sqlite_split_files[i]
+                range(len(sqlite_split_files)),
+                key=lambda i: sqlite_split_files[i]
             )
             sqlite_split_files = [sqlite_split_files[i] for i in sorted_indices]
             sqlite_split_sizes = [sqlite_split_sizes[i] for i in sorted_indices]
             sqlite_split_urls = [sqlite_split_urls[i] for i in sorted_indices]
+
+        # Sort split gzipped SQLite chunks (.gz.001, .gz.002, ...)
+        if sqlite_gz_split_files:
+            sorted_indices = sorted(
+                range(len(sqlite_gz_split_files)),
+                key=lambda i: sqlite_gz_split_files[i]
+            )
+            sqlite_gz_split_files = [sqlite_gz_split_files[i] for i in sorted_indices]
+            sqlite_gz_split_sizes = [sqlite_gz_split_sizes[i] for i in sorted_indices]
+            sqlite_gz_split_urls = [sqlite_gz_split_urls[i] for i in sorted_indices]
+
+        is_split_gz = len(sqlite_gz_split_files) > 0
+        has_gz = sqlite_gz_file is not None or is_split_gz
 
         # Sort partitioned SQLite files for consistent ordering (alphabetically by partition_id)
         partitions_data = []
         if sqlite_partition_files:
             sorted_indices = sorted(
                 range(len(sqlite_partition_files)),
-                key=lambda i: sqlite_partition_ids[i],
+                key=lambda i: sqlite_partition_ids[i]
             )
             sqlite_partition_files = [sqlite_partition_files[i] for i in sorted_indices]
             sqlite_partition_sizes = [sqlite_partition_sizes[i] for i in sorted_indices]
@@ -689,21 +661,18 @@ def scan_releases(
                         "maxLon": b.get("max_lon"),
                     }
 
-                partitions_data.append(
-                    {
-                        "partition_id": partition_id,
-                        "display_name": display_name,
-                        "database_file": sqlite_partition_files[i],
-                        "database_size": sqlite_partition_sizes[i],
-                        "database_url": sqlite_partition_urls[i],
-                        "database_sha256": metadata.get("sha256"),
-                        "bounds": bounds_data,
-                        "climb_count": metadata.get("climb_count"),
-                        "size_mb": metadata.get("file_size_mb")
-                        or round(sqlite_partition_sizes[i] / (1024**2), 1),
-                        "metadata_available": bool(metadata),
-                    }
-                )
+                partitions_data.append({
+                    "partition_id": partition_id,
+                    "display_name": display_name,
+                    "database_file": sqlite_partition_files[i],
+                    "database_size": sqlite_partition_sizes[i],
+                    "database_url": sqlite_partition_urls[i],
+                    "database_sha256": metadata.get("sha256"),
+                    "bounds": bounds_data,
+                    "climb_count": metadata.get("climb_count"),
+                    "size_mb": metadata.get("file_size_mb") or round(sqlite_partition_sizes[i] / (1024**2), 1),
+                    "metadata_available": bool(metadata),
+                })
 
         # Fetch checksums if split database and checksum file exists
         split_checksums = []
@@ -732,21 +701,7 @@ def scan_releases(
             else:
                 partition_type = "quadtree"
 
-        # Use flattened structure for iOS compatibility.
-        # If we already have an entry for this region, keep the most recently
-        # published one. The GitHub API returns releases newest-first, so the
-        # first entry we see is already the newest — only overwrite if the new
-        # entry has a strictly later published_at (handles edge cases where
-        # two published releases share a tag but differ by date).
-        if region_key in index_data:
-            existing_published = index_data[region_key].get("published_at", "")
-            if published_at <= existing_published:
-                print(
-                    f"  Skipping older duplicate release for {region_key}: "
-                    f"{tag_name} ({published_at} <= {existing_published})"
-                )
-                continue
-
+        # Use flattened structure for iOS compatibility
         index_data[region_key] = {
             "region_name": region_name.replace("_", " "),
             "version": version,
@@ -761,76 +716,65 @@ def scan_releases(
             "total_size": sum(xlsx_sizes),
             "file_count": len(xlsx_files),
             "has_split_files": has_split_files,
-            # Gzip-compressed database (v2.5+).
-            # When database_format == "gzip" the iOS app downloads the .gz asset,
-            # decompresses it on-device, and imports the resulting .sqlite.
-            # For split gz regions (> ~2 GB even after compression) the split_files
-            # are raw byte-chunks of the gz stream; the app concatenates them first,
-            # then decompresses.
-            "database_format": "gzip" if (sqlite_gz_file or sqlite_gz_split) else None,
-            "database_gz_url": sqlite_gz_url if sqlite_gz_file else None,
-            "database_gz_size": sqlite_gz_size if sqlite_gz_file else None,
-            # Decompressed (on-device) size: use the raw sqlite size when available,
-            # or fall back to the split sizes sum.  If only a .gz is present without
-            # a companion raw .sqlite, the pipeline should populate this field
-            # separately; for now we leave it None and let the iOS app use it for
-            # informational display only.
-            "database_decompressed_size": (
-                sqlite_size
-                if sqlite_size
-                else sum(sqlite_split_sizes)
-                if sqlite_split_files and not sqlite_gz_split
-                else None
-            ),
-            # Database fields — always the logical (uncompressed) sqlite name/size.
-            # For gz single-file: strip the .gz suffix.
-            # For split (raw or gz): derive from first part.
+            # Database fields - always populated when SQLite exists
+            # For split databases: logical name/total size, download via split_urls
             "database_file": (
-                sqlite_file
-                if sqlite_file
-                else sqlite_gz_file[:-3]
-                if sqlite_gz_file  # strip .gz
-                else sqlite_split_files[0].rsplit(".", 1)[0]
-                if sqlite_split_files and not sqlite_gz_split
-                else sqlite_split_files[0].rsplit(".", 1)[0][:-3]
-                if sqlite_split_files and sqlite_gz_split  # strip .gz from .sqlite.gz
+                sqlite_file if sqlite_file
+                else sqlite_split_files[0].rsplit('.', 1)[0] if sqlite_split_files  # e.g., .sqlite.001 -> .sqlite
                 else None
             ),
             "database_size": (
-                sqlite_size
-                if sqlite_size
-                else sum(sqlite_split_sizes)
-                if sqlite_split_sizes
+                sqlite_size if sqlite_size
+                else sum(sqlite_split_sizes) if sqlite_split_sizes
                 else None
             ),
             "database_url": (
-                sqlite_url
-                if sqlite_url
-                else sqlite_split_urls[0]
-                if sqlite_split_urls  # First chunk URL as reference
+                sqlite_url if sqlite_url
+                else sqlite_split_urls[0] if sqlite_split_urls  # First chunk URL as reference
                 else None
             ),
-            # Split database fields (binary chunks — raw or gz)
+            # Split database fields (binary chunks - iOS-expected schema)
             "is_split": is_split_db,
             "split_files": sqlite_split_files if is_split_db else None,
             "split_urls": sqlite_split_urls if is_split_db else None,
             "split_sizes": sqlite_split_sizes if is_split_db else None,
-            "split_checksums": split_checksums
-            if is_split_db and split_checksums
-            else None,
+            "split_checksums": split_checksums if is_split_db and split_checksums else None,
             # Partitioned database fields (geographic partitions)
             "is_partitioned": is_partitioned_db,
             "partition_type": partition_type,
             "partitions": partitions_data if is_partitioned_db else None,
             "total_database_size": (
-                sum(sqlite_partition_sizes)
-                if is_partitioned_db
-                else sum(sqlite_split_sizes)
-                if is_split_db
-                else sqlite_size
-                if sqlite_size
+                sum(sqlite_partition_sizes) if is_partitioned_db
+                else sum(sqlite_split_sizes) if is_split_db
+                else sqlite_size if sqlite_size
                 else None
             ),
+            # Gzipped database fields (preferred format - ~3x smaller downloads).
+            # When present, the iOS app should prefer these over the raw sqlite path.
+            # - database_format: "gzip" if a .sqlite.gz is available, else "sqlite"
+            # - database_gz_url: single-file download URL (null if split across chunks)
+            # - database_gz_size: total compressed size on disk
+            # - database_decompressed_size: size after decompression (matches raw sqlite size)
+            # - is_gz_split: true when .sqlite.gz exceeds 2 GB and is split into .gz.00N
+            # - gz_split_files/gz_split_urls/gz_split_sizes: chunks to download+concat
+            "database_format": "gzip" if has_gz else ("sqlite" if (sqlite_file or is_split_db) else None),
+            "database_gz_file": (
+                sqlite_gz_file if sqlite_gz_file
+                else (sqlite_gz_split_files[0].rsplit('.', 1)[0] if sqlite_gz_split_files else None)
+            ),
+            "database_gz_size": (
+                sqlite_gz_size if sqlite_gz_size
+                else (sum(sqlite_gz_split_sizes) if sqlite_gz_split_sizes else None)
+            ),
+            "database_gz_url": sqlite_gz_url if sqlite_gz_file else None,
+            "database_decompressed_size": (
+                sqlite_size if sqlite_size
+                else (sum(sqlite_split_sizes) if sqlite_split_sizes else None)
+            ),
+            "is_gz_split": is_split_gz,
+            "gz_split_files": sqlite_gz_split_files if is_split_gz else None,
+            "gz_split_urls": sqlite_gz_split_urls if is_split_gz else None,
+            "gz_split_sizes": sqlite_gz_split_sizes if is_split_gz else None,
             # Dates
             "published_at": published_at,
             "last_updated": last_updated,
@@ -842,9 +786,7 @@ def scan_releases(
 def create_summary_stats(index_data: Dict) -> Dict:
     """Create summary statistics for the index."""
     total_regions = len(index_data)
-    total_xlsx_files = sum(
-        region.get("file_count", 0) for region in index_data.values()
-    )
+    total_xlsx_files = sum(region.get("file_count", 0) for region in index_data.values())
 
     # Count SQLite databases (single file, split, or partitioned)
     total_sqlite_files = 0
@@ -879,9 +821,7 @@ def create_summary_stats(index_data: Dict) -> Dict:
         "total_partitioned_regions": total_partitioned_regions,
         "total_xlsx_size_bytes": total_xlsx_size,
         "total_sqlite_size_bytes": total_sqlite_size,
-        "total_size_mb": round(
-            (total_xlsx_size + total_sqlite_size) / (1024 * 1024), 1
-        ),
+        "total_size_mb": round((total_xlsx_size + total_sqlite_size) / (1024 * 1024), 1),
         "total_climbs": total_climbs,
     }
 
@@ -922,10 +862,8 @@ def main():
     print(f"  - Found {final_index['summary']['total_regions']} regions")
     print(f"  - Total XLSX files: {final_index['summary']['total_xlsx_files']}")
     print(f"  - Total SQLite files: {final_index['summary']['total_sqlite_files']}")
-    if final_index["summary"].get("total_partitioned_regions", 0) > 0:
-        print(
-            f"  - Partitioned regions: {final_index['summary']['total_partitioned_regions']}"
-        )
+    if final_index['summary'].get('total_partitioned_regions', 0) > 0:
+        print(f"  - Partitioned regions: {final_index['summary']['total_partitioned_regions']}")
     print(f"  - Total climbs: {final_index['summary']['total_climbs']:,}")
     print(f"  - Total size: {final_index['summary']['total_size_mb']:.1f} MB")
 
@@ -936,18 +874,12 @@ def main():
     else:
         print("\nRegions indexed:")
         for region_key, region_data in sorted(index_data.items()):
-            climb_str = (
-                f"{region_data['climb_count']:,}"
-                if region_data.get("climb_count")
-                else "?"
-            )
+            climb_str = f"{region_data['climb_count']:,}" if region_data.get("climb_count") else "?"
             partition_info = ""
             if region_data.get("is_partitioned") and region_data.get("partitions"):
                 partition_count = len(region_data["partitions"])
                 partition_info = f" [{partition_count} partitions]"
-            print(
-                f"  - {region_data['region_name']}: {climb_str} climbs, v{region_data['version']}{partition_info}"
-            )
+            print(f"  - {region_data['region_name']}: {climb_str} climbs, v{region_data['version']}{partition_info}")
 
 
 if __name__ == "__main__":
