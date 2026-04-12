@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-12T16:41:35.424756Z",
+  "generated_at": "2026-04-12T16:41:46.891354Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 30,
@@ -33,52 +33,6 @@
         45954256
       ],
       "total_size": 144615695,
-      "file_count": 2,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": null,
-      "database_gz_file": null,
-      "database_gz_size": null,
-      "database_gz_url": null,
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
-    },
-    "north-america/united-states-of-america/maryland": {
-      "region_name": "Maryland",
-      "version": "2.4.0",
-      "release_tag": "maryland-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-455f3b25ef702b8df68f",
-      "climb_count": 814394,
-      "elevation_errors": 0,
-      "files": [
-        "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
-        "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-455f3b25ef702b8df68f/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-455f3b25ef702b8df68f/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        101863899,
-        47907995
-      ],
-      "total_size": 149771894,
       "file_count": 2,
       "has_split_files": true,
       "database_file": null,
@@ -655,6 +609,52 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-04-12T16:40:35Z",
+      "last_updated": "2026-04-12"
+    },
+    "north-america/united-states-of-america/maryland": {
+      "region_name": "Maryland",
+      "version": "2.4.0",
+      "release_tag": "maryland-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/maryland-v2.4.0",
+      "climb_count": 814394,
+      "elevation_errors": 0,
+      "files": [
+        "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
+        "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maryland-v2.4.0/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maryland-v2.4.0/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        101863899,
+        47907995
+      ],
+      "total_size": 149771894,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-12T16:41:35Z",
       "last_updated": "2026-04-12"
     },
     "north-america/united-states-of-america/connecticut": {
