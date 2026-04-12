@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-12T16:41:46.891354Z",
+  "generated_at": "2026-04-12T16:41:54.341522Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 30,
@@ -13,52 +13,6 @@
     "total_climbs": 26270828
   },
   "regions": {
-    "north-america/united-states-of-america/new-jersey": {
-      "region_name": "New Jersey",
-      "version": "2.4.0",
-      "release_tag": "new-jersey-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-7ab235e4ec8fbb77aaf9",
-      "climb_count": 804477,
-      "elevation_errors": 0,
-      "files": [
-        "New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
-        "New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-7ab235e4ec8fbb77aaf9/New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-7ab235e4ec8fbb77aaf9/New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        98661439,
-        45954256
-      ],
-      "total_size": 144615695,
-      "file_count": 2,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": null,
-      "database_gz_file": null,
-      "database_gz_size": null,
-      "database_gz_url": null,
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
-    },
     "north-america/united-states-of-america/maine": {
       "region_name": "Maine",
       "version": "2.4.0",
@@ -609,6 +563,52 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-04-12T16:40:35Z",
+      "last_updated": "2026-04-12"
+    },
+    "north-america/united-states-of-america/new-jersey": {
+      "region_name": "New Jersey",
+      "version": "2.4.0",
+      "release_tag": "new-jersey-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-jersey-v2.4.0",
+      "climb_count": 804477,
+      "elevation_errors": 0,
+      "files": [
+        "New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
+        "New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-jersey-v2.4.0/New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-jersey-v2.4.0/New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        98661439,
+        45954256
+      ],
+      "total_size": 144615695,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-12T16:41:51Z",
       "last_updated": "2026-04-12"
     },
     "north-america/united-states-of-america/maryland": {
