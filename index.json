@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-14T18:54:37.917879Z",
+  "generated_at": "2026-04-14T18:55:08.794077Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 30,
@@ -13,58 +13,6 @@
     "total_climbs": 26270828
   },
   "regions": {
-    "north-america/united-states-of-america/pennsylvania": {
-      "region_name": "Pennsylvania",
-      "version": "2.4.0",
-      "release_tag": "pennsylvania-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-f5f6ed73db18f39dd31e",
-      "climb_count": 1622520,
-      "elevation_errors": 0,
-      "files": [
-        "Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-3.xlsx",
-        "Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-4.xlsx",
-        "Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-1.xlsx",
-        "Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-f5f6ed73db18f39dd31e/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-f5f6ed73db18f39dd31e/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-4.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-f5f6ed73db18f39dd31e/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-f5f6ed73db18f39dd31e/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        79687701,
-        17595027,
-        131930758,
-        90856214
-      ],
-      "total_size": 320069700,
-      "file_count": 4,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": null,
-      "database_gz_file": null,
-      "database_gz_size": null,
-      "database_gz_url": null,
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
-    },
     "north-america/united-states-of-america/nevada": {
       "region_name": "Nevada",
       "version": "2.4.0",
@@ -379,6 +327,58 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-04-14T18:54:05Z",
+      "last_updated": "2026-04-14"
+    },
+    "north-america/united-states-of-america/pennsylvania": {
+      "region_name": "Pennsylvania",
+      "version": "2.4.0",
+      "release_tag": "pennsylvania-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/pennsylvania-v2.4.0",
+      "climb_count": 1622520,
+      "elevation_errors": 0,
+      "files": [
+        "Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-3.xlsx",
+        "Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-4.xlsx",
+        "Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-1.xlsx",
+        "Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.0/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.0/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.0/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.0/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        79687701,
+        17595027,
+        131930758,
+        90856214
+      ],
+      "total_size": 320069700,
+      "file_count": 4,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-14T18:54:57Z",
       "last_updated": "2026-04-14"
     },
     "north-america/united-states-of-america/maine": {
