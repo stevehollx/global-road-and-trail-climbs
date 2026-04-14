@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-14T18:54:17.357189Z",
+  "generated_at": "2026-04-14T18:54:25.175375Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 30,
@@ -13,49 +13,6 @@
     "total_climbs": 26270828
   },
   "regions": {
-    "north-america/united-states-of-america/west-virginia": {
-      "region_name": "West Virginia",
-      "version": "2.4.0",
-      "release_tag": "west-virginia-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-e9d3e69754af489f5058",
-      "climb_count": 299037,
-      "elevation_errors": 0,
-      "files": [
-        "West_Virginia_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-e9d3e69754af489f5058/West_Virginia_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        65996308
-      ],
-      "total_size": 65996308,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": null,
-      "database_gz_file": null,
-      "database_gz_size": null,
-      "database_gz_url": null,
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
-    },
     "north-america/united-states-of-america/pennsylvania": {
       "region_name": "Pennsylvania",
       "version": "2.4.0",
@@ -334,6 +291,49 @@
       "gz_split_sizes": null,
       "published_at": null,
       "last_updated": null
+    },
+    "north-america/united-states-of-america/west-virginia": {
+      "region_name": "West Virginia",
+      "version": "2.4.0",
+      "release_tag": "west-virginia-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/west-virginia-v2.4.0",
+      "climb_count": 299037,
+      "elevation_errors": 0,
+      "files": [
+        "West_Virginia_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/west-virginia-v2.4.0/West_Virginia_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        65996308
+      ],
+      "total_size": 65996308,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-14T18:54:19Z",
+      "last_updated": "2026-04-14"
     },
     "north-america/united-states-of-america/south-carolina": {
       "region_name": "South Carolina",
