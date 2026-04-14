@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-12T16:42:05.907339Z",
+  "generated_at": "2026-04-14T18:51:14.129993Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 30,
@@ -13,49 +13,6 @@
     "total_climbs": 26270828
   },
   "regions": {
-    "north-america/united-states-of-america/maine": {
-      "region_name": "Maine",
-      "version": "2.4.0",
-      "release_tag": "maine-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-e5cd64fcfe1dc36cc76d",
-      "climb_count": 296874,
-      "elevation_errors": 0,
-      "files": [
-        "Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-e5cd64fcfe1dc36cc76d/Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        62739156
-      ],
-      "total_size": 62739156,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": null,
-      "database_gz_file": null,
-      "database_gz_size": null,
-      "database_gz_url": null,
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
-    },
     "north-america/united-states-of-america/west-virginia": {
       "region_name": "West Virginia",
       "version": "2.4.0",
@@ -515,6 +472,49 @@
       "gz_split_sizes": null,
       "published_at": null,
       "last_updated": null
+    },
+    "north-america/united-states-of-america/maine": {
+      "region_name": "Maine",
+      "version": "2.4.0",
+      "release_tag": "maine-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/maine-v2.4.0",
+      "climb_count": 296874,
+      "elevation_errors": 0,
+      "files": [
+        "Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maine-v2.4.0/Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        62739156
+      ],
+      "total_size": 62739156,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-14T18:51:11Z",
+      "last_updated": "2026-04-14"
     },
     "north-america/united-states-of-america/wisconsin": {
       "region_name": "Wisconsin",
