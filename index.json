@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-14T18:51:21.995998Z",
+  "generated_at": "2026-04-14T18:51:40.580623Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 30,
@@ -247,7 +247,7 @@
       "region_name": "Arkansas",
       "version": "2.4.0",
       "release_tag": "arkansas-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-5b9f6ef246668d12c730",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/arkansas-v2.4.0",
       "climb_count": 563412,
       "elevation_errors": 0,
       "files": [
@@ -255,8 +255,8 @@
         "Arkansas_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-5b9f6ef246668d12c730/Arkansas_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-5b9f6ef246668d12c730/Arkansas_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arkansas-v2.4.0/Arkansas_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arkansas-v2.4.0/Arkansas_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-2.xlsx"
       ],
       "file_sizes": [
         103242221,
@@ -286,8 +286,8 @@
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
+      "published_at": "2026-04-14T18:51:39Z",
+      "last_updated": "2026-04-14"
     },
     "north-america/united-states-of-america/wyoming": {
       "region_name": "Wyoming",
