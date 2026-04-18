@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-18T15:00:48.470950Z",
+  "generated_at": "2026-04-18T15:01:19.502719Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 49,
@@ -17,14 +17,14 @@
       "region_name": "Alaska",
       "version": "2.4.0",
       "release_tag": "alaska-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-6798a7950ae5cf8ff03a",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/alaska-v2.4.0",
       "climb_count": 136576,
       "elevation_errors": 0,
       "files": [
         "Alaska_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-6798a7950ae5cf8ff03a/Alaska_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alaska-v2.4.0/Alaska_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.xlsx"
       ],
       "file_sizes": [
         26584289
@@ -53,8 +53,8 @@
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
+      "published_at": "2026-04-18T15:01:17Z",
+      "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/virginia": {
       "region_name": "Virginia",
