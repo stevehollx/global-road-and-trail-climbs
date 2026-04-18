@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-18T15:20:49.582179Z",
+  "generated_at": "2026-04-18T15:50:05.187363Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 49,
-    "total_xlsx_files": 111,
+    "total_regions": 48,
+    "total_xlsx_files": 107,
     "total_sqlite_files": 48,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 8856289746,
+    "total_xlsx_size_bytes": 8526072605,
     "total_sqlite_size_bytes": 0,
-    "total_size_mb": 8446.0,
-    "total_climbs": 45633156
+    "total_size_mb": 8131.1,
+    "total_climbs": 43784845
   },
   "regions": {
     "north-america/united-states-of-america/virginia": {
@@ -259,58 +259,6 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-04-18T14:57:37Z",
-      "last_updated": "2026-04-18"
-    },
-    "north-america/united-states-of-america/ohio": {
-      "region_name": "region",
-      "version": "2.4.0",
-      "release_tag": "ohio-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/ohio-v2.4.0",
-      "climb_count": 1848311,
-      "elevation_errors": 0,
-      "files": [
-        "region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-3.xlsx",
-        "region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-4.xlsx",
-        "region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-1.xlsx",
-        "region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-4.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        77873636,
-        49471788,
-        116963197,
-        85908520
-      ],
-      "total_size": 330217141,
-      "file_count": 4,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": null,
-      "database_gz_file": null,
-      "database_gz_size": null,
-      "database_gz_url": null,
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-04-18T14:59:47Z",
       "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/north-dakota": {
