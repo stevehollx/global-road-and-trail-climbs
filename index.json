@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-18T14:59:26.060755Z",
+  "generated_at": "2026-04-18T14:59:43.292045Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 49,
@@ -17,7 +17,7 @@
       "region_name": "Missouri",
       "version": "2.4.0",
       "release_tag": "missouri-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-b9f53e41a74e79e1f2f1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/missouri-v2.4.0",
       "climb_count": 1207874,
       "elevation_errors": 0,
       "files": [
@@ -26,9 +26,9 @@
         "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-b9f53e41a74e79e1f2f1/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-b9f53e41a74e79e1f2f1/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-b9f53e41a74e79e1f2f1/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.0/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.0/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.0/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-2.xlsx"
       ],
       "file_sizes": [
         30923275,
@@ -59,8 +59,8 @@
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
+      "published_at": "2026-04-18T14:59:41Z",
+      "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/ohio": {
       "region_name": "region",
