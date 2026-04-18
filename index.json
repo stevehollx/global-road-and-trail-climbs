@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-18T14:51:10.168958Z",
+  "generated_at": "2026-04-18T14:51:44.652429Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 49,
@@ -13,61 +13,6 @@
     "total_climbs": 45633156
   },
   "regions": {
-    "north-america/united-states-of-america/florida": {
-      "region_name": "Florida",
-      "version": "2.4.0",
-      "release_tag": "florida-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-47c9871453a025018eed",
-      "climb_count": 2436232,
-      "elevation_errors": 0,
-      "files": [
-        "Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-3.xlsx",
-        "Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-4.xlsx",
-        "Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-5.xlsx",
-        "Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx",
-        "Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-47c9871453a025018eed/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-47c9871453a025018eed/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-4.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-47c9871453a025018eed/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-5.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-47c9871453a025018eed/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-47c9871453a025018eed/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        82711956,
-        77850903,
-        63475341,
-        115339886,
-        90667515
-      ],
-      "total_size": 430045601,
-      "file_count": 5,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": null,
-      "database_gz_file": null,
-      "database_gz_size": null,
-      "database_gz_url": null,
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
-    },
     "north-america/united-states-of-america/north-dakota": {
       "region_name": "North Dakota",
       "version": "2.4.0",
@@ -128,49 +73,6 @@
         85385959
       ],
       "total_size": 85385959,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": null,
-      "database_gz_file": null,
-      "database_gz_size": null,
-      "database_gz_url": null,
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
-    },
-    "north-america/united-states-of-america/mississippi": {
-      "region_name": "Mississippi",
-      "version": "2.4.0",
-      "release_tag": "mississippi-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-44902328fba5774c2bd6",
-      "climb_count": 457284,
-      "elevation_errors": 0,
-      "files": [
-        "Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-44902328fba5774c2bd6/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        88649583
-      ],
-      "total_size": 88649583,
       "file_count": 1,
       "has_split_files": false,
       "database_file": null,
@@ -400,14 +302,14 @@
       "region_name": "Delaware",
       "version": "2.4.0",
       "release_tag": "delaware-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-cc402b1fc19a4a632a41",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/delaware-v2.4.0",
       "climb_count": 123232,
       "elevation_errors": 0,
       "files": [
         "Delaware_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-cc402b1fc19a4a632a41/Delaware_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/delaware-v2.4.0/Delaware_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
       ],
       "file_sizes": [
         21329290
@@ -436,8 +338,8 @@
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
+      "published_at": "2026-04-18T14:51:44Z",
+      "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/texas": {
       "region_name": "Texas",
@@ -923,6 +825,49 @@
       "published_at": null,
       "last_updated": null
     },
+    "north-america/united-states-of-america/mississippi": {
+      "region_name": "Mississippi",
+      "version": "2.4.0",
+      "release_tag": "mississippi-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/mississippi-v2.4.0",
+      "climb_count": 457284,
+      "elevation_errors": 0,
+      "files": [
+        "Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.0/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        88649583
+      ],
+      "total_size": 88649583,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-18T14:51:36Z",
+      "last_updated": "2026-04-18"
+    },
     "north-america/united-states-of-america/louisiana": {
       "region_name": "Louisiana",
       "version": "2.4.0",
@@ -967,6 +912,61 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-04-18T14:50:59Z",
+      "last_updated": "2026-04-18"
+    },
+    "north-america/united-states-of-america/florida": {
+      "region_name": "Florida",
+      "version": "2.4.0",
+      "release_tag": "florida-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/florida-v2.4.0",
+      "climb_count": 2436232,
+      "elevation_errors": 0,
+      "files": [
+        "Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-3.xlsx",
+        "Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-4.xlsx",
+        "Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-5.xlsx",
+        "Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx",
+        "Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.0/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.0/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.0/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-5.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.0/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.0/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        82711956,
+        77850903,
+        63475341,
+        115339886,
+        90667515
+      ],
+      "total_size": 430045601,
+      "file_count": 5,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-18T14:51:29Z",
       "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/wyoming": {
