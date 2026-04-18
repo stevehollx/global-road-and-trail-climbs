@@ -1,15 +1,15 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-18T15:50:19.424056Z",
+  "generated_at": "2026-04-18T15:50:30.313944Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 49,
-    "total_xlsx_files": 109,
+    "total_xlsx_files": 110,
     "total_sqlite_files": 48,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 8732325117,
+    "total_xlsx_size_bytes": 8811928748,
     "total_sqlite_size_bytes": 0,
-    "total_size_mb": 8327.8,
+    "total_size_mb": 8403.7,
     "total_climbs": 45633156
   },
   "regions": {
@@ -269,19 +269,22 @@
       "climb_count": 1848311,
       "elevation_errors": 0,
       "files": [
+        "Ohio_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-3.xlsx",
         "Ohio_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-1.xlsx",
         "Ohio_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-2.xlsx"
       ],
       "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/Ohio_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-3.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/Ohio_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-1.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/Ohio_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-2.xlsx"
       ],
       "file_sizes": [
+        79603631,
         118712613,
         87539899
       ],
-      "total_size": 206252512,
-      "file_count": 2,
+      "total_size": 285856143,
+      "file_count": 3,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
