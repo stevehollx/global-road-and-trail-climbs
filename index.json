@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-18T14:59:53.296740Z",
+  "generated_at": "2026-04-18T15:00:23.825926Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 49,
@@ -17,7 +17,7 @@
       "region_name": "Minnesota",
       "version": "2.4.0",
       "release_tag": "minnesota-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-2bb8ef6eba5441668c47",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/minnesota-v2.4.0",
       "climb_count": 974733,
       "elevation_errors": 0,
       "files": [
@@ -25,8 +25,8 @@
         "Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-2bb8ef6eba5441668c47/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-2bb8ef6eba5441668c47/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.0/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.0/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-2.xlsx"
       ],
       "file_sizes": [
         108846176,
@@ -56,8 +56,8 @@
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
+      "published_at": "2026-04-18T15:00:22Z",
+      "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/alaska": {
       "region_name": "Alaska",
