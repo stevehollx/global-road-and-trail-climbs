@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-18T14:58:35.756747Z",
+  "generated_at": "2026-04-18T14:59:17.923863Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 49,
@@ -13,49 +13,6 @@
     "total_climbs": 45633156
   },
   "regions": {
-    "north-america/united-states-of-america/rhode-island": {
-      "region_name": "Rhode Island",
-      "version": "2.4.0",
-      "release_tag": "rhode-island-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-94fff0822420cb054b0f",
-      "climb_count": 119920,
-      "elevation_errors": 0,
-      "files": [
-        "Rhode_Island_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-94fff0822420cb054b0f/Rhode_Island_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        21493337
-      ],
-      "total_size": 21493337,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": null,
-      "database_gz_file": null,
-      "database_gz_size": null,
-      "database_gz_url": null,
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
-    },
     "north-america/united-states-of-america/missouri": {
       "region_name": "Missouri",
       "version": "2.4.0",
@@ -449,6 +406,49 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-04-18T14:57:54Z",
+      "last_updated": "2026-04-18"
+    },
+    "north-america/united-states-of-america/rhode-island": {
+      "region_name": "Rhode Island",
+      "version": "2.4.0",
+      "release_tag": "rhode-island-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/rhode-island-v2.4.0",
+      "climb_count": 119920,
+      "elevation_errors": 0,
+      "files": [
+        "Rhode_Island_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/rhode-island-v2.4.0/Rhode_Island_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        21493337
+      ],
+      "total_size": 21493337,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-18T14:59:13Z",
       "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/oklahoma": {
