@@ -1,18 +1,61 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-19T03:52:10.397914Z",
+  "generated_at": "2026-04-19T04:49:16.833054Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 49,
-    "total_xlsx_files": 111,
+    "total_regions": 50,
+    "total_xlsx_files": 112,
     "total_sqlite_files": 47,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 8862107922,
+    "total_xlsx_size_bytes": 8883801344,
     "total_sqlite_size_bytes": 0,
-    "total_size_mb": 8451.6,
-    "total_climbs": 45633156
+    "total_size_mb": 8472.3,
+    "total_climbs": 45744912
   },
   "regions": {
+    "north-america-mexico": {
+      "region_name": "Mexico",
+      "version": "2.4.0",
+      "release_tag": "north-america-mexico-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-f19d7df6de03a3593cf6",
+      "climb_count": 111756,
+      "elevation_errors": 0,
+      "files": [
+        "Mexico_climbs_all-surfaces_all-access_metric_2026-04-19_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-f19d7df6de03a3593cf6/Mexico_climbs_all-surfaces_all-access_metric_2026-04-19_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        21693422
+      ],
+      "total_size": 21693422,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": null,
+      "last_updated": null
+    },
     "north-america/united-states-of-america/virginia": {
       "region_name": "Virginia",
       "version": "2.4.0",
