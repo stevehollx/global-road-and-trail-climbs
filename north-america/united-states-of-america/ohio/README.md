@@ -1,10 +1,10 @@
 ## Info
-* Date: 2026-04-15
+* Date: 2026-04-19
 * Version: 2.4.0
 * Elevation Errors: 0
 * Climbs: 1,848,311
 * Files: 4 Excel file(s) + error log
-* Total Size: 314.9 MB
+* Total Size: 321.0 MB
 * Release Tag: `ohio-v2.4.0`
 
 ## Elevation datasets used:
@@ -15,15 +15,15 @@
 
 | File | Size | Format |
 |------|------|--------|
-| [Ohio_State_Analysis_errors_2026-04-15.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-a0d39142716195a3cacb/Ohio_State_Analysis_errors_2026-04-15.txt) | 0.0 MB | Log |
-| [region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-a0d39142716195a3cacb/region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-1.xlsx) | 111.5 MB | Excel |
-| [region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-a0d39142716195a3cacb/region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-2.xlsx) | 81.9 MB | Excel |
-| [region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-a0d39142716195a3cacb/region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-3.xlsx) | 74.3 MB | Excel |
-| [region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-a0d39142716195a3cacb/region_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-4.xlsx) | 47.2 MB | Excel |
+| [Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-1.xlsx) | 113.2 MB | Excel |
+| [Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-2.xlsx) | 83.5 MB | Excel |
+| [Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-3.xlsx) | 75.9 MB | Excel |
+| [Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-4.xlsx) | 48.4 MB | Excel |
+| [Ohio_State_Analysis_errors_2026-04-15.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/Ohio_State_Analysis_errors_2026-04-15.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-a0d39142716195a3cacb)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/ohio-v2.4.0)
 
 ---
 
