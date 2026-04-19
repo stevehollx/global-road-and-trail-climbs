@@ -1,15 +1,15 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-19T03:51:30.067516Z",
+  "generated_at": "2026-04-19T03:51:46.130958Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 49,
-    "total_xlsx_files": 109,
+    "total_xlsx_files": 111,
     "total_sqlite_files": 47,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 8731723965,
+    "total_xlsx_size_bytes": 8862107922,
     "total_sqlite_size_bytes": 0,
-    "total_size_mb": 8327.2,
+    "total_size_mb": 8451.6,
     "total_climbs": 45633156
   },
   "regions": {
@@ -269,19 +269,25 @@
       "climb_count": 1848311,
       "elevation_errors": 0,
       "files": [
+        "Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-3.xlsx",
+        "Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-4.xlsx",
         "Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-1.xlsx",
         "Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-2.xlsx"
       ],
       "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-4.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-1.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/ohio-v2.4.0/Ohio_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000-2.xlsx"
       ],
       "file_sizes": [
+        79603620,
+        50780337,
         118712644,
         87539922
       ],
-      "total_size": 206252566,
-      "file_count": 2,
+      "total_size": 336636523,
+      "file_count": 4,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
