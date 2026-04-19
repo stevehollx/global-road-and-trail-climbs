@@ -1,15 +1,15 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-18T17:47:02.723943Z",
+  "generated_at": "2026-04-19T03:32:31.555846Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 49,
     "total_xlsx_files": 111,
-    "total_sqlite_files": 48,
+    "total_sqlite_files": 47,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 8862709008,
+    "total_xlsx_size_bytes": 8862107802,
     "total_sqlite_size_bytes": 0,
-    "total_size_mb": 8452.1,
+    "total_size_mb": 8451.6,
     "total_climbs": 45633156
   },
   "regions": {
@@ -881,25 +881,25 @@
       "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/alaska": {
-      "region_name": "Alaska",
+      "region_name": "region",
       "version": "2.4.0",
       "release_tag": "alaska-v2.4.0",
       "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/alaska-v2.4.0",
       "climb_count": 136576,
       "elevation_errors": 0,
       "files": [
-        "Alaska_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.xlsx"
+        "region_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alaska-v2.4.0/Alaska_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alaska-v2.4.0/region_climbs_all-surfaces_all-access_imperial_2026-04-19_v2.4.0_e0000.xlsx"
       ],
       "file_sizes": [
-        26584289
+        25983083
       ],
-      "total_size": 26584289,
+      "total_size": 25983083,
       "file_count": 1,
       "has_split_files": false,
-      "database_file": "Alaska_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.sqlite",
+      "database_file": null,
       "database_size": null,
       "database_url": null,
       "is_split": false,
@@ -911,10 +911,10 @@
       "partition_type": null,
       "partitions": null,
       "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "Alaska_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 45861747,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alaska-v2.4.0/Alaska_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.sqlite.gz",
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
