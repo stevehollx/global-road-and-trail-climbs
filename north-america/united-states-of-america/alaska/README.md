@@ -1,10 +1,10 @@
 ## Info
-* Date: 2026-04-15
+* Date: 2026-04-20
 * Version: 2.4.0
 * Elevation Errors: 0
 * Climbs: 136,576
 * Files: 1 Excel file(s) + error log
-* Total Size: 25.5 MB
+* Total Size: 25.1 MB
 * Release Tag: `alaska-v2.4.0`
 
 ## Elevation datasets used:
@@ -14,12 +14,12 @@
 
 | File | Size | Format |
 |------|------|--------|
-| [Alaska_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-6798a7950ae5cf8ff03a/Alaska_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.xlsx) | 25.4 MB | Excel |
-| [us__alaska_errors_all_2025-12-30.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-6798a7950ae5cf8ff03a/us__alaska_errors_all_2025-12-30.txt) | 0.1 MB | Log |
+| [Alaska_errors_2026-04-20.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alaska-v2.4.0/Alaska_errors_2026-04-20.txt) | 0.1 MB | Log |
+| [region_climbs_all-surfaces_all-access_imperial_2026-04-20_v2.4.0_e0000.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alaska-v2.4.0/region_climbs_all-surfaces_all-access_imperial_2026-04-20_v2.4.0_e0000.xlsx) | 25.0 MB | Excel |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-6798a7950ae5cf8ff03a)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/alaska-v2.4.0)
 
 ---
 
