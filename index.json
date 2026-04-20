@@ -1,13 +1,13 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-20T20:25:03.985647Z",
+  "generated_at": "2026-04-20T20:51:22.729919Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 52,
     "total_xlsx_files": 115,
     "total_sqlite_files": 48,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 9008530205,
+    "total_xlsx_size_bytes": 9008530142,
     "total_sqlite_size_bytes": 2711687168,
     "total_size_mb": 11177.3,
     "total_climbs": 46463669
@@ -1025,22 +1025,22 @@
       "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/alaska": {
-      "region_name": "region",
+      "region_name": "Alaska",
       "version": "2.4.0",
       "release_tag": "alaska-v2.4.0",
       "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/alaska-v2.4.0",
       "climb_count": 136576,
       "elevation_errors": 0,
       "files": [
-        "region_climbs_all-surfaces_all-access_imperial_2026-04-20_v2.4.0_e0000.xlsx"
+        "Alaska_climbs_all-surfaces_all-access_imperial_2026-04-20_v2.4.0_e0000.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alaska-v2.4.0/region_climbs_all-surfaces_all-access_imperial_2026-04-20_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alaska-v2.4.0/Alaska_climbs_all-surfaces_all-access_imperial_2026-04-20_v2.4.0_e0000.xlsx"
       ],
       "file_sizes": [
-        26162823
+        26162760
       ],
-      "total_size": 26162823,
+      "total_size": 26162760,
       "file_count": 1,
       "has_split_files": false,
       "database_file": null,
