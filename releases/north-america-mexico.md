@@ -1,0 +1,41 @@
+## Info
+* Date: 2026-04-21
+* Version: 2.4.0
+* Elevation Errors: 0
+* Climbs: 4,420,078
+* Files: 9 Excel file(s) + error log
+* Total Size: 8458.5 MB
+* Release Tag: `north-america-mexico-v2.4.0`
+
+## Elevation datasets used:
+1. srtm30m
+
+## Files
+
+| File | Size | Format |
+|------|------|--------|
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-1.xlsx) | 180.6 MB | Excel |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-2.xlsx) | 105.0 MB | Excel |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-3.xlsx) | 92.9 MB | Excel |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-4.xlsx) | 85.5 MB | Excel |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-5.xlsx) | 80.4 MB | Excel |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-6.xlsx) | 76.0 MB | Excel |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-7.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-7.xlsx) | 73.7 MB | Excel |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-8.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-8.xlsx) | 67.8 MB | Excel |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-9.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-9.xlsx) | 53.2 MB | Excel |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.001](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.001) | 1812.0 MB | Other |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.002](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.002) | 1812.0 MB | Other |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.003](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.003) | 1812.0 MB | Other |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.004](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.004) | 872.7 MB | Other |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz) | 1334.7 MB | Other |
+| [Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.sha256](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.sha256) | 0.0 MB | Other |
+| [Mexico_errors_2026-04-21.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-72ef737509a397c9bfab/Mexico_errors_2026-04-21.txt) | 0.0 MB | Log |
+
+## Release
+
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-72ef737509a397c9bfab)
+
+---
+
+*This README was automatically generated by Climb Analyzer.*
+*Merging this PR will publish the draft release and update the index.*
