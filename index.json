@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-21T10:11:44.968873Z",
+  "generated_at": "2026-04-21T10:30:28.381279Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 56,
-    "total_xlsx_files": 120,
-    "total_sqlite_files": 53,
+    "total_regions": 57,
+    "total_xlsx_files": 121,
+    "total_sqlite_files": 54,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 9169715876,
-    "total_sqlite_size_bytes": 4293791744,
-    "total_size_mb": 12839.8,
-    "total_climbs": 47354630
+    "total_xlsx_size_bytes": 9210895614,
+    "total_sqlite_size_bytes": 4665438208,
+    "total_size_mb": 13233.5,
+    "total_climbs": 47603165
   },
   "regions": {
     "north-america-mexico": {
@@ -55,6 +55,49 @@
       "gz_split_sizes": null,
       "published_at": "2026-04-21T09:58:57Z",
       "last_updated": "2026-04-21"
+    },
+    "canada-saskatchewan": {
+      "region_name": "Saskatchewan",
+      "version": "2.4.0",
+      "release_tag": "canada-saskatchewan-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-15e5aa0ab89f9534eb8d",
+      "climb_count": 248535,
+      "elevation_errors": 0,
+      "files": [
+        "Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-15e5aa0ab89f9534eb8d/Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        41179738
+      ],
+      "total_size": 41179738,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "database_size": 371646464,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-15e5aa0ab89f9534eb8d/Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": 371646464,
+      "database_format": "gzip",
+      "database_gz_file": "Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 75204746,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-15e5aa0ab89f9534eb8d/Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": 371646464,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": null,
+      "last_updated": null
     },
     "canada-newfoundland-and-labrador": {
       "region_name": "Newfoundland And Labrador",
