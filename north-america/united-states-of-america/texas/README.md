@@ -1,13 +1,14 @@
+# Texas Climb Analysis
+
 ## Info
-* Date: 2026-04-16
+* Date: 2026-04-21
 * Version: 2.4.0
 * Elevation Errors: 0
-* Climbs: 3,691,648
-* Files: 8 Excel file(s) + error log
-* Total Size: 661.8 MB
+* Files: 8 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 1763.8 MB
 * Release Tag: `texas-v2.4.0`
 
-## Elevation datasets used:
+## Elevation datasets used
 1. ned10m
 2. srtm30m
 
@@ -15,21 +16,21 @@
 
 | File | Size | Format |
 |------|------|--------|
-| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-e4ea281be3444e5f6e08/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-1.xlsx) | 139.7 MB | Excel |
-| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-e4ea281be3444e5f6e08/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-2.xlsx) | 98.2 MB | Excel |
-| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-e4ea281be3444e5f6e08/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-3.xlsx) | 88.9 MB | Excel |
-| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-e4ea281be3444e5f6e08/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-4.xlsx) | 83.3 MB | Excel |
-| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-e4ea281be3444e5f6e08/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-5.xlsx) | 79.0 MB | Excel |
-| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-e4ea281be3444e5f6e08/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-6.xlsx) | 75.5 MB | Excel |
-| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-7.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-e4ea281be3444e5f6e08/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-7.xlsx) | 71.4 MB | Excel |
-| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-8.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-e4ea281be3444e5f6e08/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-8.xlsx) | 25.8 MB | Excel |
-| [Texas_State_Analysis_errors_2026-04-16.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-e4ea281be3444e5f6e08/Texas_State_Analysis_errors_2026-04-16.txt) | 0.0 MB | Log |
+| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/texas-v2.4.0/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-1.xlsx) | 139.7 MB | Excel |
+| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/texas-v2.4.0/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-2.xlsx) | 98.2 MB | Excel |
+| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/texas-v2.4.0/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-3.xlsx) | 88.9 MB | Excel |
+| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/texas-v2.4.0/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-4.xlsx) | 83.3 MB | Excel |
+| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/texas-v2.4.0/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-5.xlsx) | 79.0 MB | Excel |
+| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/texas-v2.4.0/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-6.xlsx) | 75.5 MB | Excel |
+| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-7.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/texas-v2.4.0/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-7.xlsx) | 71.4 MB | Excel |
+| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-8.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/texas-v2.4.0/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-8.xlsx) | 25.8 MB | Excel |
+| [Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/texas-v2.4.0/Texas_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.sqlite.gz) | 1102.0 MB | SQLite (gzipped) |
+| [Texas_State_Analysis_errors_2026-04-16.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/texas-v2.4.0/Texas_State_Analysis_errors_2026-04-16.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-e4ea281be3444e5f6e08)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/texas-v2.4.0)
 
 ---
 
-*This README was automatically generated by Climb Analyzer.*
-*Merging this PR will publish the draft release and update the index.*
+*This README was automatically regenerated by `scripts/regenerate_us_state_readmes.py`.*
