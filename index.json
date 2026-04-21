@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-21T12:21:09.947495Z",
+  "generated_at": "2026-04-21T12:58:31.879335Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 61,
-    "total_xlsx_files": 125,
-    "total_sqlite_files": 58,
+    "total_regions": 62,
+    "total_xlsx_files": 126,
+    "total_sqlite_files": 59,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 9249179615,
-    "total_sqlite_size_bytes": 4992757760,
-    "total_size_mb": 13582.2,
-    "total_climbs": 47821180
+    "total_xlsx_size_bytes": 9250208725,
+    "total_sqlite_size_bytes": 5000650752,
+    "total_size_mb": 13590.7,
+    "total_climbs": 47826302
   },
   "regions": {
     "north-america-mexico": {
@@ -92,6 +92,49 @@
       "database_gz_size": 5359927,
       "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-88f965694f5cc6d799a6/Yukon_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
       "database_decompressed_size": 23142400,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": null,
+      "last_updated": null
+    },
+    "canada-nunavut": {
+      "region_name": "Nunavut",
+      "version": "2.4.0",
+      "release_tag": "canada-nunavut-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-7d07773a87d2abda157d",
+      "climb_count": 5122,
+      "elevation_errors": 0,
+      "files": [
+        "Nunavut_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-7d07773a87d2abda157d/Nunavut_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        1029110
+      ],
+      "total_size": 1029110,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Nunavut_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "database_size": 7892992,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-7d07773a87d2abda157d/Nunavut_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": 7892992,
+      "database_format": "gzip",
+      "database_gz_file": "Nunavut_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 1745857,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-7d07773a87d2abda157d/Nunavut_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": 7892992,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
