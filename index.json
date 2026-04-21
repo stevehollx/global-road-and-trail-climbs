@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-21T11:35:49.374799Z",
+  "generated_at": "2026-04-21T11:55:33.471405Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 60,
-    "total_xlsx_files": 124,
-    "total_sqlite_files": 57,
+    "total_regions": 61,
+    "total_xlsx_files": 125,
+    "total_sqlite_files": 58,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 9246851208,
-    "total_sqlite_size_bytes": 4972556288,
-    "total_size_mb": 13560.7,
-    "total_climbs": 47808618
+    "total_xlsx_size_bytes": 9249179615,
+    "total_sqlite_size_bytes": 4992757760,
+    "total_size_mb": 13582.2,
+    "total_climbs": 47821180
   },
   "regions": {
     "north-america-mexico": {
@@ -178,6 +178,49 @@
       "database_gz_size": 6841949,
       "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-cbbfede6406dd682bd8f/Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
       "database_decompressed_size": 35586048,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": null,
+      "last_updated": null
+    },
+    "canada-northwest-territories": {
+      "region_name": "Northwestterritories",
+      "version": "2.4.0",
+      "release_tag": "canada-northwest-territories-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-8fef91481d8831f35ba8",
+      "climb_count": 12562,
+      "elevation_errors": 0,
+      "files": [
+        "Northwestterritories_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-8fef91481d8831f35ba8/Northwestterritories_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        2328407
+      ],
+      "total_size": 2328407,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Northwestterritories_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "database_size": 20201472,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-8fef91481d8831f35ba8/Northwestterritories_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": 20201472,
+      "database_format": "gzip",
+      "database_gz_file": "Northwestterritories_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 4006682,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-8fef91481d8831f35ba8/Northwestterritories_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": 20201472,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
