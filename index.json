@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-21T12:20:25.078996Z",
+  "generated_at": "2026-04-21T12:21:09.947495Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 61,
@@ -92,49 +92,6 @@
       "database_gz_size": 5359927,
       "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-88f965694f5cc6d799a6/Yukon_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
       "database_decompressed_size": 23142400,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
-    },
-    "canada-prince-edward-island": {
-      "region_name": "Prince Edward Island",
-      "version": "2.4.0",
-      "release_tag": "canada-prince-edward-island-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-cbbfede6406dd682bd8f",
-      "climb_count": 22881,
-      "elevation_errors": 0,
-      "files": [
-        "Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-cbbfede6406dd682bd8f/Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        3925045
-      ],
-      "total_size": 3925045,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": "Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
-      "database_size": 35586048,
-      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-cbbfede6406dd682bd8f/Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": 35586048,
-      "database_format": "gzip",
-      "database_gz_file": "Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 6841949,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-cbbfede6406dd682bd8f/Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": 35586048,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
@@ -367,6 +324,49 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-04-21T12:19:41Z",
+      "last_updated": "2026-04-21"
+    },
+    "canada-prince-edward-island": {
+      "region_name": "Prince Edward Island",
+      "version": "2.4.0",
+      "release_tag": "canada-prince-edward-island-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/canada-prince-edward-island-v2.4.0",
+      "climb_count": 22881,
+      "elevation_errors": 0,
+      "files": [
+        "Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-prince-edward-island-v2.4.0/Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        3925045
+      ],
+      "total_size": 3925045,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "database_size": 35586048,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-prince-edward-island-v2.4.0/Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": 35586048,
+      "database_format": "gzip",
+      "database_gz_file": "Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 6841949,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-prince-edward-island-v2.4.0/Prince_Edward_Island_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": 35586048,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-21T12:21:02Z",
       "last_updated": "2026-04-21"
     },
     "canada-nova-scotia": {
