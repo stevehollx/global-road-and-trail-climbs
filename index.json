@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-21T10:30:28.381279Z",
+  "generated_at": "2026-04-21T10:46:04.990139Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 57,
-    "total_xlsx_files": 121,
-    "total_sqlite_files": 54,
+    "total_regions": 58,
+    "total_xlsx_files": 122,
+    "total_sqlite_files": 55,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 9210895614,
-    "total_sqlite_size_bytes": 4665438208,
-    "total_size_mb": 13233.5,
-    "total_climbs": 47603165
+    "total_xlsx_size_bytes": 9239505995,
+    "total_sqlite_size_bytes": 4913827840,
+    "total_size_mb": 13497.7,
+    "total_climbs": 47771328
   },
   "regions": {
     "north-america-mexico": {
@@ -135,6 +135,49 @@
       "database_gz_size": 32982435,
       "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-9b533c83cbffb2ef8d9b/Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
       "database_decompressed_size": 163930112,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": null,
+      "last_updated": null
+    },
+    "canada-manitoba": {
+      "region_name": "Manitoba",
+      "version": "2.4.0",
+      "release_tag": "canada-manitoba-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-05617009128cd407e4b6",
+      "climb_count": 168163,
+      "elevation_errors": 0,
+      "files": [
+        "Manitoba_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-05617009128cd407e4b6/Manitoba_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        28610381
+      ],
+      "total_size": 28610381,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Manitoba_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "database_size": 248389632,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-05617009128cd407e4b6/Manitoba_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": 248389632,
+      "database_format": "gzip",
+      "database_gz_file": "Manitoba_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 51678505,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-05617009128cd407e4b6/Manitoba_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": 248389632,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
