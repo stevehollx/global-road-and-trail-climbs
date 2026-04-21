@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-21T01:56:36.628735Z",
+  "generated_at": "2026-04-21T09:20:12.135054Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 53,
@@ -13,6 +13,49 @@
     "total_climbs": 47009281
   },
   "regions": {
+    "north-america-mexico": {
+      "region_name": "Mexico",
+      "version": "2.4.0",
+      "release_tag": "north-america-mexico-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-f19d7df6de03a3593cf6",
+      "climb_count": 111756,
+      "elevation_errors": 0,
+      "files": [
+        "Mexico_climbs_all-surfaces_all-access_metric_2026-04-19_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-f19d7df6de03a3593cf6/Mexico_climbs_all-surfaces_all-access_metric_2026-04-19_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        21693422
+      ],
+      "total_size": 21693422,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": null,
+      "last_updated": null
+    },
     "canada-alberta": {
       "region_name": "Canadaalberta",
       "version": "2.4.0",
@@ -104,49 +147,6 @@
       "gz_split_sizes": null,
       "published_at": "2026-04-20T20:24:13Z",
       "last_updated": "2026-04-20"
-    },
-    "north-america-mexico": {
-      "region_name": "Mexico",
-      "version": "2.4.0",
-      "release_tag": "north-america-mexico-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-f19d7df6de03a3593cf6",
-      "climb_count": 111756,
-      "elevation_errors": 0,
-      "files": [
-        "Mexico_climbs_all-surfaces_all-access_metric_2026-04-19_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-f19d7df6de03a3593cf6/Mexico_climbs_all-surfaces_all-access_metric_2026-04-19_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        21693422
-      ],
-      "total_size": 21693422,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": null,
-      "database_gz_file": null,
-      "database_gz_size": null,
-      "database_gz_url": null,
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
     },
     "north-america-greenland": {
       "region_name": "region",
