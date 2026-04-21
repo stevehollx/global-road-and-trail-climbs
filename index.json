@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-21T12:18:39.620102Z",
+  "generated_at": "2026-04-21T12:18:49.915210Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 61,
@@ -228,49 +228,6 @@
       "published_at": null,
       "last_updated": null
     },
-    "canada-newfoundland-and-labrador": {
-      "region_name": "Newfoundland And Labrador",
-      "version": "2.4.0",
-      "release_tag": "canada-newfoundland-and-labrador-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/canada-newfoundland-and-labrador-v2.4.0",
-      "climb_count": 99766,
-      "elevation_errors": 0,
-      "files": [
-        "Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-newfoundland-and-labrador-v2.4.0/Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        18742655
-      ],
-      "total_size": 18742655,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": "Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
-      "database_size": 163930112,
-      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-newfoundland-and-labrador-v2.4.0/Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": 163930112,
-      "database_format": "gzip",
-      "database_gz_file": "Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 32982435,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-newfoundland-and-labrador-v2.4.0/Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": 163930112,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-04-21T12:18:38Z",
-      "last_updated": "2026-04-21"
-    },
     "canada-manitoba": {
       "region_name": "Manitoba",
       "version": "2.4.0",
@@ -496,6 +453,49 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-04-21T09:58:27Z",
+      "last_updated": "2026-04-21"
+    },
+    "canada-newfoundland-and-labrador": {
+      "region_name": "Newfoundland And Labrador",
+      "version": "2.4.0",
+      "release_tag": "canada-newfoundland-and-labrador-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/canada-newfoundland-and-labrador-v2.4.0",
+      "climb_count": 99766,
+      "elevation_errors": 0,
+      "files": [
+        "Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-newfoundland-and-labrador-v2.4.0/Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        18742655
+      ],
+      "total_size": 18742655,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": "Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "database_size": 163930112,
+      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-newfoundland-and-labrador-v2.4.0/Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": 163930112,
+      "database_format": "gzip",
+      "database_gz_file": "Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 32982435,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-newfoundland-and-labrador-v2.4.0/Newfoundland_And_Labrador_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": 163930112,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-21T12:18:38Z",
       "last_updated": "2026-04-21"
     },
     "canada-new-brunswick": {
