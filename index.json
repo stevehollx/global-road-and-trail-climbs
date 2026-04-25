@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-04-25T20:31:36.314193Z",
+  "generated_at": "2026-04-25T20:32:32.496460Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 140,
@@ -13,7 +13,7 @@
     "total_climbs": 102036059
   },
   "regions": {
-    "germany-thueringen": {
+    "europe/germany/thueringen": {
       "region_name": "Thueringen",
       "version": "2.4.0",
       "release_tag": "germany-thueringen-v2.4.0",
@@ -56,7 +56,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-sachsen": {
+    "europe/germany/sachsen": {
       "region_name": "Sachsen",
       "version": "2.4.0",
       "release_tag": "germany-sachsen-v2.4.0",
@@ -102,7 +102,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-sachsen-anhalt": {
+    "europe/germany/sachsen-anhalt": {
       "region_name": "Sachsen Anhalt",
       "version": "2.4.0",
       "release_tag": "germany-sachsen-anhalt-v2.4.0",
@@ -145,7 +145,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-saarland": {
+    "europe/germany/saarland": {
       "region_name": "Saarland",
       "version": "2.4.0",
       "release_tag": "germany-saarland-v2.4.0",
@@ -188,7 +188,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-rheinland-pfalz": {
+    "europe/germany/rheinland-pfalz": {
       "region_name": "Rheinland Pfalz",
       "version": "2.4.0",
       "release_tag": "germany-rheinland-pfalz-v2.4.0",
@@ -234,7 +234,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-nordrhein-westfalen": {
+    "europe/germany/nordrhein-westfalen": {
       "region_name": "Nordrhein Westfalen",
       "version": "2.4.0",
       "release_tag": "germany-nordrhein-westfalen-v2.4.0",
@@ -289,7 +289,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-hessen": {
+    "europe/germany/hessen": {
       "region_name": "Hessen",
       "version": "2.4.0",
       "release_tag": "germany-hessen-v2.4.0",
@@ -335,7 +335,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-brandenburg": {
+    "europe/germany/brandenburg": {
       "region_name": "Brandenburg",
       "version": "2.4.0",
       "release_tag": "germany-brandenburg-v2.4.0",
@@ -381,7 +381,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-berlin": {
+    "europe/germany/berlin": {
       "region_name": "Berlin",
       "version": "2.4.0",
       "release_tag": "germany-berlin-v2.4.0",
@@ -424,7 +424,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-bayern": {
+    "europe/germany/bayern": {
       "region_name": "Bayern",
       "version": "2.4.0",
       "release_tag": "germany-bayern-v2.4.0",
@@ -482,7 +482,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-baden-wuerttemberg": {
+    "europe/germany/baden-wuerttemberg": {
       "region_name": "Baden Wuerttemberg",
       "version": "2.4.0",
       "release_tag": "germany-baden-wuerttemberg-v2.4.0",
@@ -628,7 +628,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "italy-sud": {
+    "europe/italy/sud": {
       "region_name": "Sud",
       "version": "2.4.0",
       "release_tag": "italy-sud-v2.4.0",
@@ -677,7 +677,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "italy-isole": {
+    "europe/italy/isole": {
       "region_name": "Isole",
       "version": "2.4.0",
       "release_tag": "italy-isole-v2.4.0",
@@ -723,7 +723,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "italy-centro": {
+    "europe/italy/centro": {
       "region_name": "Centro",
       "version": "2.4.0",
       "release_tag": "italy-centro-v2.4.0",
@@ -772,7 +772,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-schleswig-holstein": {
+    "europe/germany/schleswig-holstein": {
       "region_name": "Schleswig Holstein",
       "version": "2.4.0",
       "release_tag": "germany-schleswig-holstein-v2.4.0",
@@ -815,7 +815,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-niedersachsen": {
+    "europe/germany/niedersachsen": {
       "region_name": "Niedersachsen",
       "version": "2.4.0",
       "release_tag": "germany-niedersachsen-v2.4.0",
@@ -864,7 +864,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-mecklenburg-vorpommern": {
+    "europe/germany/mecklenburg-vorpommern": {
       "region_name": "Mecklenburg Vorpommern",
       "version": "2.4.0",
       "release_tag": "germany-mecklenburg-vorpommern-v2.4.0",
@@ -907,7 +907,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-hamburg": {
+    "europe/germany/hamburg": {
       "region_name": "Hamburg",
       "version": "2.4.0",
       "release_tag": "germany-hamburg-v2.4.0",
@@ -950,7 +950,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "germany-bremen": {
+    "europe/germany/bremen": {
       "region_name": "Bremen",
       "version": "2.4.0",
       "release_tag": "germany-bremen-v2.4.0",
@@ -993,7 +993,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-rhone-alpes": {
+    "europe/france/rhone-alpes": {
       "region_name": "Rhone Alpes",
       "version": "2.4.0",
       "release_tag": "france-rhone-alpes-v2.4.0",
@@ -1042,7 +1042,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-provence-alpes-cote-d-azur": {
+    "europe/france/provence-alpes-cote-d-azur": {
       "region_name": "Provence Alpes Cote D Azur",
       "version": "2.4.0",
       "release_tag": "france-provence-alpes-cote-d-azur-v2.4.0",
@@ -1088,7 +1088,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-poitou-charentes": {
+    "europe/france/poitou-charentes": {
       "region_name": "Poitou Charentes",
       "version": "2.4.0",
       "release_tag": "france-poitou-charentes-v2.4.0",
@@ -1131,7 +1131,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-picardie": {
+    "europe/france/picardie": {
       "region_name": "Picardie",
       "version": "2.4.0",
       "release_tag": "france-picardie-v2.4.0",
@@ -1174,7 +1174,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-pays-de-la-loire": {
+    "europe/france/pays-de-la-loire": {
       "region_name": "Pays De La Loire",
       "version": "2.4.0",
       "release_tag": "france-pays-de-la-loire-v2.4.0",
@@ -1220,7 +1220,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-nord-pas-de-calais": {
+    "europe/france/nord-pas-de-calais": {
       "region_name": "Nord Pas De Calais",
       "version": "2.4.0",
       "release_tag": "france-nord-pas-de-calais-v2.4.0",
@@ -1263,7 +1263,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-midi-pyrenees": {
+    "europe/france/midi-pyrenees": {
       "region_name": "Midi Pyrenees",
       "version": "2.4.0",
       "release_tag": "france-midi-pyrenees-v2.4.0",
@@ -1309,7 +1309,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-lorraine": {
+    "europe/france/lorraine": {
       "region_name": "Lorraine",
       "version": "2.4.0",
       "release_tag": "france-lorraine-v2.4.0",
@@ -1352,7 +1352,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-limousin": {
+    "europe/france/limousin": {
       "region_name": "Limousin",
       "version": "2.4.0",
       "release_tag": "france-limousin-v2.4.0",
@@ -1395,7 +1395,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-languedoc-roussillon": {
+    "europe/france/languedoc-roussillon": {
       "region_name": "Languedoc Roussillon",
       "version": "2.4.0",
       "release_tag": "france-languedoc-roussillon-v2.4.0",
@@ -1441,7 +1441,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-ile-de-france": {
+    "europe/france/ile-de-france": {
       "region_name": "Ile De France",
       "version": "2.4.0",
       "release_tag": "france-ile-de-france-v2.4.0",
@@ -1487,7 +1487,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-haute-normandie": {
+    "europe/france/haute-normandie": {
       "region_name": "Haute Normandie",
       "version": "2.4.0",
       "release_tag": "france-haute-normandie-v2.4.0",
@@ -1530,7 +1530,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-franche-comte": {
+    "europe/france/franche-comte": {
       "region_name": "Franche Comte",
       "version": "2.4.0",
       "release_tag": "france-franche-comte-v2.4.0",
@@ -1573,7 +1573,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-corse": {
+    "europe/france/corse": {
       "region_name": "Corse",
       "version": "2.4.0",
       "release_tag": "france-corse-v2.4.0",
@@ -1616,7 +1616,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-champagne-ardenne": {
+    "europe/france/champagne-ardenne": {
       "region_name": "Champagne Ardenne",
       "version": "2.4.0",
       "release_tag": "france-champagne-ardenne-v2.4.0",
@@ -1659,7 +1659,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-centre": {
+    "europe/france/centre": {
       "region_name": "Centre",
       "version": "2.4.0",
       "release_tag": "france-centre-v2.4.0",
@@ -1705,7 +1705,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-bretagne": {
+    "europe/france/bretagne": {
       "region_name": "Bretagne",
       "version": "2.4.0",
       "release_tag": "france-bretagne-v2.4.0",
@@ -1751,7 +1751,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-bourgogne": {
+    "europe/france/bourgogne": {
       "region_name": "Bourgogne",
       "version": "2.4.0",
       "release_tag": "france-bourgogne-v2.4.0",
@@ -1794,7 +1794,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-basse-normandie": {
+    "europe/france/basse-normandie": {
       "region_name": "Basse Normandie",
       "version": "2.4.0",
       "release_tag": "france-basse-normandie-v2.4.0",
@@ -1837,7 +1837,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-auvergne": {
+    "europe/france/auvergne": {
       "region_name": "Auvergne",
       "version": "2.4.0",
       "release_tag": "france-auvergne-v2.4.0",
@@ -1880,7 +1880,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-aquitaine": {
+    "europe/france/aquitaine": {
       "region_name": "Aquitaine",
       "version": "2.4.0",
       "release_tag": "france-aquitaine-v2.4.0",
@@ -1926,7 +1926,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "france-alsace": {
+    "europe/france/alsace": {
       "region_name": "Alsace",
       "version": "2.4.0",
       "release_tag": "france-alsace-v2.4.0",
@@ -1969,7 +1969,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-valencia": {
+    "europe/spain/valencia": {
       "region_name": "Valencia",
       "version": "2.4.0",
       "release_tag": "spain-valencia-v2.4.0",
@@ -2015,7 +2015,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-pais-vasco": {
+    "europe/spain/pais-vasco": {
       "region_name": "Pais Vasco",
       "version": "2.4.0",
       "release_tag": "spain-pais-vasco-v2.4.0",
@@ -2058,7 +2058,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-navarra": {
+    "europe/spain/navarra": {
       "region_name": "Navarra",
       "version": "2.4.0",
       "release_tag": "spain-navarra-v2.4.0",
@@ -2101,7 +2101,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-murcia": {
+    "europe/spain/murcia": {
       "region_name": "Murcia",
       "version": "2.4.0",
       "release_tag": "spain-murcia-v2.4.0",
@@ -2144,7 +2144,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-melilla": {
+    "europe/spain/melilla": {
       "region_name": "Melilla",
       "version": "2.4.0",
       "release_tag": "spain-melilla-v2.4.0",
@@ -2187,7 +2187,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-madrid": {
+    "europe/spain/madrid": {
       "region_name": "Madrid",
       "version": "2.4.0",
       "release_tag": "spain-madrid-v2.4.0",
@@ -2230,7 +2230,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-la-rioja": {
+    "europe/spain/la-rioja": {
       "region_name": "La Rioja",
       "version": "2.4.0",
       "release_tag": "spain-la-rioja-v2.4.0",
@@ -2273,7 +2273,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-islas-baleares": {
+    "europe/spain/islas-baleares": {
       "region_name": "Islas Baleares",
       "version": "2.4.0",
       "release_tag": "spain-islas-baleares-v2.4.0",
@@ -2316,7 +2316,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-galicia": {
+    "europe/spain/galicia": {
       "region_name": "Galicia",
       "version": "2.4.0",
       "release_tag": "spain-galicia-v2.4.0",
@@ -2359,7 +2359,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-extremadura": {
+    "europe/spain/extremadura": {
       "region_name": "Extremadura",
       "version": "2.4.0",
       "release_tag": "spain-extremadura-v2.4.0",
@@ -2402,7 +2402,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-ceuta": {
+    "europe/spain/ceuta": {
       "region_name": "Ceuta",
       "version": "2.4.0",
       "release_tag": "spain-ceuta-v2.4.0",
@@ -2445,7 +2445,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-cataluna": {
+    "europe/spain/cataluna": {
       "region_name": "Cataluna",
       "version": "2.4.0",
       "release_tag": "spain-cataluna-v2.4.0",
@@ -2491,7 +2491,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-castilla-y-leon": {
+    "europe/spain/castilla-y-leon": {
       "region_name": "Castilla Y Leon",
       "version": "2.4.0",
       "release_tag": "spain-castilla-y-leon-v2.4.0",
@@ -2537,7 +2537,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-castilla-la-mancha": {
+    "europe/spain/castilla-la-mancha": {
       "region_name": "Castilla La Mancha",
       "version": "2.4.0",
       "release_tag": "spain-castilla-la-mancha-v2.4.0",
@@ -2580,7 +2580,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-cantabria": {
+    "europe/spain/cantabria": {
       "region_name": "Cantabria",
       "version": "2.4.0",
       "release_tag": "spain-cantabria-v2.4.0",
@@ -2623,7 +2623,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-asturias": {
+    "europe/spain/asturias": {
       "region_name": "Asturias",
       "version": "2.4.0",
       "release_tag": "spain-asturias-v2.4.0",
@@ -2666,7 +2666,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-aragon": {
+    "europe/spain/aragon": {
       "region_name": "Aragon",
       "version": "2.4.0",
       "release_tag": "spain-aragon-v2.4.0",
@@ -2709,7 +2709,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "spain-andalucia": {
+    "europe/spain/andalucia": {
       "region_name": "Andalucia",
       "version": "2.4.0",
       "release_tag": "spain-andalucia-v2.4.0",
@@ -2755,7 +2755,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "italy-nord-ovest": {
+    "europe/italy/nord-ovest": {
       "region_name": "Nord Ovest",
       "version": "2.4.0",
       "release_tag": "italy-nord-ovest-v2.4.0",
@@ -2807,7 +2807,7 @@
       "published_at": null,
       "last_updated": null
     },
-    "italy-nord-est": {
+    "europe/italy/nord-est": {
       "region_name": "Nord Est",
       "version": "2.4.0",
       "release_tag": "italy-nord-est-v2.4.0",
