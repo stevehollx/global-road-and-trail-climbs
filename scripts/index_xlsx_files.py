@@ -194,6 +194,10 @@ def get_region_path(tag_region: str) -> str:
         "canada": "north-america/canada",
         "usa": "north-america/united-states-of-america",
         "us": "north-america/united-states-of-america",
+        "france": "europe/france",
+        "germany": "europe/germany",
+        "italy": "europe/italy",
+        "spain": "europe/spain",
     }
     for prefix, path_root in continent_prefixes.items():
         if tag_lower.startswith(prefix + "-"):
