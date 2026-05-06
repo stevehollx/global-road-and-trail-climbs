@@ -185,6 +185,7 @@ def get_region_path(tag_region: str) -> str:
     continent_prefixes = {
         "north-america": "north-america",
         "south-america": "south-america",
+        "central-america": "central-america",
         "europe": "europe",
         "asia": "asia",
         "africa": "africa",
