@@ -1,18 +1,190 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-06T18:35:22.312659Z",
+  "generated_at": "2026-05-06T20:55:40.107238Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 180,
-    "total_xlsx_files": 367,
+    "total_regions": 184,
+    "total_xlsx_files": 371,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24801985458,
+    "total_xlsx_size_bytes": 24920552275,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25596.8,
-    "total_climbs": 134087882
+    "total_size_mb": 25709.9,
+    "total_climbs": 134661448
   },
   "regions": {
+    "central-america/panama": {
+      "region_name": "Panama",
+      "version": "2.4.0",
+      "release_tag": "central-america-panama-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-d67143aa56c34fa29bb3",
+      "climb_count": 111446,
+      "elevation_errors": 0,
+      "files": [
+        "Panama_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d67143aa56c34fa29bb3/Panama_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        21052309
+      ],
+      "total_size": 21052309,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Panama_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 36620776,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-d67143aa56c34fa29bb3/Panama_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": null,
+      "last_updated": null
+    },
+    "central-america/nicaragua": {
+      "region_name": "Nicaragua",
+      "version": "2.4.0",
+      "release_tag": "central-america-nicaragua-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-70d3aff105cc1b56e346",
+      "climb_count": 108878,
+      "elevation_errors": 0,
+      "files": [
+        "Nicaragua_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-70d3aff105cc1b56e346/Nicaragua_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        23625843
+      ],
+      "total_size": 23625843,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Nicaragua_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 38933822,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-70d3aff105cc1b56e346/Nicaragua_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": null,
+      "last_updated": null
+    },
+    "central-america/honduras": {
+      "region_name": "Honduras",
+      "version": "2.4.0",
+      "release_tag": "central-america-honduras-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-822fe0030037e3a53949",
+      "climb_count": 198880,
+      "elevation_errors": 0,
+      "files": [
+        "Honduras_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-822fe0030037e3a53949/Honduras_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        42882138
+      ],
+      "total_size": 42882138,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Honduras_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 70204414,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-822fe0030037e3a53949/Honduras_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": null,
+      "last_updated": null
+    },
+    "central-america/costa-rica": {
+      "region_name": "Costa Rica",
+      "version": "2.4.0",
+      "release_tag": "central-america-costa-rica-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-f78490fbbf776c69827c",
+      "climb_count": 154362,
+      "elevation_errors": 0,
+      "files": [
+        "Costa_Rica_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-f78490fbbf776c69827c/Costa_Rica_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        30758857
+      ],
+      "total_size": 30758857,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Costa_Rica_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 52172644,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-f78490fbbf776c69827c/Costa_Rica_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": null,
+      "last_updated": null
+    },
     "europe/austria": {
       "region_name": "Austria",
       "version": "2.4.0",
@@ -4752,15 +4924,15 @@
       "climb_count": 106642,
       "elevation_errors": 0,
       "files": [
-        "Iceland_climbs_all-surfaces_all-access_metric_2026-04-27_v2.4.0_e0000.xlsx"
+        "Iceland_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-iceland-v2.4.0/Iceland_climbs_all-surfaces_all-access_metric_2026-04-27_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-iceland-v2.4.0/Iceland_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.xlsx"
       ],
       "file_sizes": [
-        20039171
+        20286841
       ],
-      "total_size": 20039171,
+      "total_size": 20286841,
       "file_count": 1,
       "has_split_files": false,
       "database_file": null,
@@ -4776,9 +4948,9 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Iceland_climbs_all-surfaces_all-access_metric_2026-04-27_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 35044194,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-iceland-v2.4.0/Iceland_climbs_all-surfaces_all-access_metric_2026-04-27_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Iceland_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 34705285,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-iceland-v2.4.0/Iceland_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
