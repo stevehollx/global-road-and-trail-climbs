@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-06T17:28:39.097765Z",
+  "generated_at": "2026-05-06T17:28:47.307405Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 179,
@@ -263,98 +263,6 @@
       "database_gz_file": "Bahamas_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz",
       "database_gz_size": 11887417,
       "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-45ba30df78671f875763/Bahamas_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
-    },
-    "europe/spain/galicia": {
-      "region_name": "Galicia",
-      "version": "2.4.0",
-      "release_tag": "spain-galicia-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-1e482e3143b61e13735a",
-      "climb_count": 462197,
-      "elevation_errors": 0,
-      "files": [
-        "Galicia_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-1e482e3143b61e13735a/Galicia_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        93345058
-      ],
-      "total_size": 93345058,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "Galicia_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 154739030,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-1e482e3143b61e13735a/Galicia_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
-    },
-    "europe/portugal": {
-      "region_name": "Portugal",
-      "version": "2.4.0",
-      "release_tag": "europe-portugal-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-56ba3b862cf5a01e1520",
-      "climb_count": 1422815,
-      "elevation_errors": 0,
-      "files": [
-        "Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000-3.xlsx",
-        "Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000-1.xlsx",
-        "Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-56ba3b862cf5a01e1520/Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-56ba3b862cf5a01e1520/Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-56ba3b862cf5a01e1520/Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        59275742,
-        138818605,
-        87068975
-      ],
-      "total_size": 285163322,
-      "file_count": 3,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 467623443,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-56ba3b862cf5a01e1520/Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
@@ -1717,6 +1625,49 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-05-06T17:27:41Z",
+      "last_updated": "2026-05-06"
+    },
+    "europe/spain/galicia": {
+      "region_name": "Galicia",
+      "version": "2.4.0",
+      "release_tag": "spain-galicia-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/spain-galicia-v2.4.0",
+      "climb_count": 462197,
+      "elevation_errors": 0,
+      "files": [
+        "Galicia_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/spain-galicia-v2.4.0/Galicia_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        93345058
+      ],
+      "total_size": 93345058,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Galicia_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 154739030,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/spain-galicia-v2.4.0/Galicia_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-05-06T17:28:39Z",
       "last_updated": "2026-05-06"
     },
     "europe/spain/extremadura": {
@@ -4479,6 +4430,55 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-05-06T17:23:26Z",
+      "last_updated": "2026-05-06"
+    },
+    "europe/portugal": {
+      "region_name": "Portugal",
+      "version": "2.4.0",
+      "release_tag": "europe-portugal-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/europe-portugal-v2.4.0",
+      "climb_count": 1422815,
+      "elevation_errors": 0,
+      "files": [
+        "Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000-3.xlsx",
+        "Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000-1.xlsx",
+        "Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-portugal-v2.4.0/Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-portugal-v2.4.0/Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-portugal-v2.4.0/Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        59275742,
+        138818605,
+        87068975
+      ],
+      "total_size": 285163322,
+      "file_count": 3,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 467623443,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-portugal-v2.4.0/Portugal_climbs_all-surfaces_all-access_metric_2026-04-23_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-05-06T17:28:41Z",
       "last_updated": "2026-05-06"
     },
     "europe/poland": {
