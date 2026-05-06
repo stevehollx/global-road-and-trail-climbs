@@ -9,6 +9,7 @@ on:
       - 'releases/*.md'
       - 'north-america/**/README.md'
       - 'south-america/**/README.md'
+      - 'central-america/**/README.md      
       - 'europe/**/README.md'
       - 'asia/**/README.md'
       - 'africa/**/README.md'
@@ -20,6 +21,7 @@ on:
       - 'releases/*.md'
       - 'north-america/**/README.md'
       - 'south-america/**/README.md'
+      - 'central-america/**/README.md      
       - 'europe/**/README.md'
       - 'asia/**/README.md'
       - 'africa/**/README.md'
