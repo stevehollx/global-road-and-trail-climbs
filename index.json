@@ -1,15 +1,15 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-07T22:34:00.539640Z",
+  "generated_at": "2026-05-07T22:34:10.423491Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 369,
+    "total_xlsx_files": 370,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24816941970,
+    "total_xlsx_size_bytes": 24894711769,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25611.1,
+    "total_size_mb": 25685.3,
     "total_climbs": 134661448
   },
   "regions": {
@@ -4476,19 +4476,22 @@
       "climb_count": 1821117,
       "elevation_errors": 0,
       "files": [
+        "Norway_climbs_all-surfaces_all-access_metric_2026-05-07_v2.4.0_e0000-3.xlsx",
         "Norway_climbs_all-surfaces_all-access_metric_2026-05-07_v2.4.0_e0000-1.xlsx",
         "Norway_climbs_all-surfaces_all-access_metric_2026-05-07_v2.4.0_e0000-2.xlsx"
       ],
       "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-norway-v2.4.0/Norway_climbs_all-surfaces_all-access_metric_2026-05-07_v2.4.0_e0000-3.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-norway-v2.4.0/Norway_climbs_all-surfaces_all-access_metric_2026-05-07_v2.4.0_e0000-1.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-norway-v2.4.0/Norway_climbs_all-surfaces_all-access_metric_2026-05-07_v2.4.0_e0000-2.xlsx"
       ],
       "file_sizes": [
+        77769799,
         148131536,
         88903420
       ],
-      "total_size": 237034956,
-      "file_count": 2,
+      "total_size": 314804755,
+      "file_count": 3,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
