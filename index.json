@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-07T22:33:45.465921Z",
+  "generated_at": "2026-05-07T22:34:00.539640Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
-    "total_regions": 183,
-    "total_xlsx_files": 367,
+    "total_regions": 184,
+    "total_xlsx_files": 369,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24579907014,
+    "total_xlsx_size_bytes": 24816941970,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25385.0,
-    "total_climbs": 132840331
+    "total_size_mb": 25611.1,
+    "total_climbs": 134661448
   },
   "regions": {
     "europe/austria": {
@@ -4466,6 +4466,52 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-05-06T17:23:46Z",
+      "last_updated": "2026-05-06"
+    },
+    "europe/norway": {
+      "region_name": "Norway",
+      "version": "2.4.0",
+      "release_tag": "europe-norway-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/europe-norway-v2.4.0",
+      "climb_count": 1821117,
+      "elevation_errors": 0,
+      "files": [
+        "Norway_climbs_all-surfaces_all-access_metric_2026-05-07_v2.4.0_e0000-1.xlsx",
+        "Norway_climbs_all-surfaces_all-access_metric_2026-05-07_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-norway-v2.4.0/Norway_climbs_all-surfaces_all-access_metric_2026-05-07_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-norway-v2.4.0/Norway_climbs_all-surfaces_all-access_metric_2026-05-07_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        148131536,
+        88903420
+      ],
+      "total_size": 237034956,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-05-06T17:23:52Z",
       "last_updated": "2026-05-06"
     },
     "europe/montenegro": {
