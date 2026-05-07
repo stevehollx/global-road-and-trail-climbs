@@ -1,26 +1,27 @@
 ## Info
-* Date: 2026-04-27
+* Date: 2026-05-06
 * Version: 2.4.0
 * Elevation Errors: 0
-* Climbs: 106,642
+* Climbs: 102,509
 * Files: 1 Excel file(s) + error log
-* Total Size: 52.7 MB
+* Total Size: 52.4 MB
 * Release Tag: `europe-iceland-v2.4.0`
 
 ## Elevation datasets used:
-1. aw3d30
+1. arctic32m
+2. aw3d30
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Iceland_climbs_all-surfaces_all-access_metric_2026-04-27_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-b75df86d314a65ebe7d6/Iceland_climbs_all-surfaces_all-access_metric_2026-04-27_v2.4.0_e0000.sqlite.gz) | 33.4 MB | Other |
-| [Iceland_climbs_all-surfaces_all-access_metric_2026-04-27_v2.4.0_e0000.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-b75df86d314a65ebe7d6/Iceland_climbs_all-surfaces_all-access_metric_2026-04-27_v2.4.0_e0000.xlsx) | 19.1 MB | Excel |
-| [Iceland_errors_2026-04-27.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-b75df86d314a65ebe7d6/Iceland_errors_2026-04-27.txt) | 0.2 MB | Log |
+| [Iceland_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-iceland-v2.4.0/Iceland_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.sqlite.gz) | 33.1 MB | Other |
+| [Iceland_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-iceland-v2.4.0/Iceland_climbs_all-surfaces_all-access_metric_2026-05-06_v2.4.0_e0000.xlsx) | 19.3 MB | Excel |
+| [Iceland_errors_2026-05-06.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-iceland-v2.4.0/Iceland_errors_2026-05-06.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-b75df86d314a65ebe7d6)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/europe-iceland-v2.4.0)
 
 ---
 
