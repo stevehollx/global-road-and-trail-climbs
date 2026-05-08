@@ -1,29 +1,28 @@
 # Colorado Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 2 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 504.1 MB
-* Release Tag: `colorado-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 5 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 494.4 MB
+* Release Tag: `colorado-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.0/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000-1.xlsx) | 191.6 MB | Excel |
-| [Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.0/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000-2.xlsx) | 2.3 MB | Excel |
-| [Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.0/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000.sqlite.gz) | 310.2 MB | SQLite (gzipped) |
-| [Colorado_errors_2026-01-04.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.0/Colorado_errors_2026-01-04.txt) | 0.0 MB | Log |
+| [Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.1/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.1_e0000-1.xlsx) | 59.4 MB | Excel |
+| [Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.1/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.1_e0000-2.xlsx) | 35.7 MB | Excel |
+| [Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.1/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.1_e0000-3.xlsx) | 31.4 MB | Excel |
+| [Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.1/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.1_e0000-4.xlsx) | 28.7 MB | Excel |
+| [Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.1_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.1/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.1_e0000-5.xlsx) | 21.9 MB | Excel |
+| [Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.1/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.1_e0000.sqlite.gz) | 317.4 MB | SQLite (gzipped) |
+| [Colorado_errors_2026-01-04.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.1/Colorado_errors_2026-01-04.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/colorado-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/colorado-v2.4.1)
 
 ---
 
