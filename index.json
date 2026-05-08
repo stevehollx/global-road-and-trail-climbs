@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T17:17:59.265139Z",
+  "generated_at": "2026-05-08T17:18:06.501348Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
@@ -833,58 +833,6 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-05-08T17:15:55Z",
-      "last_updated": "2026-05-08"
-    },
-    "north-america/canada/british-columbia": {
-      "region_name": "British Columbia",
-      "version": "2.4.1",
-      "release_tag": "canada-british-columbia-v2.4.1",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/canada-british-columbia-v2.4.1",
-      "climb_count": null,
-      "elevation_errors": null,
-      "files": [
-        "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-3.xlsx",
-        "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-4.xlsx",
-        "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-1.xlsx",
-        "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-4.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        26110152,
-        2466784,
-        59469739,
-        32372352
-      ],
-      "total_size": 120419027,
-      "file_count": 4,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": null,
-      "database_gz_file": null,
-      "database_gz_size": null,
-      "database_gz_url": null,
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-05-08T17:17:33Z",
       "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/kansas": {
@@ -3584,6 +3532,58 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-05-08T17:16:43Z",
+      "last_updated": "2026-05-08"
+    },
+    "north-america/canada/british-columbia": {
+      "region_name": "British Columbia",
+      "version": "2.4.1",
+      "release_tag": "canada-british-columbia-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/canada-british-columbia-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
+      "files": [
+        "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-3.xlsx",
+        "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-4.xlsx",
+        "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-1.xlsx",
+        "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        26110152,
+        2466784,
+        59469739,
+        32372352
+      ],
+      "total_size": 120419027,
+      "file_count": 4,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 215845307,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-05-08T17:17:33Z",
       "last_updated": "2026-05-08"
     },
     "north-america/canada/alberta": {
