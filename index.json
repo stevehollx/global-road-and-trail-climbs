@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:35:28.826419Z",
+  "generated_at": "2026-05-08T16:35:40.656428Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 390,
+    "total_xlsx_files": 392,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24808379044,
+    "total_xlsx_size_bytes": 24797480037,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25602.9,
-    "total_climbs": 128263362
+    "total_size_mb": 25592.5,
+    "total_climbs": 127621224
   },
   "regions": {
     "europe/austria": {
@@ -1157,6 +1157,49 @@
       "published_at": "2026-05-08T16:29:43Z",
       "last_updated": "2026-05-08"
     },
+    "north-america/united-states-of-america/utah": {
+      "region_name": "Utah",
+      "version": "2.4.0",
+      "release_tag": "utah-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/utah-v2.4.0",
+      "climb_count": 569342,
+      "elevation_errors": 0,
+      "files": [
+        "Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.0/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        122332333
+      ],
+      "total_size": 122332333,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 194966517,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.0/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-01-24T03:17:45Z",
+      "last_updated": "2026-01-24"
+    },
     "north-america/united-states-of-america/south-dakota": {
       "region_name": "South Dakota",
       "version": "2.4.1",
@@ -1677,25 +1720,31 @@
     },
     "north-america/united-states-of-america/iowa": {
       "region_name": "Iowa",
-      "version": "2.4.0",
-      "release_tag": "iowa-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/iowa-v2.4.0",
-      "climb_count": 642138,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "iowa-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/iowa-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx",
-        "Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx"
+        "Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx",
+        "Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-4.xlsx",
+        "Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx",
+        "Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/iowa-v2.4.0/Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/iowa-v2.4.0/Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/iowa-v2.4.1/Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/iowa-v2.4.1/Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/iowa-v2.4.1/Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/iowa-v2.4.1/Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        99071924,
-        21020156
+        28841734,
+        5618530,
+        42661340,
+        32071469
       ],
-      "total_size": 120092080,
-      "file_count": 2,
+      "total_size": 109193073,
+      "file_count": 4,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
@@ -1710,16 +1759,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 202414564,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/iowa-v2.4.0/Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 207546554,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/iowa-v2.4.1/Iowa_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-18T14:57:11Z",
-      "last_updated": "2026-04-18"
+      "published_at": "2026-05-08T16:35:05Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/idaho": {
       "region_name": "Idaho",
@@ -8173,49 +8222,6 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-01-24T03:17:10Z",
-      "last_updated": "2026-01-24"
-    },
-    "north-america/united-states-of-america/utah": {
-      "region_name": "Utah",
-      "version": "2.4.0",
-      "release_tag": "utah-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/utah-v2.4.0",
-      "climb_count": 569342,
-      "elevation_errors": 0,
-      "files": [
-        "Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.0/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        122332333
-      ],
-      "total_size": 122332333,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 194966517,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.0/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-01-24T03:17:45Z",
       "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/oregon": {
