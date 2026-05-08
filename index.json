@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:30:00.355558Z",
+  "generated_at": "2026-05-08T16:30:10.514422Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 371,
+    "total_xlsx_files": 372,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24927919817,
+    "total_xlsx_size_bytes": 24923739076,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25716.9,
-    "total_climbs": 134271878
+    "total_size_mb": 25712.9,
+    "total_climbs": 134056396
   },
   "regions": {
     "europe/austria": {
@@ -1063,6 +1063,52 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-05-08T16:29:43Z",
+      "last_updated": "2026-05-08"
+    },
+    "north-america/united-states-of-america/south-dakota": {
+      "region_name": "South Dakota",
+      "version": "2.4.1",
+      "release_tag": "south-dakota-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/south-dakota-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
+      "files": [
+        "South_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-1.xlsx",
+        "South_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/south-dakota-v2.4.1/South_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/south-dakota-v2.4.1/South_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        37606780,
+        2132744
+      ],
+      "total_size": 39739524,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "South_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 74895742,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/south-dakota-v2.4.1/South_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-05-08T16:29:54Z",
       "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/rhode-island": {
@@ -6445,49 +6491,6 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-04-18T14:57:46Z",
-      "last_updated": "2026-04-18"
-    },
-    "north-america/united-states-of-america/south-dakota": {
-      "region_name": "South Dakota",
-      "version": "2.4.0",
-      "release_tag": "south-dakota-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/south-dakota-v2.4.0",
-      "climb_count": 215482,
-      "elevation_errors": 0,
-      "files": [
-        "South_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/south-dakota-v2.4.0/South_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        43920265
-      ],
-      "total_size": 43920265,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "South_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 73333676,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/south-dakota-v2.4.0/South_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-04-18T14:57:54Z",
       "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/oklahoma": {
