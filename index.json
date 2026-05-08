@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:35:00.112790Z",
+  "generated_at": "2026-05-08T16:35:10.457393Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 389,
+    "total_xlsx_files": 390,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24819458906,
+    "total_xlsx_size_bytes": 24808379044,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25613.5,
-    "total_climbs": 128789652
+    "total_size_mb": 25602.9,
+    "total_climbs": 128263362
   },
   "regions": {
     "europe/austria": {
@@ -1294,25 +1294,28 @@
     },
     "north-america/united-states-of-america/new-mexico": {
       "region_name": "New Mexico",
-      "version": "2.4.0",
-      "release_tag": "new-mexico-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-mexico-v2.4.0",
-      "climb_count": 526290,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "new-mexico-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-mexico-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx",
-        "New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx"
+        "New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx",
+        "New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx",
+        "New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.0/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.0/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.1/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.1/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.1/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        113115855,
-        3706816
+        17819031,
+        54890501,
+        33033277
       ],
-      "total_size": 116822671,
-      "file_count": 2,
+      "total_size": 105742809,
+      "file_count": 3,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
@@ -1327,16 +1330,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 186267449,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.0/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 190287227,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.1/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-14T18:56:28Z",
-      "last_updated": "2026-04-14"
+      "published_at": "2026-05-08T16:34:38Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/new-hampshire": {
       "region_name": "New Hampshire",
