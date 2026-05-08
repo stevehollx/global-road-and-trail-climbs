@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:32:07.038211Z",
+  "generated_at": "2026-05-08T16:32:18.326540Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 378,
+    "total_xlsx_files": 380,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24882797139,
+    "total_xlsx_size_bytes": 24875011955,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25673.9,
-    "total_climbs": 132188158
+    "total_size_mb": 25666.5,
+    "total_climbs": 131752532
   },
   "regions": {
     "europe/austria": {
@@ -1340,23 +1340,29 @@
     },
     "north-america/united-states-of-america/nebraska": {
       "region_name": "Nebraska",
-      "version": "2.4.0",
-      "release_tag": "nebraska-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/nebraska-v2.4.0",
-      "climb_count": 435626,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "nebraska-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/nebraska-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
+        "Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx",
+        "Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx",
+        "Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.0/Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.1/Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.1/Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.1/Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        85385959
+        4766928,
+        42862623,
+        29971224
       ],
-      "total_size": 85385959,
-      "file_count": 1,
-      "has_split_files": false,
+      "total_size": 77600775,
+      "file_count": 3,
+      "has_split_files": true,
       "database_file": null,
       "database_size": null,
       "database_url": null,
@@ -1370,16 +1376,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 142400641,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.0/Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 145371546,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.1/Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-18T14:52:05Z",
-      "last_updated": "2026-04-18"
+      "published_at": "2026-05-08T16:31:56Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/montana": {
       "region_name": "Montana",
