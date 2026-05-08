@@ -1,28 +1,26 @@
 # Mississippi Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 1 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 226.4 MB
-* Release Tag: `mississippi-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 3 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 221.4 MB
+* Release Tag: `mississippi-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.0/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx) | 84.5 MB | Excel |
-| [Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.0/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz) | 141.8 MB | SQLite (gzipped) |
-| [us__mississippi_errors_all_2025-12-29.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.0/us__mississippi_errors_all_2025-12-29.txt) | 0.0 MB | Log |
+| [Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.1/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx) | 39.8 MB | Excel |
+| [Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.1/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx) | 29.0 MB | Excel |
+| [Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.1/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx) | 7.3 MB | Excel |
+| [Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.1/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz) | 145.3 MB | SQLite (gzipped) |
+| [us__mississippi_errors_all_2025-12-29.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.1/us__mississippi_errors_all_2025-12-29.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/mississippi-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/mississippi-v2.4.1)
 
 ---
 
