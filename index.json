@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:47:14.649190Z",
+  "generated_at": "2026-05-08T16:47:42.096572Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 446,
+    "total_xlsx_files": 450,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24512333525,
+    "total_xlsx_size_bytes": 24489280905,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25320.6,
-    "total_climbs": 111260412
+    "total_size_mb": 25298.6,
+    "total_climbs": 109722374
   },
   "regions": {
     "europe/austria": {
@@ -2511,31 +2511,43 @@
     },
     "north-america/united-states-of-america/illinois": {
       "region_name": "Illinois",
-      "version": "2.4.0",
-      "release_tag": "illinois-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/illinois-v2.4.0",
-      "climb_count": 1538038,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "illinois-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/illinois-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-3.xlsx",
-        "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-4.xlsx",
-        "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx",
-        "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx"
+        "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx",
+        "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-4.xlsx",
+        "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-5.xlsx",
+        "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-6.xlsx",
+        "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-7.xlsx",
+        "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-8.xlsx",
+        "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx",
+        "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.0/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.0/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-4.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.0/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.0/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.1/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.1/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.1/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-5.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.1/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-6.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.1/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-7.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.1/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-8.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.1/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.1/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        75854181,
-        5239402,
-        112941353,
-        85708353
+        33917689,
+        31948586,
+        30612707,
+        29578011,
+        28187219,
+        18402596,
+        47331309,
+        36712552
       ],
-      "total_size": 279743289,
-      "file_count": 4,
+      "total_size": 256690669,
+      "file_count": 8,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
@@ -2550,16 +2562,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 470150273,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.0/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 483842451,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/illinois-v2.4.1/Illinois_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-18T14:52:15Z",
-      "last_updated": "2026-04-18"
+      "published_at": "2026-05-08T16:46:28Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/idaho": {
       "region_name": "Idaho",
@@ -2609,6 +2621,55 @@
       "gz_split_sizes": null,
       "published_at": "2026-05-08T16:34:14Z",
       "last_updated": "2026-05-08"
+    },
+    "north-america/united-states-of-america/georgia": {
+      "region_name": "Georgia",
+      "version": "2.4.0",
+      "release_tag": "georgia-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/georgia-v2.4.0",
+      "climb_count": 1461341,
+      "elevation_errors": 0,
+      "files": [
+        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-3.xlsx",
+        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-1.xlsx",
+        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        70184924,
+        122727943,
+        87484013
+      ],
+      "total_size": 280396880,
+      "file_count": 3,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 465169213,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-09T20:26:49Z",
+      "last_updated": "2026-04-09"
     },
     "north-america/united-states-of-america/delaware": {
       "region_name": "Delaware",
@@ -8514,55 +8575,6 @@
       "gz_split_sizes": null,
       "published_at": "2026-04-10T10:50:50Z",
       "last_updated": "2026-04-10"
-    },
-    "north-america/united-states-of-america/georgia": {
-      "region_name": "Georgia",
-      "version": "2.4.0",
-      "release_tag": "georgia-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/georgia-v2.4.0",
-      "climb_count": 1461341,
-      "elevation_errors": 0,
-      "files": [
-        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-3.xlsx",
-        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-1.xlsx",
-        "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        70184924,
-        122727943,
-        87484013
-      ],
-      "total_size": 280396880,
-      "file_count": 3,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 465169213,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-04-09T20:26:49Z",
-      "last_updated": "2026-04-09"
     },
     "north-america/united-states-of-america/north-carolina": {
       "region_name": "North Carolina",
