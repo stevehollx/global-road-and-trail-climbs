@@ -1,31 +1,31 @@
 # Virginia Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 4 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 773.1 MB
-* Release Tag: `virginia-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 8 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 758.1 MB
+* Release Tag: `virginia-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-1c61a5c427f392582de3/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx) | 131.9 MB | Excel |
-| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-1c61a5c427f392582de3/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx) | 85.5 MB | Excel |
-| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-1c61a5c427f392582de3/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-3.xlsx) | 73.8 MB | Excel |
-| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-1c61a5c427f392582de3/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-4.xlsx) | 4.3 MB | Excel |
-| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-1c61a5c427f392582de3/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000.sqlite.gz) | 477.7 MB | SQLite (gzipped) |
-| [Virginia_State_Analysis_errors_2026-04-10.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-1c61a5c427f392582de3/Virginia_State_Analysis_errors_2026-04-10.txt) | 0.0 MB | Log |
+| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx) | 61.3 MB | Excel |
+| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx) | 38.2 MB | Excel |
+| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx) | 33.9 MB | Excel |
+| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-4.xlsx) | 31.6 MB | Excel |
+| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-5.xlsx) | 29.8 MB | Excel |
+| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-6.xlsx) | 28.6 MB | Excel |
+| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-7.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-7.xlsx) | 27.1 MB | Excel |
+| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-8.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-8.xlsx) | 16.9 MB | Excel |
+| [Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000.sqlite.gz) | 490.6 MB | SQLite (gzipped) |
+| [Virginia_State_Analysis_errors_2026-04-10.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_State_Analysis_errors_2026-04-10.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/virginia-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/virginia-v2.4.1)
 
 ---
 
