@@ -1,28 +1,26 @@
 # Nebraska Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 1 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 217.2 MB
-* Release Tag: `nebraska-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 3 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 212.6 MB
+* Release Tag: `nebraska-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.0/Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx) | 81.4 MB | Excel |
-| [Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.0/Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz) | 135.8 MB | SQLite (gzipped) |
-| [Nebraska_State_Analysis_errors_2026-04-17.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.0/Nebraska_State_Analysis_errors_2026-04-17.txt) | 0.0 MB | Log |
+| [Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.1/Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx) | 40.9 MB | Excel |
+| [Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.1/Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx) | 28.6 MB | Excel |
+| [Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.1/Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx) | 4.5 MB | Excel |
+| [Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.1/Nebraska_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz) | 138.6 MB | SQLite (gzipped) |
+| [Nebraska_State_Analysis_errors_2026-04-17.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nebraska-v2.4.1/Nebraska_State_Analysis_errors_2026-04-17.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/nebraska-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/nebraska-v2.4.1)
 
 ---
 
