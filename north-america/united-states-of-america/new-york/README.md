@@ -1,30 +1,31 @@
 # New York Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 3 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 719.9 MB
-* Release Tag: `new-york-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 8 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 708.9 MB
+* Release Tag: `new-york-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx) | 116.4 MB | Excel |
-| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx) | 83.4 MB | Excel |
-| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-3.xlsx) | 71.5 MB | Excel |
-| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000.sqlite.gz) | 448.6 MB | SQLite (gzipped) |
-| [New_York_State_Analysis_errors_2026-01-24.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.0/New_York_State_Analysis_errors_2026-01-24.txt) | 0.0 MB | Log |
+| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.1/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx) | 51.2 MB | Excel |
+| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.1/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx) | 35.6 MB | Excel |
+| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.1/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx) | 32.9 MB | Excel |
+| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.1/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-4.xlsx) | 30.9 MB | Excel |
+| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.1/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-5.xlsx) | 29.5 MB | Excel |
+| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.1/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-6.xlsx) | 28.2 MB | Excel |
+| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-7.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.1/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-7.xlsx) | 26.9 MB | Excel |
+| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-8.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.1/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-8.xlsx) | 11.7 MB | Excel |
+| [New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.1/New_York_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000.sqlite.gz) | 462.0 MB | SQLite (gzipped) |
+| [New_York_State_Analysis_errors_2026-01-24.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-york-v2.4.1/New_York_State_Analysis_errors_2026-01-24.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-york-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-york-v2.4.1)
 
 ---
 
