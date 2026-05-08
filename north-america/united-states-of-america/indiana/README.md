@@ -1,30 +1,29 @@
 # Indiana Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 3 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 546.8 MB
-* Release Tag: `indiana-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 6 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 538.8 MB
+* Release Tag: `indiana-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.0/Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx) | 101.0 MB | Excel |
-| [Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.0/Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx) | 77.2 MB | Excel |
-| [Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.0/Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-3.xlsx) | 25.1 MB | Excel |
-| [Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.0/Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz) | 343.6 MB | SQLite (gzipped) |
-| [Indiana_State_Analysis_errors_2026-04-17.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.0/Indiana_State_Analysis_errors_2026-04-17.txt) | 0.0 MB | Log |
+| [Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.1/Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx) | 42.2 MB | Excel |
+| [Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.1/Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx) | 33.1 MB | Excel |
+| [Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.1/Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx) | 30.6 MB | Excel |
+| [Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.1/Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-4.xlsx) | 29.0 MB | Excel |
+| [Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.1/Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-5.xlsx) | 27.6 MB | Excel |
+| [Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.1/Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-6.xlsx) | 23.5 MB | Excel |
+| [Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.1/Indiana_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz) | 352.7 MB | SQLite (gzipped) |
+| [Indiana_State_Analysis_errors_2026-04-17.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/indiana-v2.4.1/Indiana_State_Analysis_errors_2026-04-17.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/indiana-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/indiana-v2.4.1)
 
 ---
 
