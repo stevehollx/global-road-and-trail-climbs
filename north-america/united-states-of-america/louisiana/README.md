@@ -1,29 +1,26 @@
 # Louisiana Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 2 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 243.9 MB
-* Release Tag: `louisiana-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 3 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 239.3 MB
+* Release Tag: `louisiana-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-1.xlsx) | 86.9 MB | Excel |
-| [Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-2.xlsx) | 3.0 MB | Excel |
-| [Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000.sqlite.gz) | 154.0 MB | SQLite (gzipped) |
-| [us__louisiana_errors_all_2025-12-30.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/us__louisiana_errors_all_2025-12-30.txt) | 0.0 MB | Log |
+| [Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.1/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000-1.xlsx) | 37.3 MB | Excel |
+| [Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.1/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000-2.xlsx) | 28.5 MB | Excel |
+| [Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.1/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000-3.xlsx) | 15.7 MB | Excel |
+| [Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.1/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000.sqlite.gz) | 157.7 MB | SQLite (gzipped) |
+| [us__louisiana_errors_all_2025-12-30.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.1/us__louisiana_errors_all_2025-12-30.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/louisiana-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/louisiana-v2.4.1)
 
 ---
 
