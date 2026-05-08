@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:31:16.641079Z",
+  "generated_at": "2026-05-08T16:31:26.280596Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
@@ -1245,6 +1245,49 @@
       "gz_split_sizes": null,
       "published_at": "2026-05-08T16:29:31Z",
       "last_updated": "2026-05-08"
+    },
+    "north-america/united-states-of-america/north-dakota": {
+      "region_name": "North Dakota",
+      "version": "2.4.0",
+      "release_tag": "north-dakota-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/north-dakota-v2.4.0",
+      "climb_count": 336898,
+      "elevation_errors": 0,
+      "files": [
+        "North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-dakota-v2.4.0/North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
+      ],
+      "file_sizes": [
+        70761525
+      ],
+      "total_size": 70761525,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 116344214,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-dakota-v2.4.0/North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-18T14:51:49Z",
+      "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/new-hampshire": {
       "region_name": "New Hampshire",
@@ -6773,49 +6816,6 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-04-18T14:59:47Z",
-      "last_updated": "2026-04-18"
-    },
-    "north-america/united-states-of-america/north-dakota": {
-      "region_name": "North Dakota",
-      "version": "2.4.0",
-      "release_tag": "north-dakota-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/north-dakota-v2.4.0",
-      "climb_count": 336898,
-      "elevation_errors": 0,
-      "files": [
-        "North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-dakota-v2.4.0/North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        70761525
-      ],
-      "total_size": 70761525,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 116344214,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-dakota-v2.4.0/North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-04-18T14:51:49Z",
       "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/nebraska": {
