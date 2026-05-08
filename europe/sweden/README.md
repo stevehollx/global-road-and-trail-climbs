@@ -1,31 +1,31 @@
 ## Info
-* Date: 2026-04-26
+* Date: 2026-05-08
 * Version: 2.4.0
 * Elevation Errors: 0
-* Climbs: 2,292,493
+* Climbs: 2,355,041
 * Files: 5 Excel file(s) + error log
-* Total Size: 1082.6 MB
+* Total Size: 1141.1 MB
 * Release Tag: `europe-sweden-v2.4.0`
 
 ## Elevation datasets used:
-1. srtm30m
+1. arctic32m
 2. aw3d30
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Sweden_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-3bea912c230ae432d9c8/Sweden_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-1.xlsx) | 137.3 MB | Excel |
-| [Sweden_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-3bea912c230ae432d9c8/Sweden_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-2.xlsx) | 87.8 MB | Excel |
-| [Sweden_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-3bea912c230ae432d9c8/Sweden_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-3.xlsx) | 74.7 MB | Excel |
-| [Sweden_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-3bea912c230ae432d9c8/Sweden_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-4.xlsx) | 66.2 MB | Excel |
-| [Sweden_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-3bea912c230ae432d9c8/Sweden_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-5.xlsx) | 33.5 MB | Excel |
-| [Sweden_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-3bea912c230ae432d9c8/Sweden_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000.sqlite.gz) | 682.3 MB | Other |
-| [Sweden_errors_2026-04-26.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-3bea912c230ae432d9c8/Sweden_errors_2026-04-26.txt) | 0.8 MB | Log |
+| [Sweden_climbs_all-surfaces_all-access_metric_2026-05-08_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-sweden-v2.4.0/Sweden_climbs_all-surfaces_all-access_metric_2026-05-08_v2.4.0_e0000-1.xlsx) | 141.3 MB | Excel |
+| [Sweden_climbs_all-surfaces_all-access_metric_2026-05-08_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-sweden-v2.4.0/Sweden_climbs_all-surfaces_all-access_metric_2026-05-08_v2.4.0_e0000-2.xlsx) | 90.6 MB | Excel |
+| [Sweden_climbs_all-surfaces_all-access_metric_2026-05-08_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-sweden-v2.4.0/Sweden_climbs_all-surfaces_all-access_metric_2026-05-08_v2.4.0_e0000-3.xlsx) | 78.2 MB | Excel |
+| [Sweden_climbs_all-surfaces_all-access_metric_2026-05-08_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-sweden-v2.4.0/Sweden_climbs_all-surfaces_all-access_metric_2026-05-08_v2.4.0_e0000-4.xlsx) | 69.0 MB | Excel |
+| [Sweden_climbs_all-surfaces_all-access_metric_2026-05-08_v2.4.0_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-sweden-v2.4.0/Sweden_climbs_all-surfaces_all-access_metric_2026-05-08_v2.4.0_e0000-5.xlsx) | 45.4 MB | Excel |
+| [Sweden_climbs_all-surfaces_all-access_metric_2026-05-08_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-sweden-v2.4.0/Sweden_climbs_all-surfaces_all-access_metric_2026-05-08_v2.4.0_e0000.sqlite.gz) | 715.6 MB | Other |
+| [Sweden_errors_2026-05-08.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-sweden-v2.4.0/Sweden_errors_2026-05-08.txt) | 1.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-3bea912c230ae432d9c8)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/europe-sweden-v2.4.0)
 
 ---
 
