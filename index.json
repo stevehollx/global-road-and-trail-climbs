@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:32:55.780669Z",
+  "generated_at": "2026-05-08T16:33:03.766904Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 382,
+    "total_xlsx_files": 383,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24866183700,
+    "total_xlsx_size_bytes": 24857450307,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25658.1,
-    "total_climbs": 131295248
+    "total_size_mb": 25649.7,
+    "total_climbs": 130772787
   },
   "regions": {
     "europe/austria": {
@@ -1530,25 +1530,28 @@
     },
     "north-america/united-states-of-america/louisiana": {
       "region_name": "Louisiana",
-      "version": "2.4.0",
-      "release_tag": "louisiana-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/louisiana-v2.4.0",
-      "climb_count": 522461,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "louisiana-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/louisiana-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-1.xlsx",
-        "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-2.xlsx"
+        "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000-3.xlsx",
+        "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000-1.xlsx",
+        "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.1/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.1/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.1/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        91134418,
-        3117920
+        16478754,
+        39153910,
+        29886281
       ],
-      "total_size": 94252338,
-      "file_count": 2,
+      "total_size": 85518945,
+      "file_count": 3,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
@@ -1563,16 +1566,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 161487885,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 165406759,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.1/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-18T14:50:59Z",
-      "last_updated": "2026-04-18"
+      "published_at": "2026-05-08T16:32:41Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/delaware": {
       "region_name": "Delaware",
