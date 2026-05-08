@@ -1,32 +1,36 @@
 # Florida Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 5 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 1103.7 MB
-* Release Tag: `florida-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 13 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 1090.7 MB
+* Release Tag: `florida-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.0/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx) | 110.0 MB | Excel |
-| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.0/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx) | 86.5 MB | Excel |
-| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.0/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-3.xlsx) | 78.9 MB | Excel |
-| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.0/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-4.xlsx) | 74.2 MB | Excel |
-| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.0/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-5.xlsx) | 60.5 MB | Excel |
-| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.0/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz) | 693.6 MB | SQLite (gzipped) |
-| [Florida_State_Analysis_errors_2026-04-18.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.0/Florida_State_Analysis_errors_2026-04-18.txt) | 0.0 MB | Log |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx) | 44.9 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-10.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-10.xlsx) | 27.1 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-11.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-11.xlsx) | 26.3 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-12.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-12.xlsx) | 25.3 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-13.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-13.xlsx) | 4.4 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx) | 36.0 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx) | 33.6 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-4.xlsx) | 31.8 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-5.xlsx) | 30.6 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-6.xlsx) | 29.6 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-7.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-7.xlsx) | 28.9 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-8.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-8.xlsx) | 28.4 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-9.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-9.xlsx) | 27.7 MB | Excel |
+| [Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz) | 716.2 MB | SQLite (gzipped) |
+| [Florida_State_Analysis_errors_2026-04-18.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/florida-v2.4.1/Florida_State_Analysis_errors_2026-04-18.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/florida-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/florida-v2.4.1)
 
 ---
 
