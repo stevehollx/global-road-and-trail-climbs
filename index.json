@@ -1,15 +1,15 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:49:35.446769Z",
+  "generated_at": "2026-05-08T16:49:51.019654Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 461,
+    "total_xlsx_files": 464,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24333975428,
+    "total_xlsx_size_bytes": 24410095189,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25150.5,
+    "total_size_mb": 25223.1,
     "total_climbs": 105235759
   },
   "regions": {
@@ -987,6 +987,9 @@
         "Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx",
         "Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-4.xlsx",
         "Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-5.xlsx",
+        "Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-6.xlsx",
+        "Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-7.xlsx",
+        "Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-8.xlsx",
         "Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx",
         "Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx"
       ],
@@ -994,6 +997,9 @@
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-4.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-5.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-6.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-7.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-8.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/virginia-v2.4.1/Virginia_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx"
       ],
@@ -1001,11 +1007,14 @@
         35569406,
         33115059,
         31285087,
+        29976123,
+        28376126,
+        17767512,
         64307849,
         40072062
       ],
-      "total_size": 204349463,
-      "file_count": 5,
+      "total_size": 280469224,
+      "file_count": 8,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
