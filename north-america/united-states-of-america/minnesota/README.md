@@ -1,29 +1,28 @@
 # Minnesota Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 2 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 468.0 MB
-* Release Tag: `minnesota-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 5 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 460.0 MB
+* Release Tag: `minnesota-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.0/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-1.xlsx) | 103.8 MB | Excel |
-| [Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.0/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-2.xlsx) | 71.5 MB | Excel |
-| [Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.0/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.sqlite.gz) | 292.7 MB | SQLite (gzipped) |
-| [Minnesota_State_Analysis_errors_2026-04-15.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.0/Minnesota_State_Analysis_errors_2026-04-15.txt) | 0.0 MB | Log |
+| [Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.1/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-1.xlsx) | 44.2 MB | Excel |
+| [Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.1/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-2.xlsx) | 33.2 MB | Excel |
+| [Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.1/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-3.xlsx) | 30.3 MB | Excel |
+| [Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.1/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-4.xlsx) | 28.5 MB | Excel |
+| [Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.1/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-5.xlsx) | 23.1 MB | Excel |
+| [Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.1/Minnesota_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000.sqlite.gz) | 300.8 MB | SQLite (gzipped) |
+| [Minnesota_State_Analysis_errors_2026-04-15.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/minnesota-v2.4.1/Minnesota_State_Analysis_errors_2026-04-15.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/minnesota-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/minnesota-v2.4.1)
 
 ---
 
