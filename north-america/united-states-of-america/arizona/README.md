@@ -1,29 +1,29 @@
 # Arizona Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 2 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 506.2 MB
-* Release Tag: `arizona-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 6 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 496.4 MB
+* Release Tag: `arizona-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.0/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx) | 185.7 MB | Excel |
-| [Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.0/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx) | 7.3 MB | Excel |
-| [Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.0/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz) | 313.1 MB | SQLite (gzipped) |
-| [Arizona_State_Analysis_errors_2026-01-24.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.0/Arizona_State_Analysis_errors_2026-01-24.txt) | 0.0 MB | Log |
+| [Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.1/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-1.xlsx) | 56.0 MB | Excel |
+| [Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.1/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-2.xlsx) | 34.6 MB | Excel |
+| [Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.1/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-3.xlsx) | 30.8 MB | Excel |
+| [Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.1/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-4.xlsx) | 28.4 MB | Excel |
+| [Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.1/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-5.xlsx) | 26.1 MB | Excel |
+| [Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.1/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-6.xlsx) | 0.7 MB | Excel |
+| [Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.1/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000.sqlite.gz) | 319.8 MB | SQLite (gzipped) |
+| [Arizona_State_Analysis_errors_2026-01-24.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.1/Arizona_State_Analysis_errors_2026-01-24.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/arizona-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/arizona-v2.4.1)
 
 ---
 
