@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:45:40.439267Z",
+  "generated_at": "2026-05-08T16:46:02.080715Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 437,
+    "total_xlsx_files": 441,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24556293836,
+    "total_xlsx_size_bytes": 24534670868,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25362.5,
-    "total_climbs": 113688574
+    "total_size_mb": 25341.9,
+    "total_climbs": 112480700
   },
   "regions": {
     "europe/austria": {
@@ -1178,6 +1178,52 @@
       "published_at": "2026-05-08T16:30:59Z",
       "last_updated": "2026-05-08"
     },
+    "north-america/united-states-of-america/washington": {
+      "region_name": "Washington",
+      "version": "2.4.0",
+      "release_tag": "washington-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/washington-v2.4.0",
+      "climb_count": 1220288,
+      "elevation_errors": 0,
+      "files": [
+        "Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
+        "Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        206124786,
+        40166219
+      ],
+      "total_size": 246291005,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 399351266,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-01-24T03:17:10Z",
+      "last_updated": "2026-01-24"
+    },
     "north-america/united-states-of-america/vermont": {
       "region_name": "Vermont",
       "version": "2.4.1",
@@ -1918,28 +1964,40 @@
     },
     "north-america/united-states-of-america/missouri": {
       "region_name": "Missouri",
-      "version": "2.4.0",
-      "release_tag": "missouri-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/missouri-v2.4.0",
-      "climb_count": 1207874,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "missouri-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/missouri-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-3.xlsx",
-        "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-1.xlsx",
-        "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-2.xlsx"
+        "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-3.xlsx",
+        "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-4.xlsx",
+        "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-5.xlsx",
+        "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-6.xlsx",
+        "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-7.xlsx",
+        "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-1.xlsx",
+        "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.0/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.0/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.0/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.1/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.1/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.1/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-5.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.1/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-6.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.1/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-7.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.1/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.1/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        30923275,
-        120071829,
-        84818296
+        33797452,
+        31678224,
+        30012222,
+        27723943,
+        1112596,
+        52842618,
+        37023377
       ],
-      "total_size": 235813400,
-      "file_count": 3,
+      "total_size": 214190432,
+      "file_count": 7,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
@@ -1954,16 +2012,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 388650067,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.0/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 398974253,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/missouri-v2.4.1/Missouri_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-18T14:59:41Z",
-      "last_updated": "2026-04-18"
+      "published_at": "2026-05-08T16:44:59Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/mississippi": {
       "region_name": "Mississippi",
@@ -8490,52 +8548,6 @@
       "gz_split_sizes": null,
       "published_at": "2026-04-09T20:26:49Z",
       "last_updated": "2026-04-09"
-    },
-    "north-america/united-states-of-america/washington": {
-      "region_name": "Washington",
-      "version": "2.4.0",
-      "release_tag": "washington-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/washington-v2.4.0",
-      "climb_count": 1220288,
-      "elevation_errors": 0,
-      "files": [
-        "Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
-        "Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        206124786,
-        40166219
-      ],
-      "total_size": 246291005,
-      "file_count": 2,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 399351266,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-01-24T03:17:10Z",
-      "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/north-carolina": {
       "region_name": "North Carolina",
