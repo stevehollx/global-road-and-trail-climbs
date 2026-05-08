@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:36:48.206453Z",
+  "generated_at": "2026-05-08T16:37:05.612304Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 396,
+    "total_xlsx_files": 398,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24775539498,
+    "total_xlsx_size_bytes": 24761546476,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25571.6,
-    "total_climbs": 126342504
+    "total_size_mb": 25558.3,
+    "total_climbs": 125644104
   },
   "regions": {
     "europe/austria": {
@@ -1396,6 +1396,52 @@
       "published_at": "2026-05-08T16:34:38Z",
       "last_updated": "2026-05-08"
     },
+    "north-america/united-states-of-america/new-jersey": {
+      "region_name": "New Jersey",
+      "version": "2.4.0",
+      "release_tag": "new-jersey-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-jersey-v2.4.0",
+      "climb_count": 804477,
+      "elevation_errors": 0,
+      "files": [
+        "New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
+        "New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-jersey-v2.4.0/New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-jersey-v2.4.0/New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        98661439,
+        45954256
+      ],
+      "total_size": 144615695,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 243146236,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-jersey-v2.4.0/New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-12T16:41:51Z",
+      "last_updated": "2026-04-12"
+    },
     "north-america/united-states-of-america/new-hampshire": {
       "region_name": "New Hampshire",
       "version": "2.4.1",
@@ -1732,25 +1778,31 @@
     },
     "north-america/united-states-of-america/kentucky": {
       "region_name": "Kentucky",
-      "version": "2.4.0",
-      "release_tag": "kentucky-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/kentucky-v2.4.0",
-      "climb_count": 698400,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "kentucky-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/kentucky-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-1.xlsx",
-        "Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-2.xlsx"
+        "Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-3.xlsx",
+        "Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-4.xlsx",
+        "Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-1.xlsx",
+        "Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kentucky-v2.4.0/Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kentucky-v2.4.0/Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kentucky-v2.4.1/Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kentucky-v2.4.1/Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kentucky-v2.4.1/Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kentucky-v2.4.1/Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        114095263,
-        30307422
+        30117404,
+        13468934,
+        52785863,
+        34037462
       ],
-      "total_size": 144402685,
-      "file_count": 2,
+      "total_size": 130409663,
+      "file_count": 4,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
@@ -1765,16 +1817,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 233316081,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kentucky-v2.4.0/Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 239110968,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kentucky-v2.4.1/Kentucky_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-14T18:52:48Z",
-      "last_updated": "2026-04-14"
+      "published_at": "2026-05-08T16:36:26Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/iowa": {
       "region_name": "Iowa",
@@ -7949,52 +8001,6 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-04-12T16:40:35Z",
-      "last_updated": "2026-04-12"
-    },
-    "north-america/united-states-of-america/new-jersey": {
-      "region_name": "New Jersey",
-      "version": "2.4.0",
-      "release_tag": "new-jersey-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-jersey-v2.4.0",
-      "climb_count": 804477,
-      "elevation_errors": 0,
-      "files": [
-        "New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
-        "New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-jersey-v2.4.0/New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-jersey-v2.4.0/New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        98661439,
-        45954256
-      ],
-      "total_size": 144615695,
-      "file_count": 2,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 243146236,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-jersey-v2.4.0/New_Jersey_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-04-12T16:41:51Z",
       "last_updated": "2026-04-12"
     },
     "north-america/united-states-of-america/maryland": {
