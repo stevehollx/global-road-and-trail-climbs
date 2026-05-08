@@ -1,31 +1,32 @@
 # Pennsylvania Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 4 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 802.5 MB
-* Release Tag: `pennsylvania-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 9 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 790.3 MB
+* Release Tag: `pennsylvania-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.0/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-1.xlsx) | 125.8 MB | Excel |
-| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.0/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-2.xlsx) | 86.6 MB | Excel |
-| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.0/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-3.xlsx) | 76.0 MB | Excel |
-| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.0/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000-4.xlsx) | 16.8 MB | Excel |
-| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.0/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000.sqlite.gz) | 497.3 MB | SQLite (gzipped) |
-| [Pennsylvania_State_Analysis_errors_2026-04-11.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.0/Pennsylvania_State_Analysis_errors_2026-04-11.txt) | 0.0 MB | Log |
+| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.1/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-1.xlsx) | 56.6 MB | Excel |
+| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.1/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-2.xlsx) | 37.5 MB | Excel |
+| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.1/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-3.xlsx) | 34.1 MB | Excel |
+| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.1/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-4.xlsx) | 32.2 MB | Excel |
+| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.1/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-5.xlsx) | 30.5 MB | Excel |
+| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.1/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-6.xlsx) | 29.2 MB | Excel |
+| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-7.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.1/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-7.xlsx) | 28.0 MB | Excel |
+| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-8.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.1/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-8.xlsx) | 26.3 MB | Excel |
+| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-9.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.1/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-9.xlsx) | 2.9 MB | Excel |
+| [Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.1/Pennsylvania_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000.sqlite.gz) | 512.9 MB | SQLite (gzipped) |
+| [Pennsylvania_State_Analysis_errors_2026-04-11.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/pennsylvania-v2.4.1/Pennsylvania_State_Analysis_errors_2026-04-11.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/pennsylvania-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/pennsylvania-v2.4.1)
 
 ---
 
