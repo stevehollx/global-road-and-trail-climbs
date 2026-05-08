@@ -1,30 +1,31 @@
 # Georgia Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 3 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 711.0 MB
-* Release Tag: `georgia-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 8 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 699.0 MB
+* Release Tag: `georgia-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-1.xlsx) | 117.0 MB | Excel |
-| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-2.xlsx) | 83.4 MB | Excel |
-| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000-3.xlsx) | 66.9 MB | Excel |
-| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.0_e0000.sqlite.gz) | 443.6 MB | SQLite (gzipped) |
-| [Georgia_errors_2026-04-08.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.0/Georgia_errors_2026-04-08.txt) | 0.0 MB | Log |
+| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.1/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-1.xlsx) | 51.7 MB | Excel |
+| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.1/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-2.xlsx) | 36.0 MB | Excel |
+| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.1/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-3.xlsx) | 33.0 MB | Excel |
+| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.1/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-4.xlsx) | 31.2 MB | Excel |
+| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.1/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-5.xlsx) | 29.7 MB | Excel |
+| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.1/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-6.xlsx) | 28.2 MB | Excel |
+| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-7.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.1/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-7.xlsx) | 26.6 MB | Excel |
+| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-8.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.1/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000-8.xlsx) | 7.7 MB | Excel |
+| [Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.1/Georgia_climbs_all-surfaces_all-access_imperial_2026-04-08_v2.4.1_e0000.sqlite.gz) | 454.8 MB | SQLite (gzipped) |
+| [Georgia_errors_2026-04-08.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/georgia-v2.4.1/Georgia_errors_2026-04-08.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/georgia-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/georgia-v2.4.1)
 
 ---
 
