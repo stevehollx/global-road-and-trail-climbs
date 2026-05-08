@@ -1,29 +1,30 @@
 # Washington Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 2 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 615.7 MB
-* Release Tag: `washington-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 7 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 604.9 MB
+* Release Tag: `washington-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx) | 196.6 MB | Excel |
-| [Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx) | 38.3 MB | Excel |
-| [Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz) | 380.9 MB | SQLite (gzipped) |
-| [us__washington_errors_all_2025-12-31.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.0/us__washington_errors_all_2025-12-31.txt) | 0.0 MB | Log |
+| [Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.1/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-1.xlsx) | 59.0 MB | Excel |
+| [Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.1/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-2.xlsx) | 35.2 MB | Excel |
+| [Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.1/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-3.xlsx) | 32.1 MB | Excel |
+| [Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.1/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-4.xlsx) | 30.0 MB | Excel |
+| [Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.1/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-5.xlsx) | 28.4 MB | Excel |
+| [Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.1/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-6.xlsx) | 26.3 MB | Excel |
+| [Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-7.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.1/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-7.xlsx) | 2.5 MB | Excel |
+| [Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.1/Washington_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000.sqlite.gz) | 391.4 MB | SQLite (gzipped) |
+| [us__washington_errors_all_2025-12-31.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/washington-v2.4.1/us__washington_errors_all_2025-12-31.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/washington-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/washington-v2.4.1)
 
 ---
 
