@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:40:07.161144Z",
+  "generated_at": "2026-05-08T16:40:19.471072Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 412,
+    "total_xlsx_files": 415,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24692074182,
+    "total_xlsx_size_bytes": 24677934938,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25492.0,
-    "total_climbs": 121612338
+    "total_size_mb": 25478.5,
+    "total_climbs": 120740841
   },
   "regions": {
     "europe/austria": {
@@ -1355,25 +1355,34 @@
     },
     "north-america/united-states-of-america/oklahoma": {
       "region_name": "Oklahoma",
-      "version": "2.4.0",
-      "release_tag": "oklahoma-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/oklahoma-v2.4.0",
-      "climb_count": 871497,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "oklahoma-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/oklahoma-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-1.xlsx",
-        "Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-2.xlsx"
+        "Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-3.xlsx",
+        "Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-4.xlsx",
+        "Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-5.xlsx",
+        "Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-1.xlsx",
+        "Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oklahoma-v2.4.0/Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oklahoma-v2.4.0/Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oklahoma-v2.4.1/Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oklahoma-v2.4.1/Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oklahoma-v2.4.1/Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-5.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oklahoma-v2.4.1/Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oklahoma-v2.4.1/Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        105921507,
-        57538210
+        31273184,
+        28859046,
+        9507419,
+        45496436,
+        34184388
       ],
-      "total_size": 163459717,
-      "file_count": 2,
+      "total_size": 149320473,
+      "file_count": 5,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
@@ -1388,16 +1397,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 274289906,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oklahoma-v2.4.0/Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 280764274,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/oklahoma-v2.4.1/Oklahoma_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-18T14:57:37Z",
-      "last_updated": "2026-04-18"
+      "published_at": "2026-05-08T16:39:43Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/north-dakota": {
       "region_name": "North Dakota",
