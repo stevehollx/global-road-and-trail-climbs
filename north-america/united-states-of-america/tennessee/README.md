@@ -1,30 +1,29 @@
 # Tennessee Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 3 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 493.8 MB
-* Release Tag: `tennessee-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 6 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 485.2 MB
+* Release Tag: `tennessee-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.0/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx) | 109.0 MB | Excel |
-| [Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.0/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx) | 75.1 MB | Excel |
-| [Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.0/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-3.xlsx) | 2.0 MB | Excel |
-| [Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.0/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000.sqlite.gz) | 307.6 MB | SQLite (gzipped) |
-| [Tennessee_State_Analysis_errors_2026-04-10.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.0/Tennessee_State_Analysis_errors_2026-04-10.txt) | 0.0 MB | Log |
+| [Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx) | 48.3 MB | Excel |
+| [Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx) | 33.7 MB | Excel |
+| [Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx) | 30.8 MB | Excel |
+| [Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-4.xlsx) | 28.6 MB | Excel |
+| [Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-5.xlsx) | 26.5 MB | Excel |
+| [Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-6.xlsx) | 2.1 MB | Excel |
+| [Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000.sqlite.gz) | 315.2 MB | SQLite (gzipped) |
+| [Tennessee_State_Analysis_errors_2026-04-10.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_State_Analysis_errors_2026-04-10.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/tennessee-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/tennessee-v2.4.1)
 
 ---
 
