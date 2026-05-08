@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T17:17:05.421297Z",
+  "generated_at": "2026-05-08T17:17:13.919310Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 516,
-    "total_sqlite_files": 3,
+    "total_xlsx_files": 517,
+    "total_sqlite_files": 2,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24135556163,
-    "total_sqlite_size_bytes": 1234599936,
-    "total_size_mb": 24194.9,
-    "total_climbs": 87993180
+    "total_xlsx_size_bytes": 24132604364,
+    "total_sqlite_size_bytes": 862953472,
+    "total_size_mb": 23837.6,
+    "total_climbs": 87744645
   },
   "regions": {
     "europe/austria": {
@@ -3321,26 +3321,29 @@
     },
     "north-america/canada/saskatchewan": {
       "region_name": "Saskatchewan",
-      "version": "2.4.0",
-      "release_tag": "canada-saskatchewan-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/canada-saskatchewan-v2.4.0",
-      "climb_count": 248535,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "canada-saskatchewan-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/canada-saskatchewan-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+        "Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-1.xlsx",
+        "Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-saskatchewan-v2.4.0/Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-saskatchewan-v2.4.1/Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-saskatchewan-v2.4.1/Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        41179738
+        32206314,
+        6021625
       ],
-      "total_size": 41179738,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": "Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
-      "database_size": 371646464,
-      "database_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-saskatchewan-v2.4.0/Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite",
+      "total_size": 38227939,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
       "is_split": false,
       "split_files": null,
       "split_urls": null,
@@ -3349,18 +3352,18 @@
       "is_partitioned": false,
       "partition_type": null,
       "partitions": null,
-      "total_database_size": 371646464,
+      "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 75204746,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-saskatchewan-v2.4.0/Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": 371646464,
+      "database_gz_file": "Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 76071704,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-saskatchewan-v2.4.1/Saskatchewan_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000.sqlite.gz",
+      "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-21T12:19:41Z",
-      "last_updated": "2026-04-21"
+      "published_at": "2026-05-08T17:16:54Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/canada/nunavut": {
       "region_name": "Nunavut",
