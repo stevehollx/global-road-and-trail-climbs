@@ -1,27 +1,24 @@
 # North Dakota Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 1 Excel file(s) + 1 gzipped SQLite
-* Total Size: 178.4 MB
-* Release Tag: `north-dakota-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 2 Excel file(s) + 1 gzipped SQLite
+* Total Size: 173.8 MB
+* Release Tag: `north-dakota-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-dakota-v2.4.0/North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx) | 67.5 MB | Excel |
-| [North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-dakota-v2.4.0/North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz) | 111.0 MB | SQLite (gzipped) |
+| [North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-dakota-v2.4.1/North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx) | 41.7 MB | Excel |
+| [North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-dakota-v2.4.1/North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx) | 18.9 MB | Excel |
+| [North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/north-dakota-v2.4.1/North_Dakota_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz) | 113.2 MB | SQLite (gzipped) |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/north-dakota-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/north-dakota-v2.4.1)
 
 ---
 
