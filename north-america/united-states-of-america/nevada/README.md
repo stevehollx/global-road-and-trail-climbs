@@ -1,28 +1,26 @@
 # Nevada Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 1 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 237.8 MB
-* Release Tag: `nevada-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 3 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 232.3 MB
+* Release Tag: `nevada-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Nevada_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nevada-v2.4.0/Nevada_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000.xlsx) | 92.2 MB | Excel |
-| [Nevada_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nevada-v2.4.0/Nevada_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.0_e0000.sqlite.gz) | 145.6 MB | SQLite (gzipped) |
-| [Nevada_State_Analysis_errors_2026-04-11.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nevada-v2.4.0/Nevada_State_Analysis_errors_2026-04-11.txt) | 0.0 MB | Log |
+| [Nevada_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nevada-v2.4.1/Nevada_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-1.xlsx) | 52.4 MB | Excel |
+| [Nevada_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nevada-v2.4.1/Nevada_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-2.xlsx) | 28.7 MB | Excel |
+| [Nevada_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nevada-v2.4.1/Nevada_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000-3.xlsx) | 3.4 MB | Excel |
+| [Nevada_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nevada-v2.4.1/Nevada_climbs_all-surfaces_all-access_imperial_2026-04-11_v2.4.1_e0000.sqlite.gz) | 147.9 MB | SQLite (gzipped) |
+| [Nevada_State_Analysis_errors_2026-04-11.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/nevada-v2.4.1/Nevada_State_Analysis_errors_2026-04-11.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/nevada-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/nevada-v2.4.1)
 
 ---
 
