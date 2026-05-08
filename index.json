@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:29:39.961671Z",
+  "generated_at": "2026-05-08T16:29:51.071448Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
     "total_xlsx_files": 371,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24933367220,
+    "total_xlsx_size_bytes": 24931254082,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25722.1,
-    "total_climbs": 134538216
+    "total_size_mb": 25720.1,
+    "total_climbs": 134418296
   },
   "regions": {
     "europe/austria": {
@@ -1022,23 +1022,23 @@
       "published_at": null,
       "last_updated": null
     },
-    "north-america/united-states-of-america/rhode-island": {
-      "region_name": "Rhode Island",
+    "north-america/united-states-of-america/vermont": {
+      "region_name": "Vermont",
       "version": "2.4.0",
-      "release_tag": "rhode-island-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/rhode-island-v2.4.0",
-      "climb_count": 119920,
+      "release_tag": "vermont-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/vermont-v2.4.0",
+      "climb_count": 146418,
       "elevation_errors": 0,
       "files": [
-        "Rhode_Island_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.xlsx"
+        "Vermont_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/rhode-island-v2.4.0/Rhode_Island_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/vermont-v2.4.0/Vermont_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
       ],
       "file_sizes": [
-        21493337
+        32344110
       ],
-      "total_size": 21493337,
+      "total_size": 32344110,
       "file_count": 1,
       "has_split_files": false,
       "database_file": null,
@@ -1054,16 +1054,59 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Rhode_Island_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 37383561,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/rhode-island-v2.4.0/Rhode_Island_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Vermont_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 52458880,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/vermont-v2.4.0/Vermont_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-18T14:59:13Z",
-      "last_updated": "2026-04-18"
+      "published_at": "2026-01-24T06:23:45Z",
+      "last_updated": "2026-01-24"
+    },
+    "north-america/united-states-of-america/rhode-island": {
+      "region_name": "Rhode Island",
+      "version": "2.4.1",
+      "release_tag": "rhode-island-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/rhode-island-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
+      "files": [
+        "Rhode_Island_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/rhode-island-v2.4.1/Rhode_Island_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000.xlsx"
+      ],
+      "file_sizes": [
+        19380199
+      ],
+      "total_size": 19380199,
+      "file_count": 1,
+      "has_split_files": false,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Rhode_Island_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 38083988,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/rhode-island-v2.4.1/Rhode_Island_climbs_all-surfaces_all-access_imperial_2026-04-16_v2.4.1_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-05-08T16:29:31Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/delaware": {
       "region_name": "Delaware",
@@ -8030,49 +8073,6 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-01-24T03:17:10Z",
-      "last_updated": "2026-01-24"
-    },
-    "north-america/united-states-of-america/vermont": {
-      "region_name": "Vermont",
-      "version": "2.4.0",
-      "release_tag": "vermont-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/vermont-v2.4.0",
-      "climb_count": 146418,
-      "elevation_errors": 0,
-      "files": [
-        "Vermont_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/vermont-v2.4.0/Vermont_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx"
-      ],
-      "file_sizes": [
-        32344110
-      ],
-      "total_size": 32344110,
-      "file_count": 1,
-      "has_split_files": false,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "Vermont_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 52458880,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/vermont-v2.4.0/Vermont_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-01-24T06:23:45Z",
       "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/utah": {
