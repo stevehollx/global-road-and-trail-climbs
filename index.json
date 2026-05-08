@@ -1,15 +1,15 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T17:17:45.716066Z",
+  "generated_at": "2026-05-08T17:17:59.265139Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 518,
+    "total_xlsx_files": 520,
     "total_sqlite_files": 1,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24087175247,
+    "total_xlsx_size_bytes": 24115752183,
     "total_sqlite_size_bytes": 35586048,
-    "total_size_mb": 23005.3,
+    "total_size_mb": 23032.5,
     "total_climbs": 86578552
   },
   "regions": {
@@ -843,19 +843,25 @@
       "climb_count": null,
       "elevation_errors": null,
       "files": [
+        "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-3.xlsx",
+        "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-4.xlsx",
         "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-1.xlsx",
         "British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-4.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-1.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-british-columbia-v2.4.1/British_Columbia_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
+        26110152,
+        2466784,
         59469739,
         32372352
       ],
-      "total_size": 91842091,
-      "file_count": 2,
+      "total_size": 120419027,
+      "file_count": 4,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
