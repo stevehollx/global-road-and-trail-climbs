@@ -1,28 +1,25 @@
 # New Hampshire Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 1 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 163.1 MB
-* Release Tag: `new-hampshire-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 2 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 159.9 MB
+* Release Tag: `new-hampshire-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-hampshire-v2.4.0/New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx) | 61.4 MB | Excel |
-| [New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-hampshire-v2.4.0/New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz) | 101.7 MB | SQLite (gzipped) |
-| [New_Hampshire_State_Analysis_errors_2026-01-24.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-hampshire-v2.4.0/New_Hampshire_State_Analysis_errors_2026-01-24.txt) | 0.0 MB | Log |
+| [New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-hampshire-v2.4.1/New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-1.xlsx) | 38.7 MB | Excel |
+| [New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-hampshire-v2.4.1/New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-2.xlsx) | 17.0 MB | Excel |
+| [New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-hampshire-v2.4.1/New_Hampshire_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000.sqlite.gz) | 104.1 MB | SQLite (gzipped) |
+| [New_Hampshire_State_Analysis_errors_2026-01-24.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-hampshire-v2.4.1/New_Hampshire_State_Analysis_errors_2026-01-24.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-hampshire-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-hampshire-v2.4.1)
 
 ---
 
