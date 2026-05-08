@@ -1,16 +1,12 @@
 # Us Virgin Islands Climb Analysis
 
 ## Info
-* Date: 2026-04-21
+* Date: 2026-05-08
 * Version: 2.4.0
 * Elevation Errors: 0
 * Files: 1 Excel file(s) + 1 gzipped SQLite
 * Total Size: 5.6 MB
 * Release Tag: `us-virgin-islands-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
 
 ## Files
 
