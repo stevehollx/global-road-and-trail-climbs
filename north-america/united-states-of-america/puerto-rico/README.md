@@ -1,18 +1,12 @@
 # Puerto Rico Climb Analysis
 
 ## Info
-* Date: 2026-04-21
+* Date: 2026-05-08
 * Version: 2.4.0
 * Elevation Errors: 0
 * Files: 1 Excel file(s) + 1 gzipped SQLite + error log
 * Total Size: 89.4 MB
 * Release Tag: `puerto-rico-v2.4.0`
-
-## Elevation datasets (configured cascade)
-1. ned10m — supplied data
-2. srtm30m
-
-**Datasets that actually supplied elevations:** ned10m
 
 ## Files
 
