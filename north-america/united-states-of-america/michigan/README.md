@@ -1,31 +1,33 @@
 # Michigan Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 4 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 860.3 MB
-* Release Tag: `michigan-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 10 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 849.0 MB
+* Release Tag: `michigan-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.0/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-1.xlsx) | 113.1 MB | Excel |
-| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.0/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-2.xlsx) | 84.3 MB | Excel |
-| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.0/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-3.xlsx) | 76.1 MB | Excel |
-| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.0/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000-4.xlsx) | 47.5 MB | Excel |
-| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.0/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz) | 539.3 MB | SQLite (gzipped) |
-| [Michigan_State_Analysis_errors_2026-04-17.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.0/Michigan_State_Analysis_errors_2026-04-17.txt) | 0.0 MB | Log |
+| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.1/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx) | 48.8 MB | Excel |
+| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-10.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.1/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-10.xlsx) | 5.2 MB | Excel |
+| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.1/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx) | 35.8 MB | Excel |
+| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.1/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx) | 33.0 MB | Excel |
+| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.1/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-4.xlsx) | 31.3 MB | Excel |
+| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.1/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-5.xlsx) | 30.1 MB | Excel |
+| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-6.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.1/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-6.xlsx) | 29.1 MB | Excel |
+| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-7.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.1/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-7.xlsx) | 28.3 MB | Excel |
+| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-8.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.1/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-8.xlsx) | 27.3 MB | Excel |
+| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-9.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.1/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-9.xlsx) | 25.8 MB | Excel |
+| [Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.1/Michigan_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz) | 554.3 MB | SQLite (gzipped) |
+| [Michigan_State_Analysis_errors_2026-04-17.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/michigan-v2.4.1/Michigan_State_Analysis_errors_2026-04-17.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/michigan-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/michigan-v2.4.1)
 
 ---
 
