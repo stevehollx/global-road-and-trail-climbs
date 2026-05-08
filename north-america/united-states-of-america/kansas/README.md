@@ -1,31 +1,27 @@
 # Kansas Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 2 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 332.4 MB
-* Release Tag: `kansas-v2.4.0`
-
-## Elevation datasets (configured cascade)
-1. ned10m — supplied data
-2. srtm30m
-
-**Datasets that actually supplied elevations:** ned10m
+* Files: 4 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 326.5 MB
+* Release Tag: `kansas-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.0/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.0_e0000-1.xlsx) | 94.2 MB | Excel |
-| [Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.0/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.0_e0000-2.xlsx) | 29.0 MB | Excel |
-| [Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.0/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.0_e0000.sqlite.gz) | 209.2 MB | SQLite (gzipped) |
-| [Kansas_errors_2026-04-21.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.0/Kansas_errors_2026-04-21.txt) | 0.0 MB | Log |
+| [Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.1/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-1.xlsx) | 40.9 MB | Excel |
+| [Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.1/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-2.xlsx) | 30.4 MB | Excel |
+| [Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.1/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-3.xlsx) | 27.4 MB | Excel |
+| [Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.1/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-4.xlsx) | 13.8 MB | Excel |
+| [Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.1/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000.sqlite.gz) | 214.0 MB | SQLite (gzipped) |
+| [Kansas_errors_2026-04-21.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.1/Kansas_errors_2026-04-21.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/kansas-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/kansas-v2.4.1)
 
 ---
 
