@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:42:04.692209Z",
+  "generated_at": "2026-05-08T16:42:25.238971Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 421,
+    "total_xlsx_files": 424,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24644396472,
+    "total_xlsx_size_bytes": 24627515475,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25446.5,
-    "total_climbs": 118983648
+    "total_size_mb": 25430.4,
+    "total_climbs": 117968047
   },
   "regions": {
     "europe/austria": {
@@ -1214,28 +1214,37 @@
     },
     "north-america/united-states-of-america/tennessee": {
       "region_name": "Tennessee",
-      "version": "2.4.0",
-      "release_tag": "tennessee-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/tennessee-v2.4.0",
-      "climb_count": 1015601,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "tennessee-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/tennessee-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-3.xlsx",
-        "Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx",
-        "Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx"
+        "Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx",
+        "Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-4.xlsx",
+        "Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-5.xlsx",
+        "Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-6.xlsx",
+        "Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx",
+        "Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.0/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.0/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.0/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-5.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-6.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        2120752,
-        114317596,
-        78746980
+        32290132,
+        30032302,
+        27770537,
+        2163850,
+        50660873,
+        35386637
       ],
-      "total_size": 195185328,
-      "file_count": 3,
+      "total_size": 178304331,
+      "file_count": 6,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
@@ -1250,16 +1259,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 322580759,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.0/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 330506949,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/tennessee-v2.4.1/Tennessee_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-10T10:51:10Z",
-      "last_updated": "2026-04-10"
+      "published_at": "2026-05-08T16:41:31Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/south-dakota": {
       "region_name": "South Dakota",
@@ -2451,6 +2460,52 @@
       "gz_split_sizes": null,
       "published_at": "2026-05-08T16:33:52Z",
       "last_updated": "2026-05-08"
+    },
+    "north-america/united-states-of-america/arizona": {
+      "region_name": "Arizona",
+      "version": "2.4.0",
+      "release_tag": "arizona-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/arizona-v2.4.0",
+      "climb_count": 1005154,
+      "elevation_errors": 0,
+      "files": [
+        "Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
+        "Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.0/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.0/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        194724217,
+        7706623
+      ],
+      "total_size": 202430840,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 328328549,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.0/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-01-24T13:00:30Z",
+      "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/alabama": {
       "region_name": "Alabama",
@@ -8554,52 +8609,6 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-01-24T03:16:37Z",
-      "last_updated": "2026-01-24"
-    },
-    "north-america/united-states-of-america/arizona": {
-      "region_name": "Arizona",
-      "version": "2.4.0",
-      "release_tag": "arizona-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/arizona-v2.4.0",
-      "climb_count": 1005154,
-      "elevation_errors": 0,
-      "files": [
-        "Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
-        "Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.0/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.0/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        194724217,
-        7706623
-      ],
-      "total_size": 202430840,
-      "file_count": 2,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 328328549,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/arizona-v2.4.0/Arizona_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-01-24T13:00:30Z",
       "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/hawaii": {
