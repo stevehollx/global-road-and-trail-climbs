@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:32:41.242118Z",
+  "generated_at": "2026-05-08T16:32:55.780669Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
@@ -1527,6 +1527,52 @@
       "gz_split_sizes": null,
       "published_at": "2026-05-08T16:30:08Z",
       "last_updated": "2026-05-08"
+    },
+    "north-america/united-states-of-america/louisiana": {
+      "region_name": "Louisiana",
+      "version": "2.4.0",
+      "release_tag": "louisiana-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/louisiana-v2.4.0",
+      "climb_count": 522461,
+      "elevation_errors": 0,
+      "files": [
+        "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-1.xlsx",
+        "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        91134418,
+        3117920
+      ],
+      "total_size": 94252338,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 161487885,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-04-18T14:50:59Z",
+      "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/delaware": {
       "region_name": "Delaware",
@@ -7110,52 +7156,6 @@
       "gz_split_urls": null,
       "gz_split_sizes": null,
       "published_at": "2026-04-18T14:57:20Z",
-      "last_updated": "2026-04-18"
-    },
-    "north-america/united-states-of-america/louisiana": {
-      "region_name": "Louisiana",
-      "version": "2.4.0",
-      "release_tag": "louisiana-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/louisiana-v2.4.0",
-      "climb_count": 522461,
-      "elevation_errors": 0,
-      "files": [
-        "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-1.xlsx",
-        "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        91134418,
-        3117920
-      ],
-      "total_size": 94252338,
-      "file_count": 2,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 161487885,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/louisiana-v2.4.0/Louisiana_climbs_all-surfaces_all-access_imperial_2026-04-18_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-04-18T14:50:59Z",
       "last_updated": "2026-04-18"
     },
     "north-america/united-states-of-america/iowa": {
