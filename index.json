@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:36:15.374689Z",
+  "generated_at": "2026-05-08T16:36:28.075608Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 394,
+    "total_xlsx_files": 396,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24786826666,
+    "total_xlsx_size_bytes": 24775539498,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25582.4,
-    "total_climbs": 127051882
+    "total_size_mb": 25571.6,
+    "total_climbs": 126342504
   },
   "regions": {
     "europe/austria": {
@@ -926,25 +926,31 @@
     },
     "north-america/united-states-of-america/kansas": {
       "region_name": "Kansas",
-      "version": "2.4.0",
-      "release_tag": "kansas-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/kansas-v2.4.0",
-      "climb_count": 709378,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "kansas-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/kansas-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.0_e0000-1.xlsx",
-        "Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.0_e0000-2.xlsx"
+        "Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-3.xlsx",
+        "Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-4.xlsx",
+        "Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-1.xlsx",
+        "Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.0/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.0/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.1/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.1/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.1/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.1/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        98793352,
-        30427842
+        28769671,
+        14444710,
+        42890727,
+        31828918
       ],
-      "total_size": 129221194,
-      "file_count": 2,
+      "total_size": 117934026,
+      "file_count": 4,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
@@ -959,16 +965,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 219340528,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.0/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 224401429,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/kansas-v2.4.1/Kansas_climbs_all-surfaces_all-access_imperial_2026-04-21_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-20T20:24:13Z",
-      "last_updated": "2026-04-20"
+      "published_at": "2026-05-08T16:35:57Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/virginia": {
       "region_name": "Virginia",
