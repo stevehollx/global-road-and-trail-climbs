@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:32:34.323978Z",
+  "generated_at": "2026-05-08T16:32:41.242118Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 380,
+    "total_xlsx_files": 382,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24875011955,
+    "total_xlsx_size_bytes": 24866183700,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25666.5,
-    "total_climbs": 131752532
+    "total_size_mb": 25658.1,
+    "total_climbs": 131295248
   },
   "regions": {
     "europe/austria": {
@@ -1435,23 +1435,29 @@
     },
     "north-america/united-states-of-america/mississippi": {
       "region_name": "Mississippi",
-      "version": "2.4.0",
-      "release_tag": "mississippi-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/mississippi-v2.4.0",
-      "climb_count": 457284,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "mississippi-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/mississippi-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
+        "Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx",
+        "Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx",
+        "Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.0/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.1/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.1/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.1/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        88649583
+        7675881,
+        41691599,
+        30453848
       ],
-      "total_size": 88649583,
-      "file_count": 1,
-      "has_split_files": false,
+      "total_size": 79821328,
+      "file_count": 3,
+      "has_split_files": true,
       "database_file": null,
       "database_size": null,
       "database_url": null,
@@ -1465,16 +1471,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 148707733,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.0/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 152309859,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/mississippi-v2.4.1/Mississippi_climbs_all-surfaces_all-access_imperial_2026-04-17_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-18T14:51:36Z",
-      "last_updated": "2026-04-18"
+      "published_at": "2026-05-08T16:32:16Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/maine": {
       "region_name": "Maine",
