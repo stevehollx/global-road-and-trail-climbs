@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:38:21.591691Z",
+  "generated_at": "2026-05-08T16:38:36.290368Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 403,
+    "total_xlsx_files": 406,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24734843727,
+    "total_xlsx_size_bytes": 24721160446,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25532.8,
-    "total_climbs": 124058297
+    "total_size_mb": 25519.8,
+    "total_climbs": 123243903
   },
   "regions": {
     "europe/austria": {
@@ -1744,25 +1744,34 @@
     },
     "north-america/united-states-of-america/maryland": {
       "region_name": "Maryland",
-      "version": "2.4.0",
-      "release_tag": "maryland-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/maryland-v2.4.0",
-      "climb_count": 814394,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "maryland-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/maryland-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
-        "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
+        "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-3.xlsx",
+        "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-4.xlsx",
+        "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-5.xlsx",
+        "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-1.xlsx",
+        "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maryland-v2.4.0/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maryland-v2.4.0/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maryland-v2.4.1/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maryland-v2.4.1/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maryland-v2.4.1/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-5.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maryland-v2.4.1/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maryland-v2.4.1/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        101863899,
-        47907995
+        30113975,
+        27735056,
+        1991716,
+        43319252,
+        32928614
       ],
-      "total_size": 149771894,
-      "file_count": 2,
+      "total_size": 136088613,
+      "file_count": 5,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
@@ -1777,16 +1786,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 250308308,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maryland-v2.4.0/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 257590537,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maryland-v2.4.1/Maryland_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-12T16:41:35Z",
-      "last_updated": "2026-04-12"
+      "published_at": "2026-05-08T16:38:01Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/maine": {
       "region_name": "Maine",
