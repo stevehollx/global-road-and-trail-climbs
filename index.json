@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T17:18:06.501348Z",
+  "generated_at": "2026-05-08T17:18:22.644463Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 520,
+    "total_xlsx_files": 522,
     "total_sqlite_files": 1,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24115752183,
+    "total_xlsx_size_bytes": 24091430296,
     "total_sqlite_size_bytes": 35586048,
-    "total_size_mb": 23032.5,
-    "total_climbs": 86578552
+    "total_size_mb": 23009.3,
+    "total_climbs": 85675774
   },
   "regions": {
     "europe/austria": {
@@ -699,25 +699,31 @@
     },
     "north-america/canada/quebec": {
       "region_name": "Quebec",
-      "version": "2.4.0",
-      "release_tag": "canada-quebec-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-cd8f382fd5358c7cc792",
-      "climb_count": 902778,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "canada-quebec-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/canada-quebec-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-1.xlsx",
-        "Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-2.xlsx"
+        "Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-3.xlsx",
+        "Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-4.xlsx",
+        "Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-1.xlsx",
+        "Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-cd8f382fd5358c7cc792/Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-cd8f382fd5358c7cc792/Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-quebec-v2.4.1/Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-3.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-quebec-v2.4.1/Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-quebec-v2.4.1/Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/canada-quebec-v2.4.1/Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        109866673,
-        52530554
+        27927928,
+        24851262,
+        52569034,
+        32727116
       ],
-      "total_size": 162397227,
-      "file_count": 2,
+      "total_size": 138075340,
+      "file_count": 4,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
@@ -731,17 +737,17 @@
       "partition_type": null,
       "partitions": null,
       "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 276550300,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-cd8f382fd5358c7cc792/Quebec_climbs_all-surfaces_all-access_metric_2026-04-21_v2.4.0_e0000.sqlite.gz",
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": null,
-      "last_updated": null
+      "published_at": "2026-05-08T17:18:03Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/canada/ontario": {
       "region_name": "Ontario",
