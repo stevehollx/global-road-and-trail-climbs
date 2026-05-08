@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:42:54.052454Z",
+  "generated_at": "2026-05-08T16:43:02.633966Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
@@ -2411,6 +2411,52 @@
       "gz_split_sizes": null,
       "published_at": "2026-05-08T16:33:23Z",
       "last_updated": "2026-05-08"
+    },
+    "north-america/united-states-of-america/colorado": {
+      "region_name": "Colorado",
+      "version": "2.4.0",
+      "release_tag": "colorado-v2.4.0",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/colorado-v2.4.0",
+      "climb_count": 967550,
+      "elevation_errors": 0,
+      "files": [
+        "Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000-1.xlsx",
+        "Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000-2.xlsx"
+      ],
+      "download_urls": [
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.0/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.0/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000-2.xlsx"
+      ],
+      "file_sizes": [
+        200919025,
+        2387947
+      ],
+      "total_size": 203306972,
+      "file_count": 2,
+      "has_split_files": true,
+      "database_file": null,
+      "database_size": null,
+      "database_url": null,
+      "is_split": false,
+      "split_files": null,
+      "split_urls": null,
+      "split_sizes": null,
+      "split_checksums": null,
+      "is_partitioned": false,
+      "partition_type": null,
+      "partitions": null,
+      "total_database_size": null,
+      "database_format": "gzip",
+      "database_gz_file": "Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000.sqlite.gz",
+      "database_gz_size": 325296055,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.0/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000.sqlite.gz",
+      "database_decompressed_size": null,
+      "is_gz_split": false,
+      "gz_split_files": null,
+      "gz_split_urls": null,
+      "gz_split_sizes": null,
+      "published_at": "2026-01-24T03:16:54Z",
+      "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/arkansas": {
       "region_name": "Arkansas",
@@ -8515,52 +8561,6 @@
       "gz_split_sizes": null,
       "published_at": "2026-04-10T00:48:26Z",
       "last_updated": "2026-04-10"
-    },
-    "north-america/united-states-of-america/colorado": {
-      "region_name": "Colorado",
-      "version": "2.4.0",
-      "release_tag": "colorado-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/colorado-v2.4.0",
-      "climb_count": 967550,
-      "elevation_errors": 0,
-      "files": [
-        "Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000-1.xlsx",
-        "Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000-2.xlsx"
-      ],
-      "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.0/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.0/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000-2.xlsx"
-      ],
-      "file_sizes": [
-        200919025,
-        2387947
-      ],
-      "total_size": 203306972,
-      "file_count": 2,
-      "has_split_files": true,
-      "database_file": null,
-      "database_size": null,
-      "database_url": null,
-      "is_split": false,
-      "split_files": null,
-      "split_urls": null,
-      "split_sizes": null,
-      "split_checksums": null,
-      "is_partitioned": false,
-      "partition_type": null,
-      "partitions": null,
-      "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 325296055,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/colorado-v2.4.0/Colorado_climbs_all-surfaces_all-access_imperial_2026-01-23_v2.4.0_e0000.sqlite.gz",
-      "database_decompressed_size": null,
-      "is_gz_split": false,
-      "gz_split_files": null,
-      "gz_split_urls": null,
-      "gz_split_sizes": null,
-      "published_at": "2026-01-24T03:16:54Z",
-      "last_updated": "2026-01-24"
     },
     "north-america/united-states-of-america/california": {
       "region_name": "California",
