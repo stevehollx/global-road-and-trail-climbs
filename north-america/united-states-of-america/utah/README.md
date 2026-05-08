@@ -1,28 +1,26 @@
 # Utah Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 1 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 302.6 MB
-* Release Tag: `utah-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 3 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 296.3 MB
+* Release Tag: `utah-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.0/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.xlsx) | 116.7 MB | Excel |
-| [Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.0/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.0_e0000.sqlite.gz) | 185.9 MB | SQLite (gzipped) |
-| [Utah_State_Analysis_errors_2026-01-24.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.0/Utah_State_Analysis_errors_2026-01-24.txt) | 0.0 MB | Log |
+| [Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.1/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-1.xlsx) | 52.9 MB | Excel |
+| [Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.1/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-2.xlsx) | 30.9 MB | Excel |
+| [Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.1/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000-3.xlsx) | 22.7 MB | Excel |
+| [Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.1/Utah_climbs_all-surfaces_all-access_imperial_2026-01-24_v2.4.1_e0000.sqlite.gz) | 189.8 MB | SQLite (gzipped) |
+| [Utah_State_Analysis_errors_2026-01-24.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/utah-v2.4.1/Utah_State_Analysis_errors_2026-01-24.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/utah-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/utah-v2.4.1)
 
 ---
 
