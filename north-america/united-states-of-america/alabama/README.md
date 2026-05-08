@@ -1,29 +1,27 @@
 # Alabama Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 2 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 392.9 MB
-* Release Tag: `alabama-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 4 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 384.6 MB
+* Release Tag: `alabama-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alabama-v2.4.0/Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-1.xlsx) | 107.4 MB | Excel |
-| [Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alabama-v2.4.0/Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000-2.xlsx) | 41.3 MB | Excel |
-| [Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alabama-v2.4.0/Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.0_e0000.sqlite.gz) | 244.2 MB | SQLite (gzipped) |
-| [Alabama_State_Analysis_errors_2026-04-15.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alabama-v2.4.0/Alabama_State_Analysis_errors_2026-04-15.txt) | 0.0 MB | Log |
+| [Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alabama-v2.4.1/Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-1.xlsx) | 48.1 MB | Excel |
+| [Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alabama-v2.4.1/Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-2.xlsx) | 32.9 MB | Excel |
+| [Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alabama-v2.4.1/Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-3.xlsx) | 29.5 MB | Excel |
+| [Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alabama-v2.4.1/Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000-4.xlsx) | 23.9 MB | Excel |
+| [Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alabama-v2.4.1/Alabama_climbs_all-surfaces_all-access_imperial_2026-04-15_v2.4.1_e0000.sqlite.gz) | 250.2 MB | SQLite (gzipped) |
+| [Alabama_State_Analysis_errors_2026-04-15.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/alabama-v2.4.1/Alabama_State_Analysis_errors_2026-04-15.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/alabama-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/alabama-v2.4.1)
 
 ---
 
