@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T16:30:18.074604Z",
+  "generated_at": "2026-05-08T16:30:28.486371Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 372,
+    "total_xlsx_files": 373,
     "total_sqlite_files": 8,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24923739076,
+    "total_xlsx_size_bytes": 24917271209,
     "total_sqlite_size_bytes": 2038239232,
-    "total_size_mb": 25712.9,
-    "total_climbs": 134056396
+    "total_size_mb": 25706.8,
+    "total_climbs": 133759522
   },
   "regions": {
     "europe/austria": {
@@ -1156,23 +1156,26 @@
     },
     "north-america/united-states-of-america/maine": {
       "region_name": "Maine",
-      "version": "2.4.0",
-      "release_tag": "maine-v2.4.0",
-      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/maine-v2.4.0",
-      "climb_count": 296874,
-      "elevation_errors": 0,
+      "version": "2.4.1",
+      "release_tag": "maine-v2.4.1",
+      "release_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/maine-v2.4.1",
+      "climb_count": null,
+      "elevation_errors": null,
       "files": [
-        "Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.xlsx"
+        "Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-1.xlsx",
+        "Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-2.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maine-v2.4.0/Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maine-v2.4.1/Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-1.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maine-v2.4.1/Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000-2.xlsx"
       ],
       "file_sizes": [
-        62739156
+        42525805,
+        13745484
       ],
-      "total_size": 62739156,
-      "file_count": 1,
-      "has_split_files": false,
+      "total_size": 56271289,
+      "file_count": 2,
+      "has_split_files": true,
       "database_file": null,
       "database_size": null,
       "database_url": null,
@@ -1186,16 +1189,16 @@
       "partitions": null,
       "total_database_size": null,
       "database_format": "gzip",
-      "database_gz_file": "Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 102484073,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maine-v2.4.0/Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.0_e0000.sqlite.gz",
+      "database_gz_file": "Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000.sqlite.gz",
+      "database_gz_size": 104683787,
+      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/maine-v2.4.1/Maine_climbs_all-surfaces_all-access_imperial_2026-04-12_v2.4.1_e0000.sqlite.gz",
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
       "gz_split_urls": null,
       "gz_split_sizes": null,
-      "published_at": "2026-04-14T18:51:11Z",
-      "last_updated": "2026-04-14"
+      "published_at": "2026-05-08T16:30:08Z",
+      "last_updated": "2026-05-08"
     },
     "north-america/united-states-of-america/delaware": {
       "region_name": "Delaware",
