@@ -1,29 +1,26 @@
 # New Mexico Climb Analysis
 
 ## Info
-* Date: 2026-04-21
-* Version: 2.4.0
+* Date: 2026-05-08
+* Version: 2.4.1
 * Elevation Errors: 0
-* Files: 2 Excel file(s) + 1 gzipped SQLite + error log
-* Total Size: 289.1 MB
-* Release Tag: `new-mexico-v2.4.0`
-
-## Elevation datasets used
-1. ned10m
-2. srtm30m
+* Files: 3 Excel file(s) + 1 gzipped SQLite + error log
+* Total Size: 282.3 MB
+* Release Tag: `new-mexico-v2.4.1`
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.0/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-1.xlsx) | 107.9 MB | Excel |
-| [New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.0/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000-2.xlsx) | 3.5 MB | Excel |
-| [New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.0/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.0_e0000.sqlite.gz) | 177.6 MB | SQLite (gzipped) |
-| [New_Mexico_State_Analysis_errors_2026-04-10.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.0/New_Mexico_State_Analysis_errors_2026-04-10.txt) | 0.0 MB | Log |
+| [New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.1/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-1.xlsx) | 52.3 MB | Excel |
+| [New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.1/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-2.xlsx) | 31.5 MB | Excel |
+| [New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.1/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000-3.xlsx) | 17.0 MB | Excel |
+| [New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.1/New_Mexico_climbs_all-surfaces_all-access_imperial_2026-04-10_v2.4.1_e0000.sqlite.gz) | 181.5 MB | SQLite (gzipped) |
+| [New_Mexico_State_Analysis_errors_2026-04-10.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/new-mexico-v2.4.1/New_Mexico_State_Analysis_errors_2026-04-10.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-mexico-v2.4.0)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/new-mexico-v2.4.1)
 
 ---
 
