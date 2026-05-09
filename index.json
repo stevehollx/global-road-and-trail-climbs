@@ -1,15 +1,15 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-08T21:17:17.101140Z",
+  "generated_at": "2026-05-09T18:40:27.423326Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 526,
+    "total_xlsx_files": 522,
     "total_sqlite_files": 1,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24115509771,
+    "total_xlsx_size_bytes": 23856070564,
     "total_sqlite_size_bytes": 35586048,
-    "total_size_mb": 23032.3,
+    "total_size_mb": 22784.9,
     "total_climbs": 84490118
   },
   "regions": {
@@ -7986,29 +7986,17 @@
       "climb_count": 2243596,
       "elevation_errors": 0,
       "files": [
-        "Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-3.xlsx",
-        "Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-4.xlsx",
-        "Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-5.xlsx",
-        "Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-1.xlsx",
-        "Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-2.xlsx"
+        "Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-1.xlsx"
       ],
       "download_urls": [
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-3.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-4.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-5.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-1.xlsx",
-        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-2.xlsx"
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-1.xlsx"
       ],
       "file_sizes": [
-        77453012,
-        69428232,
-        28936050,
-        133221938,
-        89239529
+        138839554
       ],
-      "total_size": 398278761,
-      "file_count": 5,
-      "has_split_files": true,
+      "total_size": 138839554,
+      "file_count": 1,
+      "has_split_files": false,
       "database_file": null,
       "database_size": null,
       "database_url": null,
@@ -8021,10 +8009,10 @@
       "partition_type": null,
       "partitions": null,
       "total_database_size": null,
-      "database_format": "gzip",
-      "database_gz_file": "Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000.sqlite.gz",
-      "database_gz_size": 687281802,
-      "database_gz_url": "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000.sqlite.gz",
+      "database_format": null,
+      "database_gz_file": null,
+      "database_gz_size": null,
+      "database_gz_url": null,
       "database_decompressed_size": null,
       "is_gz_split": false,
       "gz_split_files": null,
