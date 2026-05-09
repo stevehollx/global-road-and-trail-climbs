@@ -1,31 +1,31 @@
 ## Info
-* Date: 2026-04-26
+* Date: 2026-05-09
 * Version: 2.4.0
 * Elevation Errors: 0
-* Climbs: 2,243,596
+* Climbs: 2,243,900
 * Files: 5 Excel file(s) + error log
-* Total Size: 1037.5 MB
+* Total Size: 1101.0 MB
 * Release Tag: `europe-finland-v2.4.0`
 
 ## Elevation datasets used:
-1. srtm30m
+1. arctic32m
 2. aw3d30
 
 ## Files
 
 | File | Size | Format |
 |------|------|--------|
-| [Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-2c085ec3dd5963964ce8/Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-1.xlsx) | 127.1 MB | Excel |
-| [Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-2c085ec3dd5963964ce8/Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-2.xlsx) | 85.1 MB | Excel |
-| [Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-2c085ec3dd5963964ce8/Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-3.xlsx) | 73.9 MB | Excel |
-| [Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-2c085ec3dd5963964ce8/Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-4.xlsx) | 66.2 MB | Excel |
-| [Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-2c085ec3dd5963964ce8/Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000-5.xlsx) | 27.6 MB | Excel |
-| [Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-2c085ec3dd5963964ce8/Finland_climbs_all-surfaces_all-access_metric_2026-04-26_v2.4.0_e0000.sqlite.gz) | 655.4 MB | Other |
-| [Finland_errors_2026-04-26.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/untagged-2c085ec3dd5963964ce8/Finland_errors_2026-04-26.txt) | 2.2 MB | Log |
+| [Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-1.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-1.xlsx) | 132.4 MB | Excel |
+| [Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-2.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-2.xlsx) | 91.6 MB | Excel |
+| [Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-3.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-3.xlsx) | 81.5 MB | Excel |
+| [Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-4.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-4.xlsx) | 74.3 MB | Excel |
+| [Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-5.xlsx](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-5.xlsx) | 33.1 MB | Excel |
+| [Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000.sqlite.gz](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000.sqlite.gz) | 688.0 MB | Other |
+| [Finland_errors_2026-05-09.txt](https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_errors_2026-05-09.txt) | 0.0 MB | Log |
 
 ## Release
 
-[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/untagged-2c085ec3dd5963964ce8)
+[View Release](https://github.com/stevehollx/global-road-and-trail-climbs/releases/tag/europe-finland-v2.4.0)
 
 ---
 
