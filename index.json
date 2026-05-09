@@ -1,15 +1,15 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-09T18:40:41.064005Z",
+  "generated_at": "2026-05-09T18:40:53.737878Z",
   "repository": "stevehollx/global-road-and-trail-climbs",
   "summary": {
     "total_regions": 184,
-    "total_xlsx_files": 525,
+    "total_xlsx_files": 526,
     "total_sqlite_files": 1,
     "total_partitioned_regions": 0,
-    "total_xlsx_size_bytes": 24115528026,
+    "total_xlsx_size_bytes": 24150237476,
     "total_sqlite_size_bytes": 35586048,
-    "total_size_mb": 23032.3,
+    "total_size_mb": 23065.4,
     "total_climbs": 84490118
   },
   "regions": {
@@ -7988,23 +7988,26 @@
       "files": [
         "Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-3.xlsx",
         "Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-4.xlsx",
+        "Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-5.xlsx",
         "Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-1.xlsx",
         "Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-2.xlsx"
       ],
       "download_urls": [
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-3.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-4.xlsx",
+        "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-5.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-1.xlsx",
         "https://github.com/stevehollx/global-road-and-trail-climbs/releases/download/europe-finland-v2.4.0/Finland_climbs_all-surfaces_all-access_metric_2026-05-09_v2.4.0_e0000-2.xlsx"
       ],
       "file_sizes": [
         85472198,
         77928315,
+        34709450,
         138839554,
         96056949
       ],
-      "total_size": 398297016,
-      "file_count": 4,
+      "total_size": 433006466,
+      "file_count": 5,
       "has_split_files": true,
       "database_file": null,
       "database_size": null,
